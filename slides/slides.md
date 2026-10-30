@@ -58,7 +58,7 @@ logoHeader: ''
 
 <div class="company-intro">
 <div>
-<p class="company-statement">Working capital for<br>climate-smart businesses.</p>
+<p class="company-statement">Financial intelligence that unlocks capital for small &amp; <span style="white-space:nowrap">mid-size</span> businesses in emerging markets</p>
 </div>
 <figure class="company-qr">
 <a href="https://flowt.africa/" target="_blank" rel="noopener noreferrer" aria-label="Visit Flowt at flowt.africa"><img src="/qr/flowt.png" alt="QR code linking to https://flowt.africa/" width="296" height="296" /></a>
@@ -67,7 +67,7 @@ logoHeader: ''
 </div>
 
 <!--
-09:21–09:21:30. "At Flowt, we give working capital to climate-smart businesses." Keep this introduction to 30 seconds. The QR and clickable link go directly to https://flowt.africa/. Use the user's corrected description; do not describe Flowt as generic business software or add financing rates or eligibility claims.
+09:21–09:21:30. "Financial intelligence that unlocks capital for small & mid-size businesses in emerging markets." Keep this introduction to 30 seconds. The QR and clickable link go directly to https://flowt.africa/. Use the user's corrected description; do not describe Flowt as generic business software or add financing rates or eligibility claims.
 -->
 
 ---
