@@ -18,7 +18,7 @@ const profitRows = [...inventory].sort((a, b) => b.profit - a.profit)
   <main v-if="demo" id="main" class="wrap">
     <div class="page-intro"><NuxtLink class="back-link" to="/toolkit#sessions">← All demos</NuxtLink><div class="eyebrow">Demo {{ demo.number }} / {{ demo.category }}</div><h1 class="display gradient-title">{{ demo.title }}</h1><p class="lead">{{ demo.description }}</p><span class="tool-label">{{ demo.tool }}</span><span class="muted text-xs ml-4">{{ demo.time }} EAT</span></div>
     <div class="demo-launch" aria-label="Demo tools">
-      <a v-if="demo.download" class="button button-secondary" :href="`/resources/${demo.download}`" download>Download the RFQ ↓</a>
+      <a v-if="demo.download" class="button button-secondary" :href="`/resources/${demo.download}`" download>Download the RFQ PDF ↓</a>
       <NuxtLink v-if="demo.slug === 'calculator'" class="button button-primary" to="/calculator">Try the quote calculator ↗</NuxtLink>
       <a v-if="demo.slug === 'proposal' || demo.slug === 'stock'" class="button button-primary" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">Open ChatGPT ↗</a>
       <a v-if="demo.slug === 'research'" class="button button-primary" href="https://notebook.google.com/" target="_blank" rel="noopener noreferrer">Open NotebookLM ↗</a>

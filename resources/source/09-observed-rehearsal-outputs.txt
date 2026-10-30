@@ -1,5 +1,5 @@
 OBSERVED PRODUCT OUTPUTS — 31 OCTOBER 2026
-These are actual visible rehearsal responses, not guaranteed future outputs. All business data is fictional. Interface controls were removed for readability. Notebook citation numbers are text here; open the prepared notebook or the original RFQ to inspect the actual passage. See 08-rehearsal-checks.txt for failures, corrections and limitations.
+These are actual visible rehearsal responses, not guaranteed future outputs. All business data is fictional. Interface controls were removed for readability. Notebook citation numbers are text here; open the prepared notebook or the original RFQ to inspect the actual passage. See 08-rehearsal-checks.pdf for failures, corrections and limitations.
 
 CORRECTED CHATGPT EMAIL
 Dear Administrator,

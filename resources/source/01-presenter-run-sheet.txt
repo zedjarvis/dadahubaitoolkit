@@ -42,7 +42,7 @@ FALLBACK: “Here is the reply from rehearsal. The useful part now is spotting w
 09:39–09:48 EAT | 9 min | 10:00 — the RFQ arrives
 SAY: The same client sends a formal request. A summary can be useful, but the important question is: where does the answer come from?
 DO:
-1. Open the prepared notebook with only 03-fictional-cleaning-rfq.txt selected. On this account the interface says Gemini Notebook; attendees may know it as NotebookLM. Do not create or upload the source on stage.
+1. Open the prepared notebook with only 03-fictional-cleaning-rfq.pdf selected. On this account the interface says Gemini Notebook; attendees may know it as NotebookLM. Do not create or upload the source on stage.
 2. Paste the checklist prompt. Open the citation for the submission deadline and read Section 4: Friday 6 November 2026, noon EAT. Confirm that the site visit is optional.
 3. Ask the missing-windows follow-up. Open Section 1 or 6 to establish what is absent. Ask: “Would you quote the windows yet?”
 4. Make the lesson explicit: the document can be incomplete even when a quotation fits the budget. A citation still needs inspection.

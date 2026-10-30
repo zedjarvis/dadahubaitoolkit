@@ -2,7 +2,7 @@ YOUR EVERYDAY AI TOOLKIT
 https://dadahubaitoolkit.vercel.app/toolkit
 Tools by task: https://dadahubaitoolkit.vercel.app/tools
 Your workflow: https://dadahubaitoolkit.vercel.app/workflow
-Exact prompts: 02-live-prompts.txt
+Exact prompts: 02-live-prompts.pdf
 
 THE BUSINESS DAY
 08:00 Enquiry → validate → record → draft → human review.

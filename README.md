@@ -178,3 +178,10 @@ Vercel connection state and environment files are excluded from version control.
 The 27-slide deck follows fictional Safi Services & Supplies. `/rehearsal` has the exact 60-minute run sheet, spoken cues, full prompts and failure routes. `/workflow` is a browser-only rule-based intake demo with duplicate detection, missing-information holds and deliberate approval. It does not call AI or connect to email. `/tools` contains 14 tasks, 24 tools, conditional recommendations and first-party sources checked on 31 October 2026.
 
 The standalone `public/resources/quote-calculator.html` works offline. The demo kit includes prepared answers and separately labelled observed rehearsal notes. Workflow plans and Monday commitments are stored only in the current browser; demo intake records are memory-only.
+
+
+## PDF resource kit
+
+All written handouts in `public/resources/` are designed PDFs. The ZIP contains 12 PDFs (including the existing presentation), the original stock CSV and the offline HTML calculator; no TXT files. The RFQ wording and numbered sections are preserved.
+
+Editable reference sources live in `resources/source/`; prompts, rehearsal cues and the tools directory are also generated from `app/data/`. Regenerate the PDFs and ZIP with `python3 scripts/build-resource-pdfs.py` after installing `reportlab` and `pypdf`. Lato is embedded when available; the script falls back to ReportLab’s bundled Vera fonts. Review rendered pages before publishing. PDF generation is an editorial build step; the checked files are committed so deployment does not require Python.
