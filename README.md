@@ -11,6 +11,17 @@ The toolkit, demos, resources and calculator are available without an account.
 The presentation is at `/slides/index.html` and uses hash navigation so slide
 links work on the deployed host.
 
+## Phone experience
+
+The welcome QR encodes `https://dadahubaitoolkit.vercel.app/toolkit`, so scanning
+opens the attendee toolkit directly. The site logo also returns to `/toolkit`.
+The QR welcome page remains at `/` for the presenter to display.
+
+Phone navigation keeps Demos, Resources and Slides visible. The toolkit uses a
+compact introduction, readable demo descriptions, large touch controls and a
+single-column prompt view. Source downloads and AI-tool links appear before the
+prompt. Form text is at least 16px on phones to avoid automatic input zoom.
+
 ## Run locally
 
 Use Node.js 24 and npm. The calculation tests use Node's built-in TypeScript support.
@@ -80,7 +91,8 @@ To use the original, change the first slide's `introImage`:
 introImage: /images/ced-original.jpg
 ```
 
-The site also has an **Original photo** toggle. Both assets are included locally.
+On phones, the toolkit always shows the illustrated portrait. The **Original photo**
+toggle remains available on larger screens. Both assets are included locally.
 
 ## Company introductions
 

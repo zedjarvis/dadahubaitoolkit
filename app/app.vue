@@ -2,11 +2,11 @@
   <div>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
-      <NuxtLink to="/" class="wordmark" aria-label="The AI Toolkit home"><img src="/favicon.svg" width="32" height="32" alt="" />AI TOOLKIT<span class="wordmark-dot">/</span><span class="wordmark-event">DADA HUB</span></NuxtLink>
+      <NuxtLink to="/toolkit" class="wordmark" aria-label="The AI Toolkit home"><img src="/favicon.svg" width="32" height="32" alt="" /><span class="wordmark-name">AI TOOLKIT</span><span class="wordmark-dot">/</span><span class="wordmark-event">DADA HUB</span></NuxtLink>
       <nav aria-label="Main navigation">
-        <NuxtLink to="/toolkit#sessions">The demos</NuxtLink>
+        <NuxtLink to="/toolkit#sessions">Demos</NuxtLink>
         <NuxtLink to="/toolkit#resources">Resources</NuxtLink>
-        <a href="/slides/index.html" class="nav-present">Open slides <span aria-hidden="true">↗</span></a>
+        <a href="/slides/index.html" class="nav-present"><span class="nav-slides-label">Open slides</span><span class="nav-slides-short">Slides</span><span aria-hidden="true">↗</span></a>
       </nav>
     </header>
     <NuxtPage />

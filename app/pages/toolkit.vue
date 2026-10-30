@@ -14,17 +14,17 @@ function saveCommitment() {
 
 <template>
   <main id="main" class="wrap">
-    <section class="hero">
+    <section class="hero toolkit-hero">
       <div>
-        <span class="pill"><span class="pill-dot" /> A practical session for business owners</span>
-        <h1 class="display gradient-title">The AI<br />Toolkit.</h1>
-        <p class="hero-summary">AI for your everyday<br />business tasks.</p>
-        <div class="hero-actions"><a class="button button-primary" href="/slides/index.html">Start the presentation <span aria-hidden="true">↗</span></a><a class="button button-secondary" href="#sessions">Explore the demos <span aria-hidden="true">↓</span></a></div>
-        <div class="hero-meta"><span>31 October 2026</span><span>9:20–10:20 AM EAT</span><span>Parklands, Nairobi</span></div>
+        <span class="pill"><span class="pill-dot" /> DADA HUB · 31 October 2026</span>
+        <h1 class="display gradient-title">AI for your everyday business tasks.</h1>
+        <p class="hero-summary">Pick a demo, copy the prompt and follow along.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#sessions">Explore the demos <span aria-hidden="true">↓</span></a><a class="button button-secondary" href="#resources">Get resources <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-meta"><span>9:20–10:20 AM EAT</span><span>Parklands, Nairobi</span></div>
       </div>
       <div class="portrait-scene">
         <span class="orbit-label orbit-one"><span>✦</span> Your business. Your brief.</span>
-        <div class="portrait-ring"><img :src="illustrated ? '/images/ced-illustrated.png' : '/images/ced-original.jpg'" :class="{ original: !illustrated }" :alt="illustrated ? 'Illustrated portrait of Cedrouseroll Omondi' : 'Photograph of Cedrouseroll Omondi'" width="480" height="480" fetchpriority="high" /></div>
+        <div class="portrait-ring"><picture><source media="(max-width: 640px)" srcset="/images/ced-illustrated.png" /><img :src="illustrated ? '/images/ced-illustrated.png' : '/images/ced-original.jpg'" :class="{ original: !illustrated }" alt="Portrait of Cedrouseroll Omondi" width="480" height="480" decoding="async" /></picture></div>
         <span class="orbit-label orbit-two"><span>✓</span> You check. You decide.</span>
         <div class="portrait-caption"><b>Cedrouseroll Omondi</b><span class="muted">Flowt & SchoolBooks</span></div>
         <div class="portrait-switch" role="group" aria-label="Speaker portrait style"><button :aria-pressed="illustrated" @click="illustrated = true">Illustrated</button><button :aria-pressed="!illustrated" @click="illustrated = false">Original photo</button></div>
@@ -35,7 +35,7 @@ function saveCommitment() {
 
     <section id="sessions" class="section">
       <div class="section-heading"><div><p class="eyebrow">Watch. Try. Check.</p><h2 class="display">A toolkit for actual work.</h2></div><p class="section-intro">Open a demo for the exact prompt, the sample material and what to check.</p></div>
-      <div class="demo-list"><NuxtLink v-for="demo in demos" :key="demo.slug" :to="`/demos/${demo.slug}`" class="demo-row"><span class="demo-number">{{ demo.number }}</span><div><span class="category">{{ demo.category }} · {{ demo.minutes }}</span><h3>{{ demo.title }}</h3></div><p>{{ demo.description }}</p><div class="demo-end"><span class="tool-label">{{ demo.tool }}</span><span class="demo-arrow" aria-hidden="true">↗</span></div></NuxtLink></div>
+      <div class="demo-list"><NuxtLink v-for="demo in demos" :key="demo.slug" :to="`/demos/${demo.slug}`" class="demo-row"><span class="demo-number">{{ demo.number }}</span><div><span class="category">{{ demo.category }} · {{ demo.minutes }}</span><h3>{{ demo.title }}</h3><span class="tool-label">{{ demo.tool }}</span></div><p>{{ demo.description }}</p><div class="demo-end"><span class="demo-arrow" aria-hidden="true">↗</span></div></NuxtLink></div>
     </section>
 
     <section class="brief-panel"><div><p class="eyebrow">The briefing formula</p><h2 class="display">A better brief.<br />A better first draft.</h2></div><div class="brief-steps"><div v-for="step in [{title:'Role',body:'Who should help?'},{title:'Context',body:'What do they need to know?'},{title:'Task',body:'What should they do?'},{title:'Format',body:'How should it look?'},{title:'Check',body:'What must be verified?'}]" :key="step.title" class="brief-step"><b>{{ step.title }}</b><span>{{ step.body }}</span></div></div></section>
