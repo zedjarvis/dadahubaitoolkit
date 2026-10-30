@@ -1,0 +1,352 @@
+[
+  {
+    "id": "writing",
+    "title": "Reply to a client",
+    "category": "Sales",
+    "outcome": "A useful draft without accidental promises.",
+    "recommendation": "ChatGPT if you already use it; move to your existing work suite when that is where your approved context lives.",
+    "options": [
+      [
+        "ChatGPT",
+        "General-purpose drafting; demonstrated today."
+      ],
+      [
+        "Claude",
+        "A second option for document-heavy drafting."
+      ],
+      [
+        "Gemini",
+        "Useful when your authorised documents are in Google’s tools."
+      ],
+      [
+        "Microsoft 365 Copilot",
+        "Consider when the team already works in Microsoft 365."
+      ],
+      [
+        "Notion AI",
+        "Consider when the brief and SOP already live in Notion."
+      ]
+    ],
+    "prompt": "Using only these approved notes, draft a 150-word client reply. Separate confirmed facts from questions. Do not invent prices, dates or commitments. Put internal checks after the reply. Notes: [paste fictional or authorised notes].",
+    "check": "Check every promise, amount and date. Remove internal notes before sending."
+  },
+  {
+    "id": "documents",
+    "title": "Understand a tender or policy",
+    "category": "Documents",
+    "outcome": "A checklist you can trace to the source.",
+    "recommendation": "NotebookLM for a focused set of documents and visible citation checks.",
+    "options": [
+      [
+        "NotebookLM",
+        "Selected-source questions and source navigation."
+      ],
+      [
+        "ChatGPT",
+        "Read an uploaded file and request exact supporting passages."
+      ],
+      [
+        "Claude",
+        "Summarise an uploaded document and extract requirements."
+      ],
+      [
+        "Gemini",
+        "Ask questions about uploaded documents."
+      ],
+      [
+        "Adobe Acrobat AI",
+        "Consider when you spend most of your time in PDFs."
+      ]
+    ],
+    "prompt": "Using only the supplied document, list requirements, deadlines and explicit rejection grounds. Cite the section and exact supporting passage for each. Separate mandatory from optional. Write “Not specified” for missing information.",
+    "check": "Open the original passage. Citation behaviour differs by product; a fluent answer is not proof."
+  },
+  {
+    "id": "numbers",
+    "title": "Understand sales and stock",
+    "category": "Numbers",
+    "outcome": "Checked totals and a short list of decisions to investigate.",
+    "recommendation": "ChatGPT for the workshop; Excel Copilot when the business already manages this workbook in Excel.",
+    "options": [
+      [
+        "ChatGPT",
+        "Explain the data and calculate with tools where available."
+      ],
+      [
+        "Claude",
+        "Analyse data and create spreadsheet outputs."
+      ],
+      [
+        "Gemini",
+        "Explore an uploaded spreadsheet."
+      ],
+      [
+        "Excel Copilot",
+        "Keep the analysis within an eligible Excel workbook."
+      ],
+      [
+        "Julius",
+        "Consider a dedicated data-analysis workspace."
+      ]
+    ],
+    "prompt": "From this table, calculate revenue, cost of units sold, gross profit and closing stock. Show formulas, check totals and flag missing data. Do not call gross profit net profit. State whether you actually used a calculation tool. Data: [table].",
+    "check": "Reconcile totals independently. Check units, time period, missing costs and duplicate rows."
+  },
+  {
+    "id": "building",
+    "title": "Build a small internal tool",
+    "category": "Tools",
+    "outcome": "A working calculator, checklist or form with acceptance checks.",
+    "recommendation": "Codex for actual files and tests; browser app builders can reduce initial setup for a prototype.",
+    "options": [
+      [
+        "Codex",
+        "File-based work and testable business rules; demonstrated today."
+      ],
+      [
+        "Claude Code",
+        "Another coding agent for an authorised project."
+      ],
+      [
+        "Cursor",
+        "Useful when someone maintains the tool in an editor."
+      ],
+      [
+        "Replit",
+        "Browser workspace for building and previewing."
+      ],
+      [
+        "Lovable",
+        "Prompt-driven web app prototyping."
+      ]
+    ],
+    "prompt": "Build a phone-friendly [tool] in this demo folder. Rules: [exact rules]. Deliver actual working files. Test these known inputs and expected outputs: [cases]. Report checks performed and limits. Do not publish until I review it.",
+    "check": "Test the actual implementation, invalid input and phone layout. A prototype still needs security and maintenance decisions."
+  },
+  {
+    "id": "automation",
+    "title": "Stop copying between apps",
+    "category": "Automation",
+    "outcome": "A new enquiry becomes a record and a draft awaiting review.",
+    "recommendation": "Make for a visual flow; choose Zapier for a straightforward supported app pair, or n8n with technical help.",
+    "options": [
+      [
+        "Make",
+        "Visual branching and app integrations."
+      ],
+      [
+        "Zapier",
+        "Trigger-and-action workflows across connected apps."
+      ],
+      [
+        "n8n",
+        "More control with technical setup and human fallbacks."
+      ]
+    ],
+    "prompt": "Design this workflow: new enquiry → validate required fields → skip duplicate enquiry ID → create a record → draft an acknowledgement → wait for human approval. Route missing information and failures to a person. Specify inputs, outputs, owner and five test cases. Do not send any messages.",
+    "check": "A diagram is not a connection. Test duplicates, missing fields, failed steps and approval in the actual accounts. Start with internal records."
+  },
+  {
+    "id": "research",
+    "title": "Compare suppliers or market options",
+    "category": "Research",
+    "outcome": "A dated comparison with evidence and unanswered questions.",
+    "recommendation": "Perplexity for web-source discovery; verify supplier claims directly before deciding.",
+    "options": [
+      [
+        "Perplexity",
+        "Web answers with source links."
+      ],
+      [
+        "ChatGPT",
+        "Research and compare sources in a supported browsing mode."
+      ],
+      [
+        "Gemini",
+        "Explore supplied supplier information."
+      ]
+    ],
+    "prompt": "Compare these three suppliers for [need]. Use current first-party sources, list URLs and dates, separate published facts from assumptions, and mark unavailable prices “Request quote”. Give five questions to ask before choosing.",
+    "check": "Check geography, delivery, taxes and the actual quotation. Do not treat old pages or generated estimates as current prices."
+  },
+  {
+    "id": "marketing",
+    "title": "Prepare a week of marketing",
+    "category": "Marketing",
+    "outcome": "Three useful posts and one editable visual.",
+    "recommendation": "Use your existing assistant for copy and Canva for the visual layout.",
+    "options": [
+      [
+        "Canva",
+        "Design and edit social visuals from a brief."
+      ],
+      [
+        "ChatGPT",
+        "Draft copy from approved product facts."
+      ],
+      [
+        "Claude",
+        "Rewrite copy to match a supplied example of your voice."
+      ]
+    ],
+    "prompt": "Using only these approved product facts, draft three posts: a useful tip, a customer question answered, and an offer. Audience: [people]. Voice: [example]. One clear action each. No invented testimonials or performance claims. Then write a visual brief for the strongest post.",
+    "check": "Check claims, spelling, contact details and image rights. Preview the final mobile crop before publishing."
+  },
+  {
+    "id": "presentations",
+    "title": "Turn notes into a pitch",
+    "category": "Marketing",
+    "outcome": "A short deck with one clear ask.",
+    "recommendation": "Gamma for a quick presentation draft; Canva when brand layout control matters more.",
+    "options": [
+      [
+        "Gamma",
+        "Build a deck from a conversational brief."
+      ],
+      [
+        "Canva",
+        "Edit a branded visual presentation."
+      ],
+      [
+        "Claude",
+        "Create presentation files from source material."
+      ]
+    ],
+    "prompt": "Create a six-slide pitch from these approved notes: problem, customer, solution, evidence, business model, ask. Do not invent traction, customers or financial projections. Mark missing evidence. Keep one main point per slide.",
+    "check": "Verify each figure and claim; review exported slides for layout and readability."
+  },
+  {
+    "id": "meetings",
+    "title": "Leave meetings with clear actions",
+    "category": "Operations",
+    "outcome": "Decisions, owners and dates that people can confirm.",
+    "recommendation": "Otter for meeting capture; Notion AI if notes and tasks already live in Notion.",
+    "options": [
+      [
+        "Otter",
+        "Transcription, summaries and action items."
+      ],
+      [
+        "Notion AI",
+        "Meeting notes connected to workspace tasks."
+      ],
+      [
+        "ChatGPT",
+        "Turn an authorised transcript or typed notes into actions."
+      ]
+    ],
+    "prompt": "From these meeting notes, list decisions and actions with owner, due date and supporting quote. Mark unassigned owners or dates “Not agreed”. Separate proposals from decisions. Notes: [authorised notes].",
+    "check": "Get recording agreement; confirm names and decisions with participants. Never invent an owner or deadline."
+  },
+  {
+    "id": "knowledge",
+    "title": "Make your SOPs easier to use",
+    "category": "Operations",
+    "outcome": "Answers linked to approved procedures.",
+    "recommendation": "Notion AI if procedures already live there; NotebookLM for a small source collection.",
+    "options": [
+      [
+        "Notion AI",
+        "Search workspace knowledge and draft procedures."
+      ],
+      [
+        "NotebookLM",
+        "Ask across selected policy sources."
+      ],
+      [
+        "Claude",
+        "Turn an authorised process description into an SOP draft."
+      ]
+    ],
+    "prompt": "From these approved procedures, create a checklist for a new team member. Include owner, step, exception and source section. Flag contradictions and missing steps. Do not invent policy.",
+    "check": "Use current, approved versions. Confirm access permissions and assign an owner to keep the source updated."
+  },
+  {
+    "id": "support",
+    "title": "Answer recurring customer questions",
+    "category": "Sales",
+    "outcome": "Useful answers with a clear route to a person.",
+    "recommendation": "Start by drafting an approved FAQ. Consider Intercom Fin once you have maintained content and enough support volume.",
+    "options": [
+      [
+        "Intercom Fin",
+        "Connected customer support with escalation settings."
+      ],
+      [
+        "NotebookLM",
+        "Internal source-checking for staff; not a deployed support widget."
+      ],
+      [
+        "ChatGPT",
+        "Draft and test FAQ answers before adding an integration."
+      ]
+    ],
+    "prompt": "Using this approved FAQ, answer each test question in two sentences. If the answer is absent, contradictory or about a disputed charge, route it to a person. Do not invent policy or offer refunds. Include the supporting source.",
+    "check": "These options serve different stages. Test ambiguous questions, outdated policies, escalation and the cost per resolved conversation."
+  },
+  {
+    "id": "translation",
+    "title": "Adapt a message for another language",
+    "category": "Communication",
+    "outcome": "A draft checked for meaning and tone.",
+    "recommendation": "DeepL when it supports your exact language pair and glossary; compare an assistant draft with a fluent reviewer.",
+    "options": [
+      [
+        "DeepL",
+        "Document translation and supported glossaries."
+      ],
+      [
+        "Notion AI",
+        "Translate an existing workspace page."
+      ],
+      [
+        "ChatGPT",
+        "Draft a translation with audience and tone context."
+      ]
+    ],
+    "prompt": "Translate this message into [language] for [audience]. Preserve names, numbers, dates and product terms. Flag phrases with more than one meaning. Include a short back-translation for review. Text: [approved text].",
+    "check": "Confirm language support; a fluent speaker should check meaning. Do not assume Swahili or regional-language quality from a product’s general translation claim."
+  },
+  {
+    "id": "video",
+    "title": "Turn a recording into useful clips",
+    "category": "Marketing",
+    "outcome": "A short captioned clip you can review before posting.",
+    "recommendation": "Descript for transcript-based editing; Canva for finishing the visual layout.",
+    "options": [
+      [
+        "Descript",
+        "Edit a recording through text and create clips or captions."
+      ],
+      [
+        "Canva",
+        "Lay out the final social video and brand elements."
+      ]
+    ],
+    "prompt": "From this authorised recording, suggest three short clips that answer real customer questions. Preserve the speaker’s meaning, include enough context, and draft accurate captions. Do not publish automatically.",
+    "check": "Check the cut against the original recording. Correct names and numbers in captions and confirm permission to use the recording."
+  },
+  {
+    "id": "invoices",
+    "title": "Turn invoices into a checked table",
+    "category": "Numbers",
+    "outcome": "A draft register with exceptions for a person to resolve.",
+    "recommendation": "Use an assistant you already have for a small authorised batch; Acrobat AI can help inspect PDF source passages.",
+    "options": [
+      [
+        "ChatGPT",
+        "Read supplied files and structure a draft register."
+      ],
+      [
+        "Claude",
+        "Extract supplied information into a spreadsheet output."
+      ],
+      [
+        "Adobe Acrobat AI",
+        "Ask questions about a PDF and inspect its source."
+      ]
+    ],
+    "prompt": "From these fictional invoices, extract supplier, invoice number, date, currency, subtotal, tax, total and source filename. Leave unreadable or absent values blank and flag them. Identify possible duplicates without deleting anything. Reconcile subtotal plus tax to total; do not post to accounting or initiate payment.",
+    "check": "Verify every amount and currency against the original. Check duplicate invoices, credit notes, OCR errors and tax treatment before importing. Extraction is not bookkeeping approval."
+  }
+]

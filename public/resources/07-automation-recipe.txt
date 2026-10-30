@@ -1,0 +1,39 @@
+YOUR FIRST CONNECTED WORKFLOW — IMPLEMENTATION RECIPE
+This is a plan to configure and test, not an installed integration or importable template.
+
+Goal: a new enquiry becomes one internal record and a draft for an owner to review.
+Start with synthetic enquiries. Keep automatic sending disabled.
+
+1. TRIGGER
+Choose the form or inbox your team already uses. A structured form is easier to start with than unstructured messages. Capture enquiry ID, client label, service, area, requested date and contact channel. Do not include unnecessary sensitive information.
+
+2. VALIDATE
+Require an ID and enough scope to know the next step. For our cleaning example, missing window count, size, height or access puts the record on hold. A budget is not your quoted price; a requested date is not availability.
+
+3. DEDUPLICATE
+Check the stable enquiry ID before creating a record. Retrying a failed run must not create another enquiry or another message. Resolve missing details on the same record.
+
+4. RECORD
+Map the agreed fields into a spreadsheet or CRM you already own. Suggested fields: ID, received time, client, scope, missing details, status, draft, reviewer, last error. Keep your own business's retention and access rules.
+
+5. DRAFT
+Start with an approved template. Add an AI step only where it helps: summarising messy notes or adapting the reply. Supply facts and boundaries; store a draft rather than sending it. Product subscriptions and API/automation usage can be separate costs.
+
+6. REVIEW
+An owner checks scope, budget wording, dates and recipient. A human sends the approved reply in the usual app. A later automated send needs an explicit approval gate in the real workflow, not simply a button drawn on a diagram.
+
+7. FAIL VISIBLY
+Route missing information, invalid model output or a failed app connection to the owner. Preserve the original enquiry and error. Do not silently discard it or keep retrying an outbound action indefinitely.
+
+FIVE TESTS BEFORE REAL USE
+- Complete enquiry: one record, one draft, no automatic sending.
+- Missing windows: hold; no approval until clarified.
+- Same ID twice: one record only.
+- App or AI step fails: visible error and human handoff.
+- Edited/clarified record: same ID, revised draft, fresh review.
+
+Choose a tool based on supported apps and maintainability:
+Make: https://www.make.com/en/product
+Zapier: https://help.zapier.com/hc/en-us/articles/8496257774221-Set-up-your-Zap-action
+n8n: https://docs.n8n.io/build/integrate-ai/ai-examples/set-a-human-fallback-for-ai-workflows.md
+Recommendations are conditional fit judgments. Confirm current plan, connections, usage costs and ownership before enabling the real flow.

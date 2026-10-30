@@ -1,72 +1,41 @@
-THE AI TOOLKIT — COPY-AND-PASTE LIVE PROMPTS
-DADA HUB | 31 October 2026
-All business examples, rates and records below are fictional training data.
-Prompts are prepared; rehearse them in the presenting accounts before the session.
+EXACT LIVE PROMPTS — ALL EXAMPLES FICTIONAL
+OPENING HOOK
+Turn these fictional enquiry notes into a three-line WhatsApp acknowledgement for Safi Services & Supplies. Keep KES 120,000 as the client's monthly budget, not our quote. Treat 16 November 2026 as a requested start date, subject to confirming scope and availability. Ask to confirm window count, size and height. Do not promise a price or start date.
 
-DEMO 1 — CHATGPT: CLIENT NOTES TO A PROPOSAL
-Copy from "You are" through the end of the notes.
+Parklands Learning Centre; 400 m²; cleaning Monday, Wednesday and Friday after 6 pm; monthly window cleaning; budget 120k including tax; wants start 16 Nov. Window details missing.
 
-You are an account manager at a Nairobi interior design studio.
-Use the fictional site-visit notes below to draft a proposal email of no more
-than 220 words to Mrs Wanjiru. Use five short sections: Your priorities,
-Suggested approach, Timing, Budget, Next step.
-Keep the tone warm and professional. The KES 450,000 figure is a client budget,
-not our quote: do not invent prices or a price range. State that a costed
-proposal follows measurements and supplier checks. Treat 15 December 2026 as
-the client's requested completion date, subject to confirming scope and supply.
-Keep the sister's potential kitchen project separate from this client's scope.
-After the email, add a separate "Internal checks — remove before sending"
-section listing missing facts and assumptions. Do not place internal checks
-inside the customer-facing email.
+01 — A better client reply
+You manage enquiries for Safi Services & Supplies, a fictional Nairobi cleaning company that also sells cleaning supplies.
+Using only the notes below, draft an email of no more than 180 words to the administrator of Parklands Learning Centre. Use five short sections: Your needs; Proposed next step; Timing; Budget; What we need from you.
+Keep the language simple and professional. KES 120,000 is the client's monthly budget inclusive of tax, not our quote. A costed proposal follows scope and access checks. Treat 16 November 2026 as a requested start date, subject to confirming scope and availability. Do not invent prices, discounts, certifications or staffing. Do not mention the administrator's possible home-cleaning request in the customer-facing email; note it only in internal checks as a separate enquiry.
+After the email, add a separate 'Internal checks — remove before sending' section. List missing facts and assumptions there, not inside the customer-facing email.
 
-Notes:
-Mrs Wanjiru, 3BR in Kilimani, wants living room + dining redone. budget around
-450k. likes warm colours, hates grey. has 2 dogs so no delicate fabrics. wants
-it done before december 15 bcz family coming. current sofa she keeps. site visit
-tuesday went ok, walls need repainting + one wall maybe wallpaper. mentioned
-her sister also wants her kitchen done later.
+Fictional enquiry notes:
+Parklands Learning Centre, 400 m² offices. Cleaning Mon/Wed/Fri after 6 pm. Floors, desks, washrooms, waste to on-site collection point. We provide products, equipment and staff. Wants windows monthly too; count, size, height and safe access unknown. Budget 120k per month incl tax. Requested start 16 Nov 2026 for 3 months. Admin also mentioned maybe cleaning her home later. No availability or final quote confirmed.
+FOLLOW-UP
+Turn only the customer-facing email into a three-line WhatsApp reply. Keep KES 120,000 as the client's budget, keep the requested start date subject to confirmation, and ask for the missing window details. Do not include internal notes or the separate home-cleaning request.
+CHECKS
+KES 120,000 remains a monthly budget inclusive of tax, not a quote.
+16 November remains a requested date, subject to confirmation.
+Window details are requested; the separate home job is excluded.
 
-FOLLOW-UP 1 — RUN LIVE
-Turn the customer-facing email into a three-line WhatsApp message. Keep the
-budget and timing caveats. Mention durable, pet-friendly fabrics. No invented
-prices, discounts or availability commitments.
-
-FOLLOW-UP 2 — OPTIONAL
-She says the quote, once received, feels expensive. Draft a polite reply
-suggesting two scope changes that might lower cost, without promising savings
-we have not calculated. Ask which priorities she wants to preserve.
-
-PARTICIPANT TASK
-Use these fictional notes. Change one preference, ask for a short reply, and
-check that the result preserves the budget, date caveat and existing sofa.
-
-
-DEMO 2 — GEMINI NOTEBOOK / NOTEBOOKLM: CHECK A DOCUMENT
-First import 03-fictional-cleaning-rfq.txt and select it as the only source.
-
-PROMPT A
-Using only the selected fictional RFQ, make a bidder checklist. Columns:
-requirement; mandatory or optional; deadline if stated; supporting citation
-and section identifier. Separate explicit rejection grounds from general
-requirements. Do not infer extra mandatory conditions. If a detail is absent,
-write "Not specified in the source". Finish with the three most important
-clarifications we should obtain before quoting.
-
-PROMPT B — THE TRUST CHECK
+02 — An answer you can trace
+Using only the selected fictional RFQ, make a compact bidder checklist of no more than 300 words. Use three sections:
+1. Requirements: list the six mandatory submission items, the budget ceiling, submission deadline and format, and the optional site visit. Give a supporting citation and section identifier for each row.
+2. Explicit rejection grounds: list only the four grounds actually stated in Section 5.
+3. Before quoting: list the three most useful clarification questions.
+Do not infer extra mandatory conditions. Mark absent details "Not specified in the source". In particular, do not call insurance or minimum staffing mandatory: neither is specified. Distinguish the optional site-visit date from the submission deadline. Do not invent window measurements or a tax rate.
+FOLLOW-UP
 How many windows are there, what size are they, and can our team clean all of
 them safely from ground level? Cite any supporting passage. If the RFQ does
 not establish an answer, say so and draft one short clarification question.
+CHECKS
+Submission closes 6 November at 12:00 noon EAT.
+The site visit is optional.
+Window count, size and height are not specified.
 
-PROMPT C — OPTIONAL FOLLOW-UP
-Is the site visit mandatory, and is a late submission accepted? Answer each
-separately with a citation. Do not treat an optional activity as a rejection
-ground.
-
-
-DEMO 3 — CHATGPT: SALES DATA TO A STOCK DECISION
-Copy from "Act as" through the last data row.
-
-Act as a retail operations analyst explaining a fictional shop's data to its
+03 — What is your stock saying?
+Act as a retail operations analyst explaining Safi Services & Supplies' fictional product sales to its
 owner. Use a calculation/data-analysis tool if available and tell me if it is
 not available. Treat the following as a simplified classroom example.
 
@@ -85,32 +54,30 @@ Give one table and the total revenue, cost of goods sold and gross profit.
 Rank the top three products by total gross-profit contribution.
 Define slow-moving as lowest sell-through percentage and name the bottom
 three, noting ties. Explain the next actions in no more than five bullets.
-Show the formulas and the worked calculation for rice and cooking oil.
+Show the formulas and the worked calculation for multipurpose cleaner and floor cleaner.
 State that overheads are absent, so net profit cannot be determined. State
 which real-world information is missing before a purchasing decision.
 
 Product,Opening stock,Units sold (30 days),Unit cost KES,Selling price KES
-Basmati rice 2kg,120,95,310,380
-Cooking oil 3L,80,70,720,850
-Sugar 2kg,150,40,260,300
+Multipurpose cleaner 2L,120,95,310,380
+Floor cleaner 5L,80,70,720,850
+Hand soap 1L,150,40,260,300
 Laundry soap bar,200,35,45,60
-Wheat flour 2kg,100,88,170,210
-Tea leaves 500g,60,12,350,480
+Bleach 1L,100,88,170,210
+Microfibre pack,60,12,350,480
 Toilet paper 10 pack,90,82,380,450
-Instant noodles carton,40,8,900,1100
-
-FOLLOW-UP — AFTER CHECKING THE TABLE
+Bin liner box,40,8,900,1100
+FOLLOW-UP
 Create a horizontal bar chart of total gross-profit contribution by product,
 sorted from largest to smallest. Label values in KES and use the title
 "Gross profit from units sold — fictional 30-day example". Explain in two
 sentences why a high margin percentage need not mean the most total profit.
+CHECKS
+Revenue: KES 179,640. Gross profit: KES 30,295.
+Floor cleaner contributes the most gross profit: KES 9,100.
+Overheads are absent. Net profit cannot be determined.
 
-
-DEMO 4 — CODEX: BUILD, TEST AND DELIVER A CLEANING QUOTE CALCULATOR
-Use a new Codex chat in a prepared empty demo folder. Rehearse file access and
-opening the result first. Submit this task at the end of Demo 2, then return
-to review it after the sales-data demo.
-
+04 — A small tool, built for you
 Build and test a working, phone-friendly cleaning quote calculator in this
 demo folder. Deliver a self-contained quote-calculator.html file with its CSS
 and JavaScript included. It must work offline with no external libraries,
@@ -150,8 +117,11 @@ the formula. If browser tools are available, also check the form controls,
 invalid inputs and a narrow phone viewport. Report which checks you actually
 performed and any you could not perform. Give a brief delivery summary and
 the path to the finished file. Do not publish or deploy it.
-
-FOLLOW-UP — ONLY IF TIME ALLOWS
+FOLLOW-UP
 Add a "Print estimate" button. The print view must retain the inputs, amount
 breakdown and training/assumption notes. Preserve every calculation rule and
 rerun the same checks.
+CHECKS
+100 m², 3 visits/week, windows: KES 34,104.
+400 m², 3 visits/week, windows: KES 115,536.
+Missing or invalid floor area produces an error, not a valid quote.

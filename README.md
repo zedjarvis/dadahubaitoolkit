@@ -39,7 +39,7 @@ npm run slides
 
 Open `http://localhost:3030`. Press **P** for presenter mode, **Space** to advance
 and **O** for the overview. Speaker notes contain the timing, demo sequence,
-expected answers and fallback cues. The two appendix slides follow the close: 28 session slides and 2 appendix slides in total.
+expected answers and fallback cues. The two appendix slides follow the close: 25 session slides and 2 appendix slides in total.
 
 The site's **Start the presentation** button uses the static deck built into `public/slides`.
 If you have just changed the slides, rebuild that copy:
@@ -151,9 +151,9 @@ rates or advice on real tax treatment.
 5. Start the Codex calculator task at the end of the document demo. Review it
    after the stock demo.
 6. If the live build stalls, identify the prepared calculator as the fallback.
-7. Protect the close at 10:12 and hand over by 10:20.
+7. Protect the workflow exercise at 10:07, questions at 10:13 and the handover at 10:20.
 
-Share https://dadahubaitoolkit.vercel.app/ with attendees, or display the welcome
+Share https://dadahubaitoolkit.vercel.app/toolkit with attendees, or display the welcome
 page so they can scan the QR. All presentation demo links use the public address.
 
 The site saves a participant's Monday commitment only in their browser's local
@@ -172,3 +172,9 @@ vercel --prod
 The public GitHub repository is `zedjarvis/dadahubaitoolkit`.
 Local preparation notes, the original source playbook, generated build directories,
 Vercel connection state and environment files are excluded from version control.
+
+## Revised business-day session
+
+The 27-slide deck follows fictional Safi Services & Supplies. `/rehearsal` has the exact 60-minute run sheet, spoken cues, full prompts and failure routes. `/workflow` is a browser-only rule-based intake demo with duplicate detection, missing-information holds and deliberate approval. It does not call AI or connect to email. `/tools` contains 14 tasks, 24 tools, conditional recommendations and first-party sources checked on 31 October 2026.
+
+The standalone `public/resources/quote-calculator.html` works offline. The demo kit includes prepared answers and separately labelled observed rehearsal notes. Workflow plans and Monday commitments are stored only in the current browser; demo intake records are memory-only.

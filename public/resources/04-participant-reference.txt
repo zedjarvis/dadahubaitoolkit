@@ -1,51 +1,36 @@
-THE AI TOOLKIT — TAKE-HOME REFERENCE
-DADA HUB | Cedrouseroll Omondi | 31 October 2026
+YOUR EVERYDAY AI TOOLKIT
+https://dadahubaitoolkit.vercel.app/toolkit
+Tools by task: https://dadahubaitoolkit.vercel.app/tools
+Your workflow: https://dadahubaitoolkit.vercel.app/workflow
+Exact prompts: 02-live-prompts.txt
 
-START WITH THE TASK
-Client replies, proposals and summaries: ChatGPT.
-Questions about a document, with a source to inspect: Gemini Notebook
-(formerly NotebookLM; your account may still use the familiar name).
-Sales and stock patterns: ChatGPT, with independently checked calculations.
-A small calculator or other prototype: Codex; give it the goal, rules and
-checks, then review the delivered files and working result before business use.
-Repetitive steps across apps: explore automation after your process is clear.
+THE BUSINESS DAY
+08:00 Enquiry → validate → record → draft → human review.
+08:15 ChatGPT helps draft a reply from facts and constraints.
+10:00 NotebookLM helps inspect an RFQ and its supporting passages.
+13:00 ChatGPT helps analyse the supplies table; independently verify calculations.
+15:00 Codex builds a tool from explicit rules and known test cases.
+17:00 Choose one workflow to test in your own business.
 
-A USEFUL BRIEF
-Role: Who should help me?
-Context: What facts and constraints do they need?
-Task: What exactly should they do?
-Format: What should the result look like?
-Check: What must be verified, and what must not be invented?
+THREE DIFFERENT THINGS
+An AI draft: you ask for an output and review it.
+A reusable tool: the calculator applies agreed rules when you use it.
+A connected automation: an event triggers work across configured apps.
+The workshop workflow lab is real local rule-based automation. It has no AI or email connection and sends nothing. A completed plan is not an installed integration.
 
-REUSABLE PROMPT
-Act as [role]. I run [business]. Use only these facts: [facts].
-Help me [specific task]. Return [format and length].
-Keep [important constraints]. Do not invent prices, dates or commitments.
-List missing information separately and show me what I should check.
+YOUR FIRST WORKFLOW
+Trigger: __________________
+Steps: ____________________
+Human reviewer and checks: ____________________
+Missing information / failure route: ____________________
+Success measure for the first five runs: ____________________
 
-THREE CHECKS
-1. Does the output preserve the facts I gave it?
-2. Can I verify the important claim, calculation or source citation?
-3. What is still missing before I use this in my business?
+Choose one 15-minute experiment for Monday, 2 November. Use authorised information. Check facts, calculations and commitments. Compare accuracy, edits, time and cost before adding a subscription.
 
-FOR THE WORKSHOP
-Use the supplied fictional examples. Do not paste real student records,
-private client messages or other people's personal information into the demo.
-For real work, use data you are authorised to process and the appropriate
-organisational tools and controls. Paying for a plan alone does not settle that.
-
-TRY THIS ON MONDAY, 2 NOVEMBER
-The task that takes time each week: _________________________________
-The tool I will try: _______________________________________________
-My first 15-minute experiment: _____________________________________
-The result I will check before using it: ___________________________
-How I will know it helped: _________________________________________
-
-With ChatGPT: brief, draft, refine and check.
-With Codex: specify a goal, let it build and test, then review what it delivers.
-You decide what is ready to use.
-
-Links
-ChatGPT: https://chatgpt.com/
-Codex environments: https://learn.chatgpt.com/docs/environments/modes
-Gemini Notebook: https://notebook.google.com/
+REFERENCE VALUES
+Stock revenue 179,640; cost of goods sold 149,345; gross profit 30,295 KES.
+Floor cleaner contributes 9,100 KES. Overheads absent: net profit unknown.
+Quote: 100 m² / 3 weekly visits / windows = 34,104 KES.
+Quote: 400 m² / 3 weekly visits / windows = 115,536 KES.
+These rates and the 16% tax are fictional classroom inputs. The unresolved window scope must be clarified before a real quote.
+RFQ deadline: 6 November 2026, noon EAT. Site visit optional. Window count, size and height not specified.

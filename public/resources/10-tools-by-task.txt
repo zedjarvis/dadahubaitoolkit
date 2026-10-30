@@ -1,0 +1,282 @@
+TOOLS BY BUSINESS TASK — SOURCE REVIEW: 31 OCTOBER 2026
+14 tasks / 24 tools. Conditional recommendations, not benchmark rankings. Check current plan, account and total cost before buying.
+
+REPLY TO A CLIENT
+A useful draft without accidental promises.
+WHERE TO START: ChatGPT if you already use it; move to your existing work suite when that is where your approved context lives.
+ChatGPT — General-purpose drafting; demonstrated today.
+https://chatgpt.com/
+ACCESS: Start with a browser account; file and calculation tools depend on mode and plan.
+SOURCE: https://learn.chatgpt.com/docs/use-chatgpt
+Claude — A second option for document-heavy drafting.
+https://claude.ai/
+ACCESS: Browser account; check file creation and usage limits in your plan.
+SOURCE: https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude
+Gemini — Useful when your authorised documents are in Google’s tools.
+https://gemini.google.com/
+ACCESS: Google account; Workspace permissions and upload limits vary.
+SOURCE: https://support.google.com/gemini/answer/14903178?hl=en
+Microsoft 365 Copilot — Consider when the team already works in Microsoft 365.
+https://m365.cloud.microsoft/
+ACCESS: Check the specific app, work account licence and administrator settings.
+SOURCE: https://support.microsoft.com/en-us/outlook/copilot-outlook/chat-with-copilot-in-outlook
+Notion AI — Consider when the brief and SOP already live in Notion.
+https://www.notion.com/product/ai
+ACCESS: Best evaluated inside an existing Notion workspace; full AI access depends on plan.
+SOURCE: https://www.notion.com/help/notion-ai-faqs
+STARTER PROMPT: Using only these approved notes, draft a 150-word client reply. Separate confirmed facts from questions. Do not invent prices, dates or commitments. Put internal checks after the reply. Notes: [paste fictional or authorised notes].
+CHECK: Check every promise, amount and date. Remove internal notes before sending.
+
+UNDERSTAND A TENDER OR POLICY
+A checklist you can trace to the source.
+WHERE TO START: NotebookLM for a focused set of documents and visible citation checks.
+NotebookLM — Selected-source questions and source navigation.
+https://notebook.google.com/
+ACCESS: Google account; currently labelled Gemini Notebook on the presenting account.
+SOURCE: https://support.google.com/gemininotebook/answer/16179559?hl=en
+ChatGPT — Read an uploaded file and request exact supporting passages.
+https://chatgpt.com/
+ACCESS: Start with a browser account; file and calculation tools depend on mode and plan.
+SOURCE: https://learn.chatgpt.com/docs/use-chatgpt
+Claude — Summarise an uploaded document and extract requirements.
+https://claude.ai/
+ACCESS: Browser account; check file creation and usage limits in your plan.
+SOURCE: https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude
+Gemini — Ask questions about uploaded documents.
+https://gemini.google.com/
+ACCESS: Google account; Workspace permissions and upload limits vary.
+SOURCE: https://support.google.com/gemini/answer/14903178?hl=en
+Adobe Acrobat AI — Consider when you spend most of your time in PDFs.
+https://www.adobe.com/acrobat/generative-ai-pdf.html
+ACCESS: Check AI Assistant/PDF Spaces entitlement; OCR quality affects scanned documents.
+SOURCE: https://helpx.adobe.com/acrobat/desktop/explore-pdf-spaces/view-citations.html
+STARTER PROMPT: Using only the supplied document, list requirements, deadlines and explicit rejection grounds. Cite the section and exact supporting passage for each. Separate mandatory from optional. Write “Not specified” for missing information.
+CHECK: Open the original passage. Citation behaviour differs by product; a fluent answer is not proof.
+
+UNDERSTAND SALES AND STOCK
+Checked totals and a short list of decisions to investigate.
+WHERE TO START: ChatGPT for the workshop; Excel Copilot when the business already manages this workbook in Excel.
+ChatGPT — Explain the data and calculate with tools where available.
+https://chatgpt.com/
+ACCESS: Start with a browser account; file and calculation tools depend on mode and plan.
+SOURCE: https://learn.chatgpt.com/docs/use-chatgpt
+Claude — Analyse data and create spreadsheet outputs.
+https://claude.ai/
+ACCESS: Browser account; check file creation and usage limits in your plan.
+SOURCE: https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude
+Gemini — Explore an uploaded spreadsheet.
+https://gemini.google.com/
+ACCESS: Google account; Workspace permissions and upload limits vary.
+SOURCE: https://support.google.com/gemini/answer/14903178?hl=en
+Excel Copilot — Keep the analysis within an eligible Excel workbook.
+https://www.microsoft.com/en-us/microsoft-365/excel/copilot-in-excel
+ACCESS: Requires an eligible account and supported workbook setup; check Excel requirements.
+SOURCE: https://support.microsoft.com/en-us/excel/copilot/data-insights-with-copilot-in-excel
+Julius — Consider a dedicated data-analysis workspace.
+https://julius.ai/
+ACCESS: Account and usage allowance required; verify calculations against your source file.
+SOURCE: https://julius.ai/
+STARTER PROMPT: From this table, calculate revenue, cost of units sold, gross profit and closing stock. Show formulas, check totals and flag missing data. Do not call gross profit net profit. State whether you actually used a calculation tool. Data: [table].
+CHECK: Reconcile totals independently. Check units, time period, missing costs and duplicate rows.
+
+BUILD A SMALL INTERNAL TOOL
+A working calculator, checklist or form with acceptance checks.
+WHERE TO START: Codex for actual files and tests; browser app builders can reduce initial setup for a prototype.
+Codex — File-based work and testable business rules; demonstrated today.
+https://chatgpt.com/codex
+ACCESS: Prepare a demo folder and tool access first; review files and test results.
+SOURCE: https://learn.chatgpt.com/docs/environments/modes
+Claude Code — Another coding agent for an authorised project.
+https://claude.com/product/claude-code
+ACCESS: Coding workspace setup and an eligible subscription/API account; technical review needed.
+SOURCE: https://support.claude.com/en/articles/14553517-claude-code-common-developer-use-cases
+Cursor — Useful when someone maintains the tool in an editor.
+https://cursor.com/
+ACCESS: Install an editor and prepare the project; review commands and changes.
+SOURCE: https://prod.cursor.com/docs/agent/overview
+Replit — Browser workspace for building and previewing.
+https://replit.com/
+ACCESS: Check build credits and hosting costs separately; test before publishing.
+SOURCE: https://replit.com/products/agent
+Lovable — Prompt-driven web app prototyping.
+https://lovable.dev/
+ACCESS: Check credits, hosting and backend requirements; review access and data handling.
+SOURCE: https://docs.lovable.dev/introduction/welcome
+STARTER PROMPT: Build a phone-friendly [tool] in this demo folder. Rules: [exact rules]. Deliver actual working files. Test these known inputs and expected outputs: [cases]. Report checks performed and limits. Do not publish until I review it.
+CHECK: Test the actual implementation, invalid input and phone layout. A prototype still needs security and maintenance decisions.
+
+STOP COPYING BETWEEN APPS
+A new enquiry becomes a record and a draft awaiting review.
+WHERE TO START: Make for a visual flow; choose Zapier for a straightforward supported app pair, or n8n with technical help.
+Make — Visual branching and app integrations.
+https://www.make.com/
+ACCESS: Connect authorised accounts; budget for automation credits and any AI provider usage.
+SOURCE: https://www.make.com/en/product
+Zapier — Trigger-and-action workflows across connected apps.
+https://zapier.com/
+ACCESS: Account connections and a tested trigger/action setup; features and task limits vary.
+SOURCE: https://help.zapier.com/hc/en-us/articles/8496257774221-Set-up-your-Zap-action
+n8n — More control with technical setup and human fallbacks.
+https://n8n.io/
+ACCESS: More technical setup; cloud subscription or maintained self-hosting plus provider costs.
+SOURCE: https://docs.n8n.io/build/integrate-ai/ai-examples/set-a-human-fallback-for-ai-workflows.md
+STARTER PROMPT: Design this workflow: new enquiry → validate required fields → skip duplicate enquiry ID → create a record → draft an acknowledgement → wait for human approval. Route missing information and failures to a person. Specify inputs, outputs, owner and five test cases. Do not send any messages.
+CHECK: A diagram is not a connection. Test duplicates, missing fields, failed steps and approval in the actual accounts. Start with internal records.
+
+COMPARE SUPPLIERS OR MARKET OPTIONS
+A dated comparison with evidence and unanswered questions.
+WHERE TO START: Perplexity for web-source discovery; verify supplier claims directly before deciding.
+Perplexity — Web answers with source links.
+https://www.perplexity.ai/
+ACCESS: Check source dates and original pages; deeper research allowances vary by plan.
+SOURCE: https://www.perplexity.ai/help-center/en/articles/10352155-what-is-perplexity
+ChatGPT — Research and compare sources in a supported browsing mode.
+https://chatgpt.com/
+ACCESS: Start with a browser account; file and calculation tools depend on mode and plan.
+SOURCE: https://learn.chatgpt.com/docs/use-chatgpt
+Gemini — Explore supplied supplier information.
+https://gemini.google.com/
+ACCESS: Google account; Workspace permissions and upload limits vary.
+SOURCE: https://support.google.com/gemini/answer/14903178?hl=en
+STARTER PROMPT: Compare these three suppliers for [need]. Use current first-party sources, list URLs and dates, separate published facts from assumptions, and mark unavailable prices “Request quote”. Give five questions to ask before choosing.
+CHECK: Check geography, delivery, taxes and the actual quotation. Do not treat old pages or generated estimates as current prices.
+
+PREPARE A WEEK OF MARKETING
+Three useful posts and one editable visual.
+WHERE TO START: Use your existing assistant for copy and Canva for the visual layout.
+Canva — Design and edit social visuals from a brief.
+https://www.canva.com/
+ACCESS: Check AI feature limits and asset licences for the account you use.
+SOURCE: https://www.canva.com/canva-ai/
+ChatGPT — Draft copy from approved product facts.
+https://chatgpt.com/
+ACCESS: Start with a browser account; file and calculation tools depend on mode and plan.
+SOURCE: https://learn.chatgpt.com/docs/use-chatgpt
+Claude — Rewrite copy to match a supplied example of your voice.
+https://claude.ai/
+ACCESS: Browser account; check file creation and usage limits in your plan.
+SOURCE: https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude
+STARTER PROMPT: Using only these approved product facts, draft three posts: a useful tip, a customer question answered, and an offer. Audience: [people]. Voice: [example]. One clear action each. No invented testimonials or performance claims. Then write a visual brief for the strongest post.
+CHECK: Check claims, spelling, contact details and image rights. Preview the final mobile crop before publishing.
+
+TURN NOTES INTO A PITCH
+A short deck with one clear ask.
+WHERE TO START: Gamma for a quick presentation draft; Canva when brand layout control matters more.
+Gamma — Build a deck from a conversational brief.
+https://gamma.app/
+ACCESS: Check creation credits, export options and plan limits.
+SOURCE: https://help.gamma.app/en/articles/15002203-how-do-i-create-with-agent-in-gamma
+Canva — Edit a branded visual presentation.
+https://www.canva.com/
+ACCESS: Check AI feature limits and asset licences for the account you use.
+SOURCE: https://www.canva.com/canva-ai/
+Claude — Create presentation files from source material.
+https://claude.ai/
+ACCESS: Browser account; check file creation and usage limits in your plan.
+SOURCE: https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude
+STARTER PROMPT: Create a six-slide pitch from these approved notes: problem, customer, solution, evidence, business model, ask. Do not invent traction, customers or financial projections. Mark missing evidence. Keep one main point per slide.
+CHECK: Verify each figure and claim; review exported slides for layout and readability.
+
+LEAVE MEETINGS WITH CLEAR ACTIONS
+Decisions, owners and dates that people can confirm.
+WHERE TO START: Otter for meeting capture; Notion AI if notes and tasks already live in Notion.
+Otter — Transcription, summaries and action items.
+https://otter.ai/
+ACCESS: Obtain participant agreement before recording; check language support and meeting limits.
+SOURCE: https://otter.ai/
+Notion AI — Meeting notes connected to workspace tasks.
+https://www.notion.com/product/ai
+ACCESS: Best evaluated inside an existing Notion workspace; full AI access depends on plan.
+SOURCE: https://www.notion.com/help/notion-ai-faqs
+ChatGPT — Turn an authorised transcript or typed notes into actions.
+https://chatgpt.com/
+ACCESS: Start with a browser account; file and calculation tools depend on mode and plan.
+SOURCE: https://learn.chatgpt.com/docs/use-chatgpt
+STARTER PROMPT: From these meeting notes, list decisions and actions with owner, due date and supporting quote. Mark unassigned owners or dates “Not agreed”. Separate proposals from decisions. Notes: [authorised notes].
+CHECK: Get recording agreement; confirm names and decisions with participants. Never invent an owner or deadline.
+
+MAKE YOUR SOPS EASIER TO USE
+Answers linked to approved procedures.
+WHERE TO START: Notion AI if procedures already live there; NotebookLM for a small source collection.
+Notion AI — Search workspace knowledge and draft procedures.
+https://www.notion.com/product/ai
+ACCESS: Best evaluated inside an existing Notion workspace; full AI access depends on plan.
+SOURCE: https://www.notion.com/help/notion-ai-faqs
+NotebookLM — Ask across selected policy sources.
+https://notebook.google.com/
+ACCESS: Google account; currently labelled Gemini Notebook on the presenting account.
+SOURCE: https://support.google.com/gemininotebook/answer/16179559?hl=en
+Claude — Turn an authorised process description into an SOP draft.
+https://claude.ai/
+ACCESS: Browser account; check file creation and usage limits in your plan.
+SOURCE: https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude
+STARTER PROMPT: From these approved procedures, create a checklist for a new team member. Include owner, step, exception and source section. Flag contradictions and missing steps. Do not invent policy.
+CHECK: Use current, approved versions. Confirm access permissions and assign an owner to keep the source updated.
+
+ANSWER RECURRING CUSTOMER QUESTIONS
+Useful answers with a clear route to a person.
+WHERE TO START: Start by drafting an approved FAQ. Consider Intercom Fin once you have maintained content and enough support volume.
+Intercom Fin — Connected customer support with escalation settings.
+https://www.intercom.com/fin
+ACCESS: Needs maintained support content, escalation rules and a costed support setup.
+SOURCE: https://www.intercom.com/help/en/articles/8286630-deploy-fin-ai-agent-over-chat
+NotebookLM — Internal source-checking for staff; not a deployed support widget.
+https://notebook.google.com/
+ACCESS: Google account; currently labelled Gemini Notebook on the presenting account.
+SOURCE: https://support.google.com/gemininotebook/answer/16179559?hl=en
+ChatGPT — Draft and test FAQ answers before adding an integration.
+https://chatgpt.com/
+ACCESS: Start with a browser account; file and calculation tools depend on mode and plan.
+SOURCE: https://learn.chatgpt.com/docs/use-chatgpt
+STARTER PROMPT: Using this approved FAQ, answer each test question in two sentences. If the answer is absent, contradictory or about a disputed charge, route it to a person. Do not invent policy or offer refunds. Include the supporting source.
+CHECK: These options serve different stages. Test ambiguous questions, outdated policies, escalation and the cost per resolved conversation.
+
+ADAPT A MESSAGE FOR ANOTHER LANGUAGE
+A draft checked for meaning and tone.
+WHERE TO START: DeepL when it supports your exact language pair and glossary; compare an assistant draft with a fluent reviewer.
+DeepL — Document translation and supported glossaries.
+https://www.deepl.com/
+ACCESS: Confirm your exact language pair and glossary/file features before subscribing.
+SOURCE: https://support.deepl.com/hc/en-us/articles/4411401630226-Apply-a-glossary-to-file-translation
+Notion AI — Translate an existing workspace page.
+https://www.notion.com/product/ai
+ACCESS: Best evaluated inside an existing Notion workspace; full AI access depends on plan.
+SOURCE: https://www.notion.com/help/notion-ai-faqs
+ChatGPT — Draft a translation with audience and tone context.
+https://chatgpt.com/
+ACCESS: Start with a browser account; file and calculation tools depend on mode and plan.
+SOURCE: https://learn.chatgpt.com/docs/use-chatgpt
+STARTER PROMPT: Translate this message into [language] for [audience]. Preserve names, numbers, dates and product terms. Flag phrases with more than one meaning. Include a short back-translation for review. Text: [approved text].
+CHECK: Confirm language support; a fluent speaker should check meaning. Do not assume Swahili or regional-language quality from a product’s general translation claim.
+
+TURN A RECORDING INTO USEFUL CLIPS
+A short captioned clip you can review before posting.
+WHERE TO START: Descript for transcript-based editing; Canva for finishing the visual layout.
+Descript — Edit a recording through text and create clips or captions.
+https://www.descript.com/
+ACCESS: Prepare a recording you may use; check media minutes and AI credits.
+SOURCE: https://www.descript.com/features
+Canva — Lay out the final social video and brand elements.
+https://www.canva.com/
+ACCESS: Check AI feature limits and asset licences for the account you use.
+SOURCE: https://www.canva.com/canva-ai/
+STARTER PROMPT: From this authorised recording, suggest three short clips that answer real customer questions. Preserve the speaker’s meaning, include enough context, and draft accurate captions. Do not publish automatically.
+CHECK: Check the cut against the original recording. Correct names and numbers in captions and confirm permission to use the recording.
+
+TURN INVOICES INTO A CHECKED TABLE
+A draft register with exceptions for a person to resolve.
+WHERE TO START: Use an assistant you already have for a small authorised batch; Acrobat AI can help inspect PDF source passages.
+ChatGPT — Read supplied files and structure a draft register.
+https://chatgpt.com/
+ACCESS: Start with a browser account; file and calculation tools depend on mode and plan.
+SOURCE: https://learn.chatgpt.com/docs/use-chatgpt
+Claude — Extract supplied information into a spreadsheet output.
+https://claude.ai/
+ACCESS: Browser account; check file creation and usage limits in your plan.
+SOURCE: https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude
+Adobe Acrobat AI — Ask questions about a PDF and inspect its source.
+https://www.adobe.com/acrobat/generative-ai-pdf.html
+ACCESS: Check AI Assistant/PDF Spaces entitlement; OCR quality affects scanned documents.
+SOURCE: https://helpx.adobe.com/acrobat/desktop/explore-pdf-spaces/view-citations.html
+STARTER PROMPT: From these fictional invoices, extract supplier, invoice number, date, currency, subtotal, tax, total and source filename. Leave unreadable or absent values blank and flag them. Identify possible duplicates without deleting anything. Reconcile subtotal plus tax to total; do not post to accounting or initiate payment.
+CHECK: Verify every amount and currency against the original. Check duplicate invoices, credit notes, OCR errors and tax treatment before importing. Extraction is not bookkeeping approval.

@@ -1,0 +1,170 @@
+[
+  {
+    "name": "ChatGPT",
+    "url": "https://chatgpt.com/",
+    "capability": "Draft, analyse files and create work you can review.",
+    "access": "Start with a browser account; file and calculation tools depend on mode and plan.",
+    "source": "https://learn.chatgpt.com/docs/use-chatgpt"
+  },
+  {
+    "name": "Claude",
+    "url": "https://claude.ai/",
+    "capability": "Draft documents and analyse uploaded files; create editable outputs.",
+    "access": "Browser account; check file creation and usage limits in your plan.",
+    "source": "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude"
+  },
+  {
+    "name": "Gemini",
+    "url": "https://gemini.google.com/",
+    "capability": "Work with uploaded documents and spreadsheets.",
+    "access": "Google account; Workspace permissions and upload limits vary.",
+    "source": "https://support.google.com/gemini/answer/14903178?hl=en"
+  },
+  {
+    "name": "Microsoft 365 Copilot",
+    "url": "https://m365.cloud.microsoft/",
+    "capability": "Draft and revise work in the Microsoft 365 environment.",
+    "access": "Check the specific app, work account licence and administrator settings.",
+    "source": "https://support.microsoft.com/en-us/outlook/copilot-outlook/chat-with-copilot-in-outlook"
+  },
+  {
+    "name": "Notion AI",
+    "url": "https://www.notion.com/product/ai",
+    "capability": "Write, search workspace knowledge and turn notes into tasks.",
+    "access": "Best evaluated inside an existing Notion workspace; full AI access depends on plan.",
+    "source": "https://www.notion.com/help/notion-ai-faqs"
+  },
+  {
+    "name": "NotebookLM",
+    "url": "https://notebook.google.com/",
+    "capability": "Ask questions of selected sources and inspect supporting citations.",
+    "access": "Google account; currently labelled Gemini Notebook on the presenting account.",
+    "source": "https://support.google.com/gemininotebook/answer/16179559?hl=en"
+  },
+  {
+    "name": "Adobe Acrobat AI",
+    "url": "https://www.adobe.com/acrobat/generative-ai-pdf.html",
+    "capability": "Ask about PDFs and follow citations back to source passages.",
+    "access": "Check AI Assistant/PDF Spaces entitlement; OCR quality affects scanned documents.",
+    "source": "https://helpx.adobe.com/acrobat/desktop/explore-pdf-spaces/view-citations.html"
+  },
+  {
+    "name": "Excel Copilot",
+    "url": "https://www.microsoft.com/en-us/microsoft-365/excel/copilot-in-excel",
+    "capability": "Explore spreadsheet data, formulas, summaries and visualisations in Excel.",
+    "access": "Requires an eligible account and supported workbook setup; check Excel requirements.",
+    "source": "https://support.microsoft.com/en-us/excel/copilot/data-insights-with-copilot-in-excel"
+  },
+  {
+    "name": "Julius",
+    "url": "https://julius.ai/",
+    "capability": "Analyse spreadsheet data and turn findings into reports.",
+    "access": "Account and usage allowance required; verify calculations against your source file.",
+    "source": "https://julius.ai/"
+  },
+  {
+    "name": "Codex",
+    "url": "https://chatgpt.com/codex",
+    "capability": "Build small tools, edit files and run checks in an authorised workspace.",
+    "access": "Prepare a demo folder and tool access first; review files and test results.",
+    "source": "https://learn.chatgpt.com/docs/environments/modes"
+  },
+  {
+    "name": "Claude Code",
+    "url": "https://claude.com/product/claude-code",
+    "capability": "Read a project, change files and run development commands.",
+    "access": "Coding workspace setup and an eligible subscription/API account; technical review needed.",
+    "source": "https://support.claude.com/en/articles/14553517-claude-code-common-developer-use-cases"
+  },
+  {
+    "name": "Cursor",
+    "url": "https://cursor.com/",
+    "capability": "Build and revise code with an agent inside an editor.",
+    "access": "Install an editor and prepare the project; review commands and changes.",
+    "source": "https://prod.cursor.com/docs/agent/overview"
+  },
+  {
+    "name": "Replit",
+    "url": "https://replit.com/",
+    "capability": "Build and preview apps from a brief in a browser workspace.",
+    "access": "Check build credits and hosting costs separately; test before publishing.",
+    "source": "https://replit.com/products/agent"
+  },
+  {
+    "name": "Lovable",
+    "url": "https://lovable.dev/",
+    "capability": "Create and iterate on web apps from a natural-language brief.",
+    "access": "Check credits, hosting and backend requirements; review access and data handling.",
+    "source": "https://docs.lovable.dev/introduction/welcome"
+  },
+  {
+    "name": "Make",
+    "url": "https://www.make.com/",
+    "capability": "Connect apps and branch a repeatable workflow in a visual builder.",
+    "access": "Connect authorised accounts; budget for automation credits and any AI provider usage.",
+    "source": "https://www.make.com/en/product"
+  },
+  {
+    "name": "Zapier",
+    "url": "https://zapier.com/",
+    "capability": "Run actions in connected apps when a trigger occurs.",
+    "access": "Account connections and a tested trigger/action setup; features and task limits vary.",
+    "source": "https://help.zapier.com/hc/en-us/articles/8496257774221-Set-up-your-Zap-action"
+  },
+  {
+    "name": "n8n",
+    "url": "https://n8n.io/",
+    "capability": "Build flexible workflows with AI steps and human fallbacks.",
+    "access": "More technical setup; cloud subscription or maintained self-hosting plus provider costs.",
+    "source": "https://docs.n8n.io/build/integrate-ai/ai-examples/set-a-human-fallback-for-ai-workflows.md"
+  },
+  {
+    "name": "Canva",
+    "url": "https://www.canva.com/",
+    "capability": "Turn a brief into designs, images and social content you can edit.",
+    "access": "Check AI feature limits and asset licences for the account you use.",
+    "source": "https://www.canva.com/canva-ai/"
+  },
+  {
+    "name": "Gamma",
+    "url": "https://gamma.app/",
+    "capability": "Turn a brief or source material into a presentation draft.",
+    "access": "Check creation credits, export options and plan limits.",
+    "source": "https://help.gamma.app/en/articles/15002203-how-do-i-create-with-agent-in-gamma"
+  },
+  {
+    "name": "Descript",
+    "url": "https://www.descript.com/",
+    "capability": "Edit recorded video through its transcript and create captions or clips.",
+    "access": "Prepare a recording you may use; check media minutes and AI credits.",
+    "source": "https://www.descript.com/features"
+  },
+  {
+    "name": "Otter",
+    "url": "https://otter.ai/",
+    "capability": "Transcribe meetings and extract summaries and action items.",
+    "access": "Obtain participant agreement before recording; check language support and meeting limits.",
+    "source": "https://otter.ai/"
+  },
+  {
+    "name": "DeepL",
+    "url": "https://www.deepl.com/",
+    "capability": "Translate supported languages and documents with consistent glossary terms.",
+    "access": "Confirm your exact language pair and glossary/file features before subscribing.",
+    "source": "https://support.deepl.com/hc/en-us/articles/4411401630226-Apply-a-glossary-to-file-translation"
+  },
+  {
+    "name": "Intercom Fin",
+    "url": "https://www.intercom.com/fin",
+    "capability": "Answer support questions from approved knowledge and route exceptions to people.",
+    "access": "Needs maintained support content, escalation rules and a costed support setup.",
+    "source": "https://www.intercom.com/help/en/articles/8286630-deploy-fin-ai-agent-over-chat"
+  },
+  {
+    "name": "Perplexity",
+    "url": "https://www.perplexity.ai/",
+    "capability": "Research the web with linked sources.",
+    "access": "Check source dates and original pages; deeper research allowances vary by plan.",
+    "source": "https://www.perplexity.ai/help-center/en/articles/10352155-what-is-perplexity"
+  }
+]

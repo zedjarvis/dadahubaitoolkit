@@ -23,9 +23,10 @@ const profitRows = [...inventory].sort((a, b) => b.profit - a.profit)
       <a v-if="demo.slug === 'proposal' || demo.slug === 'stock'" class="button button-primary" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">Open ChatGPT ↗</a>
       <a v-if="demo.slug === 'research'" class="button button-primary" href="https://notebook.google.com/" target="_blank" rel="noopener noreferrer">Open NotebookLM ↗</a>
     </div>
+    <div class="demo-alternatives"><span>Also try</span><span v-for="name in demo.alternatives" :key="name" class="tool-label">{{ name }}</span><NuxtLink :to="`/tools#${demo.toolkitCategory}`" class="text-link">Compare options ↗</NuxtLink></div>
     <div class="demo-detail">
       <div><div class="prompt-area"><div class="prompt-toolbar"><span>Your copy-and-paste prompt</span><button class="copy-button" aria-live="polite" @click="copyPrompt">{{ copied ? 'Copied ✓' : 'Copy prompt' }}</button></div><pre class="prompt-text" tabindex="0">{{ demo.prompt }}</pre></div><p v-if="copyError" role="status" class="fine-print">Clipboard access is unavailable. Select the prompt text and copy it manually.</p>
-        <h2 class="detail-heading">One useful follow-up</h2><div class="followup">{{ demo.followup }}</div>
+        <NuxtLink :to="`/rehearsal#${demo.slug}`" class="text-link">Rehearsal script & fallback ↗</NuxtLink><h2 class="detail-heading">One useful follow-up</h2><div class="followup">{{ demo.followup }}</div>
         <details><summary>The checks to make before using the result</summary><p v-for="check in demo.checks" :key="check">{{ check }}</p>
           <div v-if="demo.slug === 'stock'" class="stock-chart" aria-label="Gross profit by product"><div v-for="row in profitRows" :key="row.name" class="stock-chart-row"><span>{{ row.name }}</span><div class="chart-bar" :style="{ width: `${row.profit / 9100 * 100}%` }" /><b>{{ row.profit.toLocaleString() }}</b></div><p>Gross profit in KES from fictional 30-day data.</p></div>
         </details>

@@ -44,3 +44,8 @@ html.print .slidev-layout.new-section :is(h1,h2,h3){color:#fff!important;-webkit
 .slidev-layout.company-schoolbooks .company-qr>a{box-shadow:0 0 0 2px #b8f36b}
 
 .slidev-layout.company-schoolbooks .company-heading,html.print .slidev-layout.company-schoolbooks .company-heading,html.print .slidev-layout.company-schoolbooks .company-heading span{color:#143e2c!important;-webkit-text-fill-color:#143e2c!important;background:none!important}
+
+.slidev-layout.new-section .lead{color:white}
+.slidev-layout .profit-row{margin:12px 0;font-size:15px}
+.slidev-layout table{font-size:15px}
+.slidev-layout td,.slidev-layout th{padding:7px 10px}

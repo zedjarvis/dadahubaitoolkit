@@ -1,0 +1,23 @@
+THE AI TOOLKIT — DADA HUB
+Session: 31 October 2026, 09:20–10:20 EAT
+
+Attendee toolkit: https://dadahubaitoolkit.vercel.app/toolkit
+Exact rehearsal: https://dadahubaitoolkit.vercel.app/rehearsal
+Tools by task: https://dadahubaitoolkit.vercel.app/tools
+Workflow lab: https://dadahubaitoolkit.vercel.app/workflow
+Slides: https://dadahubaitoolkit.vercel.app/slides/index.html
+
+01 Presenter run sheet: exact spoken cues, stage actions and fallbacks.
+02 Live prompts: complete copy-and-paste prompts and follow-ups.
+03 Fictional RFQ: upload this as the notebook's only source.
+04 Participant reference: the habits and workflow worksheet.
+05 Prepared fallbacks: checked reference answers, clearly labelled.
+06 Stock answer key: independently checked CSV.
+07 Automation recipe: a setup plan, not an installed integration.
+08 Rehearsal checks: observed passes, failures and remaining preflight.
+09 Observed outputs: real rehearsal responses on fictional data.
+10 Tools by task: offline directory with source links.
+quote-calculator.html: open directly in a browser; works offline.
+the-ai-toolkit.pdf: static 27-slide presentation fallback.
+
+Download and open these before leaving reliable Wi-Fi. The PDF and calculator work offline. Live AI products and the published website require their usual access. Keep the successful prepared ChatGPT conversation open for the stock demo; a fresh conversation had a display failure during rehearsal.

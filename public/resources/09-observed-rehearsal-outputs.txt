@@ -1,0 +1,730 @@
+OBSERVED PRODUCT OUTPUTS — 31 OCTOBER 2026
+These are actual visible rehearsal responses, not guaranteed future outputs. All business data is fictional. Interface controls were removed for readability. Notebook citation numbers are text here; open the prepared notebook or the original RFQ to inspect the actual passage. See 08-rehearsal-checks.txt for failures, corrections and limitations.
+
+CORRECTED CHATGPT EMAIL
+Dear Administrator,
+
+Your needs
+Thank you for considering Safi Services & Supplies. We understand you require cleaning for your 400 m² offices every Monday, Wednesday and Friday after 6 pm. Services include cleaning floors, desks and washrooms, moving waste to the on-site collection point, and monthly window cleaning. We will provide cleaning products, equipment and staff.
+
+Proposed next step
+We recommend a site assessment to confirm the cleaning scope and access arrangements. We will prepare a costed proposal after these checks.
+
+Timing
+We have noted your requested start date of 16 November 2026 for a three-month period, subject to confirming scope and availability.
+
+Budget
+We have noted your monthly budget of KES 120,000 inclusive of tax. This is your indicated budget, not our quotation.
+
+What we need from you
+Please confirm the number, sizes and heights of the windows, safe access arrangements, and a suitable time for the site assessment.
+
+Kind regards,
+Safi Services & Supplies
+
+Internal checks — remove before sending
+
+Window cleaning: Confirm window count, dimensions, heights, access methods and safety requirements.
+
+Site access: Verify after-hours entry procedures, security permissions, water and electricity availability, and equipment storage.
+
+Cleaning scope: Confirm floor types, number of desks and washrooms, and any special cleaning requirements.
+
+Waste management: Confirm waste types and the designated on-site collection point.
+
+Availability: Check operational capacity for Monday, Wednesday and Friday evenings, starting 16 November 2026.
+
+Contract period: Confirm whether the requested three months are fixed and establish the intended end date.
+
+Pricing: Calculate costs, applicable taxes and feasibility against the client's KES 120,000 monthly budget before issuing a quotation.
+
+Assumptions: The 400 m² covers the offices requiring cleaning; monthly window cleaning is additional to the regular cleaning schedule. Verify both.
+
+Separate enquiry: The administrator mentioned possible home cleaning later. Treat this as an independent enquiry, with separate scope, scheduling and pricing.
+
+FOLLOW-UP PROMPT:
+Turn only the customer-facing email into a three-line WhatsApp reply. Keep KES 120,000 as the client's budget, keep the requested start date subject to confirmation, and ask for the missing window details. Do not include internal notes or the separate home-cleaning request.
+OBSERVED WHATSAPP OUTPUT:
+
+Hello, thank you for contacting Safi Services & Supplies. We've noted your cleaning requirements for Parklands Learning Centre's 400 m² offices every Monday, Wednesday and Friday after 6 pm, including monthly window cleaning.
+
+We've noted your monthly budget of KES 120,000 inclusive of tax and requested start date of 16 November 2026 for three months, subject to confirming scope and availability. A costed proposal will follow our assessment.
+
+Kindly confirm the number, sizes and heights of the windows, safe access arrangements, and a suitable time for a site assessment.
+
+
+
+NOTEBOOK CHECKLIST
+
+1. Requirements
+Requirement
+	
+Mandatory / Optional
+	
+Deadline & Format
+	
+Citation & Section
+
+
+2.1 Business Registration
+	
+Mandatory
+	
+Fri, 6 Nov 2026 at 12:00 noon EAT; 1 PDF
+	
+Section 2 (Item 2.1)
+1
+
+
+2.2 Tax Compliance Cert.
+	
+Mandatory
+	
+Fri, 6 Nov 2026 at 12:00 noon EAT; 1 PDF
+	
+Section 2 (Item 2.2)
+1
+
+
+2.3 Two Past References
+	
+Mandatory (last 24 mos)
+	
+Fri, 6 Nov 2026 at 12:00 noon EAT; 1 PDF
+	
+Section 2 (Item 2.3)
+1
+
+
+2.4 Site Supervisor Info
+	
+Mandatory (name & role)
+	
+Fri, 6 Nov 2026 at 12:00 noon EAT; 1 PDF
+	
+Section 2 (Item 2.4)
+1
+
+
+2.5 Signed Quotation
+	
+Mandatory
+	
+Fri, 6 Nov 2026 at 12:00 noon EAT; 1 PDF
+	
+Section 2 (Item 2.5)
+1
+
+
+2.6 Method Statement
+	
+Mandatory (1 page)
+	
+Fri, 6 Nov 2026 at 12:00 noon EAT; 1 PDF
+	
+Section 2 (Item 2.6)
+2
+3
+
+
+Budget Ceiling
+	
+KES 120,000/mo max (Tax rate: Not specified in the source)
+	
+Final quote condition
+	
+Section 3
+2
+
+
+Submission Details
+	
+Mandatory
+	
+Deadline: Fri, 6 Nov 2026, 12:00 noon EAT via Portal (1 PDF)
+	
+Section 4
+2
+3
+
+
+Pre-bid Site Visit
+	
+Optional
+	
+Site Visit Date: Mon, 2 Nov 2026 at 10:00 AM EAT
+	
+Section 4
+3
+2. Explicit Rejection Grounds
+Submissions will be automatically rejected only for the four grounds listed in Section 5:
+Late submission: Proposal arrives after the 6 November 12:00 noon EAT deadline [Section 5.1]
+3
+.
+Missing submission item: Omission of any mandatory Section 2 item [Section 5.2]
+3
+.
+Unsigned quotation: Submission of an unsigned quote [Section 5.3]
+3
+.
+Budget ceiling breach: Quote exceeds KES 120,000 monthly total [Section 5.4]
+3
+.
+3. Before Quoting: Key Clarifications
+Window Specifications: What are the exact number, dimensions, and height of windows, and is high-level external access equipment required? (Not specified in the source)
+4
+5
+.
+Clarification Process: What is the process and submission deadline for pre-bid queries? (Not specified in the source)
+5
+.
+Commercial & Operating Terms: What are the payment terms, insurance requirements, and minimum staffing levels? (Not specified in the source; insurance and minimum staffing are not mandatory bidding conditions)
+5
+.
+💡 Would you like me to draft a structured submission cover page and pricing table shell based on these requirements?
+
+
+NOTEBOOK MISSING-WINDOWS ANSWER
+
+The RFQ does not establish how many windows there are, what size they are, or whether your team can clean them safely from ground level
+1
+2
+. The document explicitly states that "the number, size and height of windows, and the need for external high-level access, have not yet been specified"
+1
+, and notes that bidders should clarify these details before finalising costs
+2
+.
+Draft Clarification Question:
+"Could you please specify the total count, dimensions, and heights of the windows to be cleaned, and confirm whether high-level external access equipment will be required?"
+💡 Would you like me to draft a complete formal email combining this with the other missing details (such as query deadlines and payment terms) to send to the procurement team?
+
+
+SUCCESSFUL CHATGPT STOCK ANALYSIS
+
+Safi Services & Supplies — 30-Day Retail Sales Analysis
+
+Simplified classroom example | Currency: KES | Period: 30 days
+
+The calculations were verified using Python, which is available. The business generated KES 179,640 in revenue and KES 30,295 in gross profit, representing a gross margin of approximately 16.86%.
+
+Total revenue
+
+KES 179,640
+
+Cost of goods sold
+
+KES 149,345
+
+Gross profit
+
+KES 30,295
+1. Product performance
+
+All monetary values are in KES. Sell-through percentages are rounded to two decimal places.
+
+Product
+
+	
+
+Revenue
+
+	
+
+COGS
+
+	
+
+Gross profit
+
+	
+
+Closing stock
+
+	
+
+Sell-through
+
+	
+
+Top-up
+
+
+
+
+Multipurpose cleaner 2L
+
+	
+
+36,100
+
+	
+
+29,450
+
+	
+
+6,650
+
+	
+
+25
+
+	
+
+79.17%
+
+	
+
+70
+
+
+
+
+Floor cleaner 5L
+
+	
+
+59,500
+
+	
+
+50,400
+
+	
+
+9,100
+
+	
+
+10
+
+	
+
+87.50%
+
+	
+
+60
+
+
+
+
+Hand soap 1L
+
+	
+
+12,000
+
+	
+
+10,400
+
+	
+
+1,600
+
+	
+
+110
+
+	
+
+26.67%
+
+	
+
+0
+
+
+
+
+Laundry soap bar
+
+	
+
+2,100
+
+	
+
+1,575
+
+	
+
+525
+
+	
+
+165
+
+	
+
+17.50%
+
+	
+
+0
+
+
+
+
+Bleach 1L
+
+	
+
+18,480
+
+	
+
+14,960
+
+	
+
+3,520
+
+	
+
+12
+
+	
+
+88.00%
+
+	
+
+76
+
+
+
+
+Microfibre pack
+
+	
+
+5,760
+
+	
+
+4,200
+
+	
+
+1,560
+
+	
+
+48
+
+	
+
+20.00%
+
+	
+
+0
+
+
+
+
+Toilet paper 10 pack
+
+	
+
+36,900
+
+	
+
+31,160
+
+	
+
+5,740
+
+	
+
+8
+
+	
+
+91.11%
+
+	
+
+74
+
+
+
+
+Bin liner box
+
+	
+
+8,800
+
+	
+
+7,200
+
+	
+
+1,600
+
+	
+
+32
+
+	
+
+20.00%
+
+	
+
+0
+
+
+
+
+Total
+
+	
+
+179,640
+
+	
+
+149,345
+
+	
+
+30,295
+
+	
+
+410
+
+	
+
+—
+
+	
+
+280
+
+The top-up column represents the additional units required to meet the next 30 days' assumed demand, after using available closing stock. It is not necessarily a recommended purchase order.
+
+2. Highest gross-profit contributors
+Gross profit by product
+
+KES, ranked from highest to lowest
+
+KES 0
+KES 2,500
+KES 5,000
+KES 7,500
+KES 10,000
+Floor cleaner
+Multipurpose cleaner
+Toilet paper
+Bleach
+Hand soap
+Bin liners
+Microfibre
+Laundry soap
+Floor cleaner: Gross profit KES 9,100
+Multipurpose cleaner: Gross profit KES 6,650
+Toilet paper: Gross profit KES 5,740
+Bleach: Gross profit KES 3,520
+Hand soap: Gross profit KES 1,600
+Bin liners: Gross profit KES 1,600
+Microfibre: Gross profit KES 1,560
+Laundry soap: Gross profit KES 525
+
+The top three are floor cleaner (KES 9,100), multipurpose cleaner (KES 6,650), and toilet paper (KES 5,740).
+
+Together, they contribute KES 21,490, or approximately 70.94% of total gross profit. These products are particularly important to the business's current profitability.
+
+3. Slow-moving products
+
+Using the lowest sell-through percentage as the definition:
+
+Rank
+
+	
+
+Product
+
+	
+
+Sell-through
+
+
+
+
+1
+
+	
+
+Laundry soap bar
+
+	
+
+17.50%
+
+
+
+
+2 (tie)
+
+	
+
+Microfibre pack
+
+	
+
+20.00%
+
+
+
+
+2 (tie)
+
+	
+
+Bin liner box
+
+	
+
+20.00%
+
+These are the bottom three products, with microfibre packs and bin liner boxes tied at 20%.
+
+Low sell-through means a smaller proportion of opening stock was sold. It does not automatically mean the products are unprofitable or should be discontinued.
+
+4. Formulas and worked calculations
+
+For each product, let 
+𝑂
+O be opening stock, 
+𝑆
+S units sold, 
+𝐶
+C unit cost, and 
+𝑃
+P selling price.
+
+Revenue
+	
+=
+𝑆
+×
+𝑃
+
+
+COGS
+	
+=
+𝑆
+×
+𝐶
+
+
+Gross profit
+	
+=
+𝑆
+×
+(
+𝑃
+−
+𝐶
+)
+
+
+Closing stock
+	
+=
+𝑂
+−
+𝑆
+
+
+Sell-through
+	
+=
+𝑆
+𝑂
+×
+100
+
+
+Top-up
+	
+=
+max
+⁡
+(
+0
+,
+𝑆
+−
+(
+𝑂
+−
+𝑆
+)
+)
+Revenue
+COGS
+Gross profit
+Closing stock
+Sell-through
+Top-up
+	​
+
+=S×P
+=S×C
+=S×(P−C)
+=O−S
+=
+O
+S
+	​
+
+×100
+=max(0,S−(O−S))
+	​
+
+
+Multipurpose cleaner 2L
+
+Opening: 120 units | Sold: 95 | Cost: KES 310 | Price: KES 380
+
+Revenue = 95 × 380 = KES 36,100COGS = 95 × 310 = KES 29,450Gross profit = 95 × (380 − 310) = KES 6,650Closing stock = 120 − 95 = 25 unitsSell-through = (95 ÷ 120) × 100 = 79.17%Top-up = max(0, 95 − 25) = 70 units
+
+Floor cleaner 5L
+
+Opening: 80 units | Sold: 70 | Cost: KES 720 | Price: KES 850
+
+Revenue = 70 × 850 = KES 59,500COGS = 70 × 720 = KES 50,400Gross profit = 70 × (850 − 720) = KES 9,100Closing stock = 80 − 70 = 10 unitsSell-through = (70 ÷ 80) × 100 = 87.50%Top-up = max(0, 70 − 10) = 60 units
+
+5. Recommended next actions
+
+Prioritise replenishment: Under the stated assumptions, top up bleach (76 units), toilet paper (74), multipurpose cleaner (70), and floor cleaner (60).
+
+Avoid unnecessary purchases: Hand soap, laundry soap, microfibre packs and bin liners already have enough closing stock to cover the next 30 days at the assumed demand.
+
+Review slow movers: Investigate demand, pricing, shelf space and possible promotions before buying additional quantities.
+
+Protect profitable products: Monitor the availability and gross-profit contribution of floor cleaner, multipurpose cleaner and toilet paper.
+
+Validate purchasing assumptions: Confirm actual demand and supplier conditions before committing to orders.
+
+6. Limitations and information required
+
+Net profit cannot be determined because operating overheads are absent, including rent, salaries, utilities, transport, marketing and administration costs.
+
+Before making a real purchasing decision, Safi Services & Supplies would also need actual sales trends and seasonality, supplier lead times, minimum order quantities, purchase prices and discounts, delivery costs, available cash, storage capacity, expiry dates where applicable, current inventory accuracy, and expected stockout risk.
+
+The simplified analysis assumes no restocking, returns, shrinkage, price changes or stockouts, with identical demand over the next 30 days, instant delivery and zero safety stock.
+
+Owner's takeaway: The business is generating positive gross profit, but profitability is concentrated in three products. Under the classroom assumptions, a total top-up of 280 units covers the next 30 days' demand without adding unnecessary stock.
+

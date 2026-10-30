@@ -1,0 +1,10 @@
+Product,Opening,Sold,Unit cost KES,Selling price KES,Revenue KES,COGS KES,Gross profit KES,Closing stock,Sell-through %,Simple top-up
+Multipurpose cleaner 2L,120,95,310,380,36100,29450,6650,25,79.17,70
+Floor cleaner 5L,80,70,720,850,59500,50400,9100,10,87.5,60
+Hand soap 1L,150,40,260,300,12000,10400,1600,110,26.67,0
+Laundry soap bar,200,35,45,60,2100,1575,525,165,17.5,0
+Bleach 1L,100,88,170,210,18480,14960,3520,12,88.0,76
+Microfibre pack,60,12,350,480,5760,4200,1560,48,20.0,0
+Toilet paper 10 pack,90,82,380,450,36900,31160,5740,8,91.11,74
+Bin liner box,40,8,900,1100,8800,7200,1600,32,20.0,0
+TOTAL,,,,,179640,149345,30295,,,

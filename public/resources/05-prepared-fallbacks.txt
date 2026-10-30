@@ -1,0 +1,31 @@
+PREPARED REFERENCE ANSWERS — NOT LIVE AI OUTPUT
+These are checked teaching references. Actual rehearsal observations are in 08-rehearsal-checks.txt.
+
+OPENING ACKNOWLEDGEMENT
+Hello Parklands Learning Centre, thank you for the enquiry about cleaning your 400 m² offices three evenings a week and the windows monthly.
+We have noted your KES 120,000 monthly budget including tax and requested 16 November start, subject to scope and availability checks.
+Please confirm window count, dimensions, height and access so we can prepare a costed proposal. No price or start date is confirmed.
+
+RFQ CHECKLIST
+Section 2.1 Mandatory: business registration certificate.
+Section 2.2 Mandatory: current tax compliance certificate.
+Section 2.3 Mandatory: two office-cleaning references from the past 24 months.
+Section 2.4 Mandatory: proposed supervisor's name and role.
+Section 2.5 Mandatory: signed quote with routine cleaning, windows, tax and monthly total.
+Section 2.6 Mandatory: one-page method statement covering chemicals and site access.
+Section 3: monthly budget ceiling KES 120,000 inclusive of applicable taxes; state assumptions, exclusions and clarifications. No prescribed market or tax rate.
+Section 4: one PDF; deadline Friday 6 November 2026 at noon EAT. The training portal is fictional: send nothing.
+Section 4: optional site visit Monday 2 November at 10 AM EAT; not a mandatory bidding condition.
+Section 5 explicit rejection grounds: late; missing a mandatory Section 2 item; unsigned quote; over budget.
+Section 6 missing: window count, dimensions, height, external high-level access; clarification method/deadline; payment terms; insurance; minimum staffing.
+Three useful clarifications: full window scope and safe access; payment terms; how and when to submit clarification questions.
+Do not describe unspecified items as mandatory.
+
+If notebook citations fail, open the original text and inspect these sections directly. This reference does not simulate clickable model citations.
+
+QUOTE CHECKS
+100 m², three visits weekly, windows: cleaning 23,400; windows 6,000; subtotal 29,400; illustrative tax 4,704; total 34,104.
+100 m², three visits weekly, no windows: total 27,144.
+400 m², three visits weekly, windows: total 115,536; below the 120,000 budget by 4,464. Missing scope still prevents a final commercial quote.
+Blank, zero, negative, non-numeric or non-finite area: no valid quote.
+Open quote-calculator.html offline to demonstrate the actual calculation and controls.
