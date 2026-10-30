@@ -1,0 +1,46 @@
+@import '@fontsource/dm-sans/400.css';
+@import '@fontsource/dm-sans/500.css';
+@import '@fontsource/dm-sans/600.css';
+@import '@fontsource/dm-sans/700.css';
+
+:root{--slidev-theme-primary:#6b21a8}
+.slidev-layout{font-family:'DM Sans',sans-serif;font-size:22px;line-height:1.5;padding:38px 48px;color:#251536;background:linear-gradient(110deg,#fff,#f5f0ff)}
+.slidev-layout h1,.slidev-layout h2,.slidev-layout h3{font-family:'Gilroy Bold','DM Sans',sans-serif;line-height:1.12;letter-spacing:-.035em}
+.slidev-layout h1{font-size:44px;margin-bottom:24px}.slidev-layout p{line-height:1.5!important}.slidev-layout h1+p{margin-top:0!important}.slidev-layout header{position:absolute;top:22px;left:48px}.slidev-layout header img{width:29px;height:29px}.slidev-layout footer{font-size:11px;position:absolute;bottom:22px;left:48px;right:48px;width:auto;letter-spacing:.04em}.slidev-layout.intro figure{padding:0 30px 0 0}.slidev-layout.intro figure img{width:340px;height:340px;object-fit:cover;object-position:center 30%;border-radius:50%;padding:7px;background:linear-gradient(120deg,#a21caf,#5b21b6)}.slidev-layout.intro h1{font-size:65px;margin-bottom:18px}.slidev-layout.intro .subtitle{font-size:22px;color:#6f5a7d}.slidev-layout.intro .speaker{margin-top:28px;font-size:17px;color:#40224f}.slidev-layout.intro .event{font-size:12px;color:#8d719e}.slidev-layout strong{color:#6b21a8}.slidev-layout .kicker{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#a21caf;margin-bottom:15px}.slidev-layout .large{font-size:46px;line-height:1.2;font-family:'Gilroy Bold',sans-serif;letter-spacing:-.03em}.slidev-layout .lead{font-size:26px;line-height:1.5;color:#6a537a}.slidev-layout .small{font-size:15px;color:#816a8f;line-height:1.6}.slidev-layout .tiny{font-size:11px;color:#967ca4;line-height:1.6}.slidev-layout .two{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}.slidev-layout .three{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}.slidev-layout .rule{border-top:2px solid #d8c2ea;padding-top:18px}.slidev-layout .number{font-family:'Gilroy Bold';font-size:48px;color:#a21caf;line-height:1.1}.slidev-layout .tag{font-size:12px;display:inline-block;padding:6px 12px;border:1px solid #ddc5ed;border-radius:30px;color:#8a42ae}.slidev-layout .brief-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:20px;margin-top:36px}.slidev-layout .brief-grid b{display:block;font-size:19px;color:#6b21a8;margin-bottom:12px}.slidev-layout .brief-grid span{display:block;font-size:15px;line-height:1.6;color:#826b90}.slidev-layout .four-beats{display:grid;grid-template-columns:1fr 1fr;gap:22px 40px;margin-top:28px}.slidev-layout .four-beats .label{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#9a67b4;display:block;margin-bottom:6px}.slidev-layout .four-beats p{font-size:20px;margin:0}.slidev-layout .note-sheet{background:#fff;border:1px solid #e0ceec;border-left:5px solid #a21caf;padding:24px 30px;font-size:21px;line-height:1.65;color:#5f4671;box-shadow:6px 6px 0 #eee3f8}.slidev-layout .prompt-excerpt{font-size:20px;line-height:1.65;padding-left:25px;border-left:4px solid #a21caf;color:#62446f}.slidev-layout .prompt-excerpt strong{color:#6b21a8}.slidev-layout .live-link{display:inline-flex;border:1px solid #d9c3e9;border-radius:7px;padding:9px 15px;font-size:14px;color:#7a2ba0;margin-top:24px;background:#fff8}.slidev-layout .two .live-link{margin-top:10px}.slidev-layout table{font-size:16px;margin-top:16px}.slidev-layout th{font-weight:600;color:#6b21a8}.slidev-layout td,.slidev-layout th{padding:9px 10px}.slidev-layout .big-value{font-size:72px;font-family:'Gilroy Bold';letter-spacing:-.05em;line-height:1.1;background:linear-gradient(100deg,#a21caf,#5b21b6);color:transparent;background-clip:text}.slidev-layout .stat-label{font-size:17px;color:#876c97}.slidev-layout .flow{display:flex;align-items:center;gap:16px;margin-top:38px}.slidev-layout .flow-step{flex:1;border-top:2px solid #c6a0df;padding-top:20px;font-size:19px;font-weight:600}.slidev-layout .flow-step small{display:block;font-size:13px;font-weight:400;color:#8c7499;margin-top:12px}.slidev-layout .flow-arrow{color:#c1a0d5;font-size:24px}.slidev-layout .source-list{font-size:14px;line-height:1.9}.slidev-layout .source-list a{color:#7c32a3}.slidev-layout .commit-lines{margin-top:24px;font-size:23px}.slidev-layout .commit-lines p{padding-bottom:12px;border-bottom:1px solid #ddcce9}.slidev-layout.new-section{background:linear-gradient(110deg,#a21caf,#5b21b6);color:white}.slidev-layout.new-section h1{font-size:48px;background:none;color:white}.slidev-layout.new-section .kicker,.slidev-layout.new-section .small{color:#f3d6fa}.slidev-layout.new-section figure img{width:330px;height:330px;object-fit:contain}.slidev-layout.new-section footer{color:#f4d7fa}.slidev-layout .checked-table{font-size:20px}.slidev-layout .quote-calculator{font-size:14px}.slidev-layout .quote-calculator p{margin-bottom:0!important}.slidev-layout .quote-calculator strong{color:#6b21a8}.slidev-layout .quote-calculator .quote-label{color:#9168a5}
+@media print{
+  .slidev-layout{print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  /* Chromium can leave hairline clipping boxes around gradient text in PDFs. */
+  .slidev-layout h1,.slidev-layout h2,.slidev-layout h3,.slidev-layout h4,.slidev-layout .big-value{background:none!important;background-clip:border-box!important;-webkit-text-fill-color:#8f20af!important;color:#8f20af!important}
+  .slidev-layout.new-section h1,.slidev-layout.new-section h2,.slidev-layout.new-section h3{color:#fff!important;-webkit-text-fill-color:#fff!important}
+}
+
+/* Slidev CLI exports use screen media on html.print. Avoid Chromium PDF gradient clipping seams. */
+html.print .slidev-layout :is(h1,h2,h3,h4,.big-value){background:none!important;background-image:none!important;-webkit-text-fill-color:#8f20af!important;color:#8f20af!important}
+html.print .slidev-layout.new-section :is(h1,h2,h3){color:#fff!important;-webkit-text-fill-color:#fff!important}
+
+/* Separate company introductions, with large QR codes and a visible URL fallback. */
+.slidev-layout .company-intro{display:grid;grid-template-columns:minmax(0,1fr) 296px;gap:52px;align-items:center;margin-top:24px}
+.slidev-layout .company-statement{font-family:'Gilroy Bold','DM Sans',sans-serif;font-size:37px;line-height:1.18!important;letter-spacing:-.025em;color:#51216c;margin:0 0 22px}
+.slidev-layout .company-note{font-size:20px;line-height:1.55!important;color:#745784;max-width:450px;margin:0}
+.slidev-layout .company-qr{margin:0;text-align:center}
+.slidev-layout .company-qr>a{display:block;border:0;background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 0 0 1px #e4d5ef}
+.slidev-layout .company-qr img{display:block;width:296px;height:296px;object-fit:contain}
+.slidev-layout .company-qr figcaption{padding-top:14px}
+.slidev-layout .company-qr figcaption span{display:block;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#8e6b9e;margin-bottom:5px}
+.slidev-layout .company-qr figcaption a{font-size:21px;color:#77269a;font-weight:600;border-bottom:0}
+
+.slidev-layout.company-flowt{background:linear-gradient(110deg,#fff,#e7f1f3)}
+.slidev-layout.company-schoolbooks{background:linear-gradient(110deg,#fff,#edf8f0)}
+.slidev-layout .company-heading{display:flex;align-items:center;gap:16px;background:none;color:#143e2c;margin:0 0 10px;min-height:78px}
+.slidev-layout .company-flowt-logo{display:block;width:220px;height:110px;object-fit:cover;object-position:center 31%}
+.slidev-layout .company-schoolbooks-logo{width:60px;height:60px;flex:none}
+.slidev-layout.company-flowt .company-intro{margin-top:0}
+.slidev-layout.company-schoolbooks .company-intro{margin-top:18px}
+.slidev-layout.company-flowt .company-statement,.slidev-layout.company-flowt .company-qr figcaption a,.slidev-layout.company-flowt footer{color:#2d5a63}
+.slidev-layout.company-flowt .company-qr>a{box-shadow:0 0 0 2px #e37590}
+.slidev-layout.company-flowt .company-qr figcaption span{color:#3c7782}
+.slidev-layout.company-schoolbooks .company-heading,.slidev-layout.company-schoolbooks .company-statement,.slidev-layout.company-schoolbooks .company-qr figcaption a,.slidev-layout.company-schoolbooks footer{color:#07843f;-webkit-text-fill-color:#07843f!important}
+.slidev-layout.company-schoolbooks .company-note,.slidev-layout.company-schoolbooks .company-qr figcaption span{color:#426d55}
+.slidev-layout.company-schoolbooks .company-qr>a{box-shadow:0 0 0 2px #b8f36b}
+
+.slidev-layout.company-schoolbooks .company-heading,html.print .slidev-layout.company-schoolbooks .company-heading,html.print .slidev-layout.company-schoolbooks .company-heading span{color:#143e2c!important;-webkit-text-fill-color:#143e2c!important;background:none!important}

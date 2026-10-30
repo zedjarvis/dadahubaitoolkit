@@ -1,0 +1,9 @@
+node_modules
+.nuxt
+.output
+.git
+exports
+docs/original-session-playbook.md
+docs/portrait-prompt.txt
+docs/validation.txt
+public/slides

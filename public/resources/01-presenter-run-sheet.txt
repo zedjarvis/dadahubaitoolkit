@@ -1,0 +1,217 @@
+THE AI TOOLKIT — PRESENTER RUN SHEET
+Cedrouseroll Omondi | DADA HUB | Saturday 31 October 2026
+9:20–10:20 AM, East Africa Time
+
+RECOMMENDATION
+Use ChatGPT/Codex and Gemini Notebook (formerly NotebookLM). ChatGPT handles
+the proposal and data analysis; Codex builds and checks the calculator.
+Show four live business outcomes. Keep automation to a short explanation;
+omit the product contest.
+Keep the original Problem → AI opportunity → Tool → First step structure.
+The examples below are fictional training material.
+
+STATUS
+Prepared: prompts, fictional RFQ, sample stock data, arithmetic answer keys,
+participant reference and revised timings.
+Not yet rehearsed in the presenter's accounts. No live outputs, recordings,
+screenshots, generated calculator or slide deck are included. Do not describe
+the sample answer keys as screenshots or results from a live product run.
+
+TIMING
+09:20–09:27  Welcome, show of hands, tool map and the briefing formula (7 min)
+09:27–09:38  Demo 1: client notes → proposal → WhatsApp reply (11 min)
+              Include 3 minutes for pairs to try the supplied fictional notes.
+09:38–09:47  Demo 2: RFQ → requirements, citations and missing information (9 min)
+09:47–09:58  Demo 3: sales table → stock decisions (11 min)
+              Include 2 minutes for pairs to predict/check the answer.
+09:58–10:08  Demo 4: cleaning quote calculator (10 min)
+              Use the RFQ from Demo 2 to connect these two demonstrations.
+10:08–10:12  Automation explanation and questions/overflow (4 min)
+              Form → sheet → draft → human approval. Explanation: 60–90 seconds.
+10:12–10:20  One task, one first step, neighbour exchange and handoff (8 min)
+
+If delayed: remove the automation explanation, then shorten the calculator to
+its rehearsed output and one check. Protect the 10:12 close.
+Avoid requiring another account during the session. Notebook and Codex are
+presenter-led; participants can explore them later. Pair anyone without a
+working ChatGPT account.
+
+OPENING AND TEACHING
+Suggested promise: "By the end, you will have tried one useful task and know
+which tool to open for three more."
+Keep the business examples and the invitation to share a laptop.
+Replace "it has read half the internet" with "it can produce a useful first
+draft, but it does not know your business unless you brief it."
+Display Role / Context / Task / Format / Check; do not make memorising RCTFC
+an extra learning objective. Explain: who helps, what they need, what to do,
+how to deliver it, and how you will check it.
+Tool categories overlap: present them as ways of working, not rigid boxes.
+Say "the model available in my account" rather than making a latest-model claim.
+
+DEMO 1 — WRITE SOMETHING USEFUL
+Problem: scattered notes delay a client reply.
+Show the notes, run the proposal prompt, and read only the key sections.
+Ask: "What should I check before this goes to a client?"
+Check that KES 450,000 is a budget, not a made-up quote; the sister's kitchen
+is a separate opportunity; 15 December is a requested date, not a promise.
+Show the WhatsApp follow-up. Save objection handling for the handout.
+Let pairs use the same fictional notes and change one preference.
+First step: adapt the prompt to a task you are authorised to share.
+
+DEMO 2 — CHECK THE SOURCE
+Before presenting, import 03-fictional-cleaning-rfq.txt into a fresh notebook.
+Say clearly: "This is a fictional request for quotations made for training."
+Use only this selected source for the exercise; avoid adding web research.
+Run the requirements prompt. Click a citation and read the source passage.
+Then ask the question about windows. It is deliberately unanswered in the RFQ.
+The successful outcome is an explicit "not specified", not an invented answer.
+Use section identifiers for navigation; text sources do not have PDF page numbers.
+Audio Overview is optional: only play a pre-generated local copy if rehearsed.
+In the last minute of this block, submit the calculator task to Codex in a
+prepared empty demo folder. Explain the goal and acceptance checks, then let
+it work while you demonstrate the sales analysis. Review the result at 09:58.
+First step: use one public or authorised document and check one important claim.
+
+RFQ ANSWER KEY
+Submission: 6 November 2026, 12:00 noon EAT, via the fictional portal.
+Service: 400 square metres; Monday, Wednesday and Friday after 6 PM;
+start requested for 16 November 2026; three-month initial term.
+Required: business registration certificate, current tax compliance certificate,
+two recent office-cleaning references, named supervisor, signed quote with
+cleaning and windows separately priced, any applicable taxes and total shown,
+and a one-page method statement covering safe chemical use and staff access.
+Budget ceiling: KES 120,000 per month inclusive of applicable taxes.
+Site visit: optional, 2 November 2026 at 10 AM; NOT a mandatory requirement.
+Explicit rejection grounds: late bid, missing mandatory document, unsigned
+quote or monthly total above KES 120,000.
+Not stated: number/size/height of windows or whether external high-level work
+is needed. Do not equate missing details with rejection grounds.
+
+DEMO 3 — TURN NUMBERS INTO A DECISION
+Before running the prompt ask: "Which item do you think earns most in total?"
+Define gross profit: sales revenue less the cost of units sold. This example
+does not establish net profit, cash flow, tax payable or a full purchasing plan.
+Ask ChatGPT to calculate with a data-analysis tool if available. Verify against
+the independent answer key below rather than trusting displayed workings alone.
+Show the profit chart only after you check its values and labels.
+
+Product            Revenue KES  Gross profit KES  Closing units  Top-up units
+Basmati rice 2kg         36,100             6,650             25            70
+Cooking oil 3L          59,500             9,100             10            60
+Sugar 2kg               12,000             1,600            110             0
+Laundry soap bar         2,100               525            165             0
+Wheat flour 2kg         18,480             3,520             12            76
+Tea leaves 500g          5,760             1,560             48             0
+Toilet paper 10 pack    36,900             5,740              8            74
+Instant noodles carton  8,800             1,600             32             0
+TOTAL                 179,640            30,295
+Cost of goods sold = KES 149,345.
+
+Top gross-profit contributors: cooking oil, rice, toilet paper.
+Slowest by sell-through (sold / opening): soap 17.5%; tea and noodles tied at 20%.
+Days of remaining stock at the historical daily rate: toilet paper 2.9;
+flour 4.1; oil 4.3; rice 7.9. Lead times could change the ordering priority.
+Teaching point: tea has a higher gross margin percentage than oil, but oil
+contributes more total gross profit. Name the metric before asking for a ranking.
+
+Assumptions: no restocking, returns, shrinkage, stockouts, promotions or price
+changes; constant demand; immediate delivery; no safety stock; all amounts on a
+consistent simplified tax basis. Reorder = max(0, units sold - closing units).
+This is a classroom top-up calculation, not a recommendation for a real shop.
+Check two different rows, the formulas and the totals. One correct row does
+not validate the rest of an AI-generated table.
+
+DEMO 4 — CODEX: DELEGATE, BUILD, TEST AND REVIEW
+Use the calculator prompt in 02-live-prompts.txt in Codex. Prepare a separate
+empty demo folder and rehearse the exact run/open route on the laptop.
+HTML previews depend on the surface; the self-contained HTML can also be
+opened directly in the browser after a successful rehearsal.
+At 09:58, return to the task started at the end of Demo 2. Briefly show the
+files created and the checks actually performed, then open the calculator.
+Change one input and compare the result with the independent answer key.
+Ask for one small change, such as a print button, and review the revision.
+If the task is unfinished or blocked, explain the status and show the saved
+rehearsed version. Do not spend more than 45–60 seconds troubleshooting on stage.
+Explain the sequence: give a goal and constraints, let Codex create and test
+the files, then review the result. A preview alone is not the whole lesson.
+No Claude-versus-Codex verdict is needed.
+
+Calculator conventions: 52/12 weeks per month as an average estimate, not an
+actual monthly visit schedule. KES 18/m2/visit; windows KES 6,000/month;
+16% illustrative tax applied to both line items. These are demo assumptions,
+not market rates or tax advice. Retain full precision until display rounding.
+
+CHECK CASES
+Area 100, 3 visits/week, windows YES:
+13 average visits/month; cleaning 23,400; windows 6,000; subtotal 29,400;
+illustrative VAT 4,704; total KES 34,104.
+Area 100, 3 visits/week, windows NO:
+subtotal 23,400; illustrative VAT 3,744; total KES 27,144.
+Area 400, 3 visits/week, windows YES (the RFQ scenario):
+cleaning 93,600; windows 6,000; subtotal 99,600;
+illustrative VAT 15,936; total KES 115,536.
+The numerical estimate is KES 4,464 below the fictional budget. Missing window
+details and commercial assumptions must still be resolved before a real quote.
+Blank, zero, negative and non-numeric areas: validation message, no valid quote.
+
+SLIDE CONTENT TO PREPARE — 8 SLIDES IS ENOUGH
+1. Promise: four business outcomes, one task to try.
+2. Tool map + Role / Context / Task / Format / Check.
+3. Client notes → proposal: the input and the three facts to protect.
+4. Document → decision: source citation and "not specified".
+5. Sales → action: ask the room to predict; reveal the checked totals.
+6. Codex: goal → build → tests → working calculator → human review.
+7. Automation: Form → Sheet → Draft → Human approval.
+8. Takeaway: one task, one tool, one first step; handoff to Billy.
+Each demo slide keeps the four beats from the original playbook.
+
+REHEARSAL AND FALLBACKS
+Run each prompt once in the accounts and browser used on stage.
+Save real outputs and a screenshot per demo. Label saved work as a previous run.
+For the notebook, save a requirements answer and its supporting source excerpt.
+For the calculator, save and open the actual generated HTML offline.
+Use large browser text; disable notifications; keep a local copy of this kit.
+Keep the notebook loaded and the data prompt ready to paste.
+Check the projector and hotspot. No API keys or app-connection setup on stage.
+Audience participation uses the supplied fictional data. Do not invite people
+to upload real student fee records or client conversations during the workshop.
+
+CHANGES TO THE ORIGINAL PLAYBOOK
+- Remove benchmark scores, per-task price comparisons and broad claims that one
+  brand thinks better while another is for cheap unattended work.
+- Remove the instruction to run a prompt in ordinary ChatGPT and label that
+  alone a Codex comparison. Codex is a specific mode/surface.
+- Replace invented proposal price ranges with a budget ceiling and costs to confirm.
+- Replace "profit" with "gross profit" and state stock assumptions.
+- Replace "one correct row means more trust in the rest" with independent checks.
+- Define weeks per month and validation rules for the calculator.
+- Replace "any tender plus any two price lists" with a coherent, short source.
+- Explain that citations make claims easier to inspect; they do not guarantee
+  complete or correct interpretation.
+- A paid plan or removing names alone is not a complete privacy safeguard.
+- Do not promise every first step takes two minutes: account creation, uploads
+  and automation setup can take longer. Limit the timed exercise to supplied text.
+- Use "Monday, 2 November" for the take-home commitment.
+
+CURRENT PRODUCT CHECKS / SOURCES CONSULTED
+Google's help centre uses Gemini Notebook; the original NotebookLM help URL
+redirects there. Use the label shown in the presenting account.
+https://support.google.com/gemininotebook/
+Google describes source citations and also cautions about mistakes in its
+expanded chat capabilities. Restrict this demo to the selected source.
+https://support.google.com/gemininotebook/answer/16179559?hl=en
+Google documents compute-based limits. Avoid fixed usage promises on stage.
+https://support.google.com/gemininotebook/answer/17670842?hl=en
+Make currently uses credits. Its own AI provider is available on all plans;
+a separate provider account/API key is not universally required.
+https://help.make.com/credits
+Make's pricing page describes 1,000 monthly credits on Free.
+https://www.make.com/pricing
+OpenAI distinguishes local and cloud Codex environments, so the original
+interactive-versus-delegation comparison is too rigid.
+https://learn.chatgpt.com/docs/environments/modes
+OpenAI documents that interactive HTML preview availability depends on surface.
+https://learn.chatgpt.com/docs/artifacts-viewer
+ODPC explains lawful purpose, data minimisation, security and accountability;
+a paid subscription is not a substitute for these responsibilities.
+https://www.odpc.go.ke/wp-content/uploads/2024/02/PERSONAL-DATA-PROTECTION-HANDBOOK.pdf

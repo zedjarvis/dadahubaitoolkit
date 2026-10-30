@@ -1,0 +1,17 @@
+node_modules/
+.nuxt/
+.output/
+.data/
+public/slides/
+slides/.slidev/
+exports/
+*.log
+.env
+.DS_Store
+
+.vercel/
+.env.*
+!.env.example
+docs/original-session-playbook.md
+docs/portrait-prompt.txt
+docs/validation.txt

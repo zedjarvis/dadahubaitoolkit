@@ -1,0 +1,83 @@
+[
+  {
+    "slug": "proposal",
+    "number": "01",
+    "title": "A better client reply",
+    "category": "Sales & marketing",
+    "tool": "ChatGPT",
+    "time": "9:27–9:38",
+    "minutes": "11 min",
+    "description": "Turn a messy site-visit note into a proposal and a three-line WhatsApp reply.",
+    "problem": "A client conversation is scattered across messages. Writing a proposal takes the evening.",
+    "opportunity": "Start with a useful first draft and spend your time refining the offer.",
+    "firstStep": "Use the fictional client notes. Change one preference and check the reply.",
+    "prompt": "You are an account manager at a Nairobi interior design studio.\nUse the fictional site-visit notes below to draft a proposal email of no more\nthan 220 words to Mrs Wanjiru. Use five short sections: Your priorities,\nSuggested approach, Timing, Budget, Next step.\nKeep the tone warm and professional. The KES 450,000 figure is a client budget,\nnot our quote: do not invent prices or a price range. State that a costed\nproposal follows measurements and supplier checks. Treat 15 December 2026 as\nthe client's requested completion date, subject to confirming scope and supply.\nKeep the sister's potential kitchen project separate from this client's scope.\nAfter the email, add a separate \"Internal checks — remove before sending\"\nsection listing missing facts and assumptions. Do not place internal checks\ninside the customer-facing email.\n\nNotes:\nMrs Wanjiru, 3BR in Kilimani, wants living room + dining redone. budget around\n450k. likes warm colours, hates grey. has 2 dogs so no delicate fabrics. wants\nit done before december 15 bcz family coming. current sofa she keeps. site visit\ntuesday went ok, walls need repainting + one wall maybe wallpaper. mentioned\nher sister also wants her kitchen done later.",
+    "followup": "Turn the customer-facing email into a three-line WhatsApp message. Keep the\nbudget and timing caveats. Mention durable, pet-friendly fabrics. No invented\nprices, discounts or availability commitments.",
+    "checks": [
+      "KES 450,000 stays a budget, not a made-up quote.",
+      "15 December stays a requested date, subject to confirmation.",
+      "The sister’s kitchen stays separate from the client’s project."
+    ]
+  },
+  {
+    "slug": "research",
+    "number": "02",
+    "title": "An answer you can trace",
+    "category": "Research",
+    "tool": "NotebookLM",
+    "time": "9:38–9:47",
+    "minutes": "9 min",
+    "description": "Turn a short cleaning RFQ into a checklist, then open the source behind an answer.",
+    "problem": "The documents that matter are often the ones nobody has time to read.",
+    "opportunity": "Find requirements quickly and inspect the passages that support them.",
+    "firstStep": "Upload the fictional RFQ, select it as the only source and ask for a checklist.",
+    "prompt": "Using only the selected fictional RFQ, make a bidder checklist. Columns:\nrequirement; mandatory or optional; deadline if stated; supporting citation\nand section identifier. Separate explicit rejection grounds from general\nrequirements. Do not infer extra mandatory conditions. If a detail is absent,\nwrite \"Not specified in the source\". Finish with the three most important\nclarifications we should obtain before quoting.",
+    "followup": "How many windows are there, what size are they, and can our team clean all of\nthem safely from ground level? Cite any supporting passage. If the RFQ does\nnot establish an answer, say so and draft one short clarification question.",
+    "checks": [
+      "Submission closes 6 November at 12:00 noon EAT.",
+      "The site visit is optional.",
+      "Window count, size and height are not specified."
+    ],
+    "download": "03-fictional-cleaning-rfq.txt"
+  },
+  {
+    "slug": "stock",
+    "number": "03",
+    "title": "What is your stock saying?",
+    "category": "Operations & money",
+    "tool": "ChatGPT",
+    "time": "9:47–9:58",
+    "minutes": "11 min",
+    "description": "Find the biggest profit contributors, slow movers and a simple stock top-up.",
+    "problem": "Sales sit in a spreadsheet while purchasing decisions happen on instinct.",
+    "opportunity": "Calculate consistently and turn the table into questions worth investigating.",
+    "firstStep": "Paste the supplied fictional data, then compare the answer with the checked totals.",
+    "prompt": "Act as a retail operations analyst explaining a fictional shop's data to its\nowner. Use a calculation/data-analysis tool if available and tell me if it is\nnot available. Treat the following as a simplified classroom example.\n\nAssume no restocking, returns, shrinkage, price changes or stockouts during the\n30 days. Assume the next 30 days have the same demand, instant delivery and no\nsafety stock. Costs and sales prices use the same simplified tax basis.\n\nCalculate per product:\n1. Revenue = units sold × selling price.\n2. Gross profit = units sold × (selling price - unit cost).\n3. Closing stock = opening stock - units sold.\n4. Sell-through percentage = units sold / opening stock × 100.\n5. Top-up quantity = max(0, units sold - closing stock).\n\nGive one table and the total revenue, cost of goods sold and gross profit.\nRank the top three products by total gross-profit contribution.\nDefine slow-moving as lowest sell-through percentage and name the bottom\nthree, noting ties. Explain the next actions in no more than five bullets.\nShow the formulas and the worked calculation for rice and cooking oil.\nState that overheads are absent, so net profit cannot be determined. State\nwhich real-world information is missing before a purchasing decision.\n\nProduct,Opening stock,Units sold (30 days),Unit cost KES,Selling price KES\nBasmati rice 2kg,120,95,310,380\nCooking oil 3L,80,70,720,850\nSugar 2kg,150,40,260,300\nLaundry soap bar,200,35,45,60\nWheat flour 2kg,100,88,170,210\nTea leaves 500g,60,12,350,480\nToilet paper 10 pack,90,82,380,450\nInstant noodles carton,40,8,900,1100",
+    "followup": "Create a horizontal bar chart of total gross-profit contribution by product,\nsorted from largest to smallest. Label values in KES and use the title\n\"Gross profit from units sold — fictional 30-day example\". Explain in two\nsentences why a high margin percentage need not mean the most total profit.",
+    "checks": [
+      "Revenue: KES 179,640. Gross profit: KES 30,295.",
+      "Cooking oil contributes the most gross profit: KES 9,100.",
+      "Overheads are absent. Net profit cannot be determined."
+    ]
+  },
+  {
+    "slug": "calculator",
+    "number": "04",
+    "title": "A small tool, built for you",
+    "category": "Agents & productivity",
+    "tool": "Codex",
+    "time": "9:58–10:08",
+    "minutes": "10 min",
+    "description": "Delegate a cleaning calculator, inspect its checks and try the finished result.",
+    "problem": "You need a repeatable way to estimate a cleaning job without rebuilding the maths.",
+    "opportunity": "Give Codex a goal, business rules and acceptance checks, then review its work.",
+    "firstStep": "Start the build at the end of Demo 2. Return to the result after the stock demo.",
+    "prompt": "Build and test a working, phone-friendly cleaning quote calculator in this\ndemo folder. Deliver a self-contained quote-calculator.html file with its CSS\nand JavaScript included. It must work offline with no external libraries,\nimages, fonts, services or network requests. Create the actual file, perform\nthe checks below using the tools available to you, and open or link the working\nresult for review. If an interactive HTML preview is available, show it too.\n\nBusiness rules for this fictional training example:\n- Floor area in square metres must be a finite number greater than zero.\n- Visits per week: choose 1, 3 or 5.\n- Windows: yes or no.\n- Use exactly 52 / 12 weeks per month to estimate average monthly visits.\n- Cleaning price: KES 18 per square metre per visit.\n- Windows: a fixed KES 6,000 per month when selected.\n- Subtotal = area × 18 × visits per week × 52 / 12 + windows fee.\n- Apply an illustrative 16% VAT to the entire subtotal, including windows.\n- Total = subtotal + illustrative VAT.\n- Retain full precision during calculation; display currency to two decimals.\n\nShow area, average visits per month, cleaning amount, windows amount, subtotal,\nillustrative VAT and grand total, all clearly labelled. Explain that 52/12 is\nan average estimate; actual calendar visits may differ. Label the rates and\ntax assumption as fictional training inputs, not verified market or tax advice.\nDefault to 400 square metres, 3 visits per week and windows included. This\nmatches our fictional RFQ; do not claim it is a final commercial quote.\nFor invalid or missing area input, show a helpful error and no valid quote.\nUse large text, clear form labels and a professional design.\n\nVerify these cases before delivering the file:\n100 m2, 3 visits/week, windows yes: subtotal KES 29,400; VAT KES 4,704;\ngrand total KES 34,104.\n100 m2, 3 visits/week, windows no: grand total KES 27,144.\n400 m2, 3 visits/week, windows yes: grand total KES 115,536.\nBlank, zero, negative and non-numeric area: validation error, no valid quote.\nTest the actual implemented calculation logic, not just a separate copy of\nthe formula. If browser tools are available, also check the form controls,\ninvalid inputs and a narrow phone viewport. Report which checks you actually\nperformed and any you could not perform. Give a brief delivery summary and\nthe path to the finished file. Do not publish or deploy it.",
+    "followup": "Add a \"Print estimate\" button. The print view must retain the inputs, amount\nbreakdown and training/assumption notes. Preserve every calculation rule and\nrerun the same checks.",
+    "checks": [
+      "100 m², 3 visits/week, windows: KES 34,104.",
+      "400 m², 3 visits/week, windows: KES 115,536.",
+      "Missing or invalid floor area produces an error, not a valid quote."
+    ]
+  }
+]
