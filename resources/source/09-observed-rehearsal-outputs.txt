@@ -1,5 +1,5 @@
 OBSERVED PRODUCT OUTPUTS — 31 OCTOBER 2026
-These are actual visible rehearsal responses, not guaranteed future outputs. All business data is fictional. Interface controls were removed for readability. Notebook citation numbers are text here; open the prepared notebook or the original RFQ to inspect the actual passage. See 08-rehearsal-checks.pdf for failures, corrections and limitations.
+These are actual visible rehearsal responses, not guaranteed future outputs. Scenario labels have been removed for presentation; the response content is otherwise retained. Interface controls were removed for readability. Notebook citation numbers are text here; open the prepared notebook or the original RFQ to inspect the actual passage. See 08-rehearsal-checks.pdf for failures, corrections and limitations.
 
 CORRECTED CHATGPT EMAIL
 Dear Administrator,
@@ -203,7 +203,7 @@ SUCCESSFUL CHATGPT STOCK ANALYSIS
 
 Safi Services & Supplies — 30-Day Retail Sales Analysis
 
-Simplified classroom example | Currency: KES | Period: 30 days
+Currency: KES | Period: 30 days
 
 The calculations were verified using Python, which is available. The business generated KES 179,640 in revenue and KES 30,295 in gross profit, representing a gross margin of approximately 16.86%.
 
@@ -726,5 +726,5 @@ Before making a real purchasing decision, Safi Services & Supplies would also ne
 
 The simplified analysis assumes no restocking, returns, shrinkage, price changes or stockouts, with identical demand over the next 30 days, instant delivery and zero safety stock.
 
-Owner's takeaway: The business is generating positive gross profit, but profitability is concentrated in three products. Under the classroom assumptions, a total top-up of 280 units covers the next 30 days' demand without adding unnecessary stock.
+Owner's takeaway: The business is generating positive gross profit, but profitability is concentrated in three products. Under the stated assumptions, a total top-up of 280 units covers the next 30 days' demand without adding unnecessary stock.
 

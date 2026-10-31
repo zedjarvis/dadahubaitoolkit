@@ -32,5 +32,5 @@ Stock revenue 179,640; cost of goods sold 149,345; gross profit 30,295 KES.
 Floor cleaner contributes 9,100 KES. Overheads absent: net profit unknown.
 Quote: 100 m² / 3 weekly visits / windows = 34,104 KES.
 Quote: 400 m² / 3 weekly visits / windows = 115,536 KES.
-These rates and the 16% tax are fictional classroom inputs. The unresolved window scope must be clarified before a real quote.
+Confirm the rates and the 16% tax assumption before issuing a quotation. The unresolved window scope must be clarified before a real quote.
 RFQ deadline: 6 November 2026, noon EAT. Site visit optional. Window count, size and height not specified.

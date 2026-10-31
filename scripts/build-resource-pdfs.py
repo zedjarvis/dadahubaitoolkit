@@ -117,11 +117,11 @@ def paragraphs(text,style='body'):
 def read(stem):return (SRC/(stem+'.txt')).read_text()
 
 def make_rfq():
-    raw=read('03-fictional-cleaning-rfq')
+    raw=read('03-cleaning-rfq')
     parts=re.split(r'SECTION (\d) [—-] ([^\n]+)\n',raw)
-    sections=[(parts[i],parts[i+1],parts[i+2].replace('END OF FICTIONAL TRAINING DOCUMENT','').strip()) for i in range(1,len(parts),3)]
-    s=intro('03 / Source material','Office cleaning\nRequest for quotations','Parklands Learning Centre\nReference: TRAINING-2026-001  |  Issued: 31 October 2026')
-    s += [box('Fictional training document - not a real tender','Created for the DADA HUB AI Toolkit workshop. All organisations, requirements, dates, rates and commercial details are illustrative.')]
+    sections=[(parts[i],parts[i+1],parts[i+2].replace('END OF DOCUMENT','').strip()) for i in range(1,len(parts),3)]
+    s=intro('03 / Source material','Office cleaning\nRequest for quotations','Parklands Learning Centre\nReference: RFQ-2026-001  |  Issued: 31 October 2026')
+
     for num,title,text in sections:
         if num=='4':s += [PageBreak(),p('03 / Source material - continued','label'),p('Submission & clarifications','h1')]
         s.append(heading(f'Section {num}  /  {title.title()}'))
@@ -131,8 +131,8 @@ def make_rfq():
             for item in items:
                 if item.strip():s.append(p(item.strip()))
         else:s += paragraphs(text)
-    s += [Spacer(1,12),p('End of fictional training document','label')]
-    write('03-fictional-cleaning-rfq','Fictional cleaning RFQ',s)
+    s += [Spacer(1,12),p('End of document','label')]
+    write('03-cleaning-rfq','Cleaning RFQ',s)
 
 def make_run_sheet(rehearsal):
     s=intro('01 / Presenter','Your session run sheet','Exact spoken cues, stage actions, checks and fallbacks.\n31 October 2026  |  09:20-10:20 EAT  |  60 minutes')
@@ -159,12 +159,12 @@ def prompt_body(text):
     return blocks
 
 def make_prompts(demos,hook):
-    s=intro('02 / Copy, run, check','Exact live prompts','All business examples are fictional. Select and copy the prompt text, or use the Copy buttons in the online guide.')
+    s=intro('02 / Copy, run, check','Exact live prompts','Select and copy the prompt text, or use the Copy buttons in the online guide.')
     s += [link('Open the online rehearsal guide',BASE+'/rehearsal'),heading('Opening hook')]+prompt_body(hook['prompt'])
     s += [box('Opening check','The budget remains a budget. The requested date stays conditional. Window count, size and height are requested.')]
     for d in demos:
         s += [PageBreak(),p(d['number']+' / '+d['tool'],'label'),p(d['title'],'h1')]
-        if d['slug']=='research':s.append(p('Before starting: select only 03-fictional-cleaning-rfq.pdf in your notebook.','small'))
+        if d['slug']=='research':s.append(p('Before starting: select only 03-cleaning-rfq.pdf in your notebook.','small'))
         s += [heading('Main prompt')]+prompt_body(d['prompt'])
         s += [heading('Follow-up prompt')]+prompt_body(d['followup'])
         checks=d.get('checks',[])
@@ -177,7 +177,7 @@ def make_reference():
     for label,path in [('Toolkit and demos','/toolkit'),('Tools by task','/tools'),('Your workflow plan','/workflow'),('Exact prompts and rehearsal','/rehearsal')]:s.append(link(label,BASE+path))
     s += [PageBreak(),p('04 / Participant worksheet','label'),p('Your first workflow','h1'),p('Choose one 15-minute experiment for Monday, 2 November. Use authorised information and decide what a useful result looks like before starting.')]
     for label in ['1. Trigger - what starts the work?','2. Steps - what happens next?','3. Reviewer - who checks what?','4. Exceptions - what happens when information is missing?','5. Measure - what will you check over the first five runs?']:s.append(WritingLines(label,2))
-    s += [p('Compare accuracy, edits needed, time and cost before adding a subscription.','small'),PageBreak(),p('04 / Checked reference values','label'),p('Keep a number you can check.','h1'),table(['Example','Checked result'],[['Stock revenue','KES 179,640'],['Cost of goods sold','KES 149,345'],['Gross profit','KES 30,295'],['Floor cleaner contribution','KES 9,100'],['100 m² / 3 visits / windows','KES 34,104'],['400 m² / 3 visits / windows','KES 115,536']],[CW*.55,CW*.45]),Spacer(1,14),box('Before using a result','Overheads are absent, so net profit is unknown. Rates and 16% tax are fictional classroom inputs. Unresolved window scope must be clarified before a real quotation.'),heading('RFQ facts'),p('Submission: 6 November 2026, noon EAT.\nSite visit: optional.\nWindow count, size, height and external access: not specified.'),p('Use the numbered source sections in the RFQ PDF to verify each claim.','small')]
+    s += [p('Compare accuracy, edits needed, time and cost before adding a subscription.','small'),PageBreak(),p('04 / Checked reference values','label'),p('Keep a number you can check.','h1'),table(['Example','Checked result'],[['Stock revenue','KES 179,640'],['Cost of goods sold','KES 149,345'],['Gross profit','KES 30,295'],['Floor cleaner contribution','KES 9,100'],['100 m² / 3 visits / windows','KES 34,104'],['400 m² / 3 visits / windows','KES 115,536']],[CW*.55,CW*.45]),Spacer(1,14),box('Before using a result','Overheads are absent, so net profit is unknown. Confirm rates and the 16% tax assumption before issuing a quotation. Unresolved window scope must be clarified before a real quotation.'),heading('RFQ facts'),p('Submission: 6 November 2026, noon EAT.\nSite visit: optional.\nWindow count, size, height and external access: not specified.'),p('Use the numbered source sections in the RFQ PDF to verify each claim.','small')]
     write('04-participant-reference','Participant reference & worksheet',s)
 
 def structured_source(stem,title,desc):
@@ -201,10 +201,10 @@ def structured_source(stem,title,desc):
     write(stem,title,s)
 
 def make_stock(rows):
-    s=intro('06 / Independent answer key','Check the stock numbers.','Safi Services & Supplies  |  Fictional 30-day example\nAll monetary values are KES. The CSV is included for spreadsheet use.')
+    s=intro('06 / Independent answer key','Check the stock numbers.','Safi Services & Supplies  |  30-day sales\nAll monetary values are KES. The CSV is included for spreadsheet use.')
     s.append(table(['Revenue','Cost of goods sold','Gross profit'],[['179,640','149,345','30,295']],[CW/3]*3))
     s += [heading('Input data'),table(['Product','Opening','Sold','Unit cost','Price'],[[r['Product'],r['Opening'],r['Sold'],r['Unit cost KES'],r['Selling price KES']] for r in rows],[CW-226,54,48,62,62],True),heading('The calculation rules'),p('Revenue = units sold × selling price\nCOGS = units sold × unit cost\nGross profit = units sold × (selling price - unit cost)\nClosing stock = opening stock - units sold\nSell-through = units sold ÷ opening stock × 100\nTop-up = max(0, units sold - closing stock)'),heading('Check two rows yourself'),p('Floor cleaner: 70 × (850 - 720) = KES 9,100.\nMultipurpose cleaner: 95 × (380 - 310) = KES 6,650.')]
-    s += [PageBreak(),p('06 / Independent answer key - continued','label'),p('Profit, stock & assumptions','h1'),heading('Profit contribution'),table(['Product','Revenue','COGS','Gross profit'],[[r['Product'],f"{int(r['Revenue KES']):,}",f"{int(r['COGS KES']):,}",f"{int(r['Gross profit KES']):,}"] for r in rows],[CW-210,70,70,70],True),heading('Closing stock and simple top-ups'),table(['Product','Closing','Sell-through','Top-up'],[[r['Product'],r['Closing stock'],r['Sell-through %']+'%',r['Simple top-up']] for r in rows],[CW-202,56,84,62],True),Spacer(1,12),box('Classroom assumptions','No restocking, returns, shrinkage, price changes or stockouts. Next-month demand is unchanged; delivery is instant and safety stock is zero. Real decisions need lead times, cash, demand, storage and accurate stock records. Overheads are absent: net profit is unknown.')]
+    s += [PageBreak(),p('06 / Independent answer key - continued','label'),p('Profit, stock & assumptions','h1'),heading('Profit contribution'),table(['Product','Revenue','COGS','Gross profit'],[[r['Product'],f"{int(r['Revenue KES']):,}",f"{int(r['COGS KES']):,}",f"{int(r['Gross profit KES']):,}"] for r in rows],[CW-210,70,70,70],True),heading('Closing stock and simple top-ups'),table(['Product','Closing','Sell-through','Top-up'],[[r['Product'],r['Closing stock'],r['Sell-through %']+'%',r['Simple top-up']] for r in rows],[CW-202,56,84,62],True),Spacer(1,12),box('Calculation assumptions','No restocking, returns, shrinkage, price changes or stockouts. Next-month demand is unchanged; delivery is instant and safety stock is zero. Real decisions need lead times, cash, demand, storage and accurate stock records. Overheads are absent: net profit is unknown.')]
     write('06-stock-answer-key','Stock answer key',s)
 
 def make_tools(jobs,tools):
@@ -223,8 +223,8 @@ def make_tools(jobs,tools):
 
 def make_observed():
     raw=read('09-observed-rehearsal-outputs')
-    s=intro('09 / Actual rehearsal responses','Observed outputs','31 October 2026  |  Fictional business data\nThese are visible product responses from rehearsal, not guaranteed future outputs.')
-    s.append(box('About this edition','The observed wording is retained; table cells and equations are re-typeset for reading. Interface controls and duplicated chart accessibility labels are omitted. Citation numbers refer to the original notebook response, not links inside this PDF. See 08-rehearsal-checks.pdf for failures and limitations.'))
+    s=intro('09 / Actual rehearsal responses','Observed outputs','31 October 2026  |  Safi Services & Supplies\nThese are visible product responses from rehearsal, not guaranteed future outputs.')
+    s.append(box('About this edition','The observed wording is retained apart from scenario labels; table cells and equations are re-typeset for reading. Interface controls and duplicated chart accessibility labels are omitted. Citation numbers refer to the original notebook response, not links inside this PDF. See 08-rehearsal-checks.pdf for failures and limitations.'))
     email=raw.split('CORRECTED CHATGPT EMAIL\n',1)[1].split('FOLLOW-UP PROMPT:',1)[0]
     main,internal=email.split('Internal checks — remove before sending',1)
     s += [heading('Corrected ChatGPT email')]+paragraphs(main)
@@ -279,10 +279,10 @@ def make_observed():
     write('09-observed-rehearsal-outputs','Observed rehearsal outputs',s)
 
 def make_start():
-    s=intro('Start here / Session pack','AI for your everyday\nbusiness tasks.','DADA HUB  |  31 October 2026  |  09:20-10:20 EAT\nFictional examples. Useful prompts. A repeatable way of working.')
+    s=intro('Start here / Session pack','AI for your everyday\nbusiness tasks.','DADA HUB  |  31 October 2026  |  09:20-10:20 EAT\nUseful prompts. Clear checks. A repeatable way of working.')
     s.append(box('Download once, keep it close','The written handouts are PDFs with selectable text. The CSV opens in a spreadsheet, and quote-calculator.html works offline in a browser. Live AI products and the published website still need their usual access.'))
     s.append(table(['File','What it is for'],[
-        ['01 / Presenter run sheet','Spoken cues, stage actions, timing and fallbacks.'],['02 / Live prompts','Complete prompts and follow-ups to copy and adapt.'],['03 / Fictional cleaning RFQ','The PDF source for the NotebookLM demonstration.'],['04 / Participant reference','The business day, checked values and a workflow worksheet.'],['05 / Prepared fallbacks','Checked reference answers, clearly labelled.'],['06 / Stock answer key','A print-ready PDF plus the original spreadsheet CSV.'],['07 / Automation recipe','A setup and testing plan for a connected workflow.'],['08 / Rehearsal checks','Observed passes, corrections, failures and venue preflight.'],['09 / Observed outputs','Actual responses from the product rehearsals.'],['10 / Tools by task','14 task guides with alternatives and official source links.'],['Quote calculator / HTML','A working offline estimate calculator.'],['Presentation / PDF','The static 27-slide presentation fallback.']],[146,CW-146]))
+        ['01 / Presenter run sheet','Spoken cues, stage actions, timing and fallbacks.'],['02 / Live prompts','Complete prompts and follow-ups to copy and adapt.'],['03 / cleaning RFQ','The PDF source for the NotebookLM demonstration.'],['04 / Participant reference','The business day, checked values and a workflow worksheet.'],['05 / Prepared fallbacks','Checked reference answers, clearly labelled.'],['06 / Stock answer key','A print-ready PDF plus the original spreadsheet CSV.'],['07 / Automation recipe','A setup and testing plan for a connected workflow.'],['08 / Rehearsal checks','Observed passes, corrections, failures and venue preflight.'],['09 / Observed outputs','Actual responses from the product rehearsals.'],['10 / Tools by task','14 task guides with alternatives and official source links.'],['Quote calculator / HTML','A working offline estimate calculator.'],['Presentation / PDF','The static 27-slide presentation fallback.']],[146,CW-146]))
     s += [Spacer(1,12),link('Open the attendee toolkit',BASE+'/toolkit'),link('Open the presenter rehearsal',BASE+'/rehearsal'),link('Browse the tools directory',BASE+'/tools')]
     write('START-HERE','Session pack guide',s)
 

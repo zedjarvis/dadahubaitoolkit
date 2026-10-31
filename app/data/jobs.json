@@ -27,7 +27,7 @@
         "Consider when the brief and SOP already live in Notion."
       ]
     ],
-    "prompt": "Using only these approved notes, draft a 150-word client reply. Separate confirmed facts from questions. Do not invent prices, dates or commitments. Put internal checks after the reply. Notes: [paste fictional or authorised notes].",
+    "prompt": "Using only these approved notes, draft a 150-word client reply. Separate confirmed facts from questions. Do not invent prices, dates or commitments. Put internal checks after the reply. Notes: [paste approved client notes].",
     "check": "Check every promise, amount and date. Remove internal notes before sending."
   },
   {
@@ -346,7 +346,7 @@
         "Ask questions about a PDF and inspect its source."
       ]
     ],
-    "prompt": "From these fictional invoices, extract supplier, invoice number, date, currency, subtotal, tax, total and source filename. Leave unreadable or absent values blank and flag them. Identify possible duplicates without deleting anything. Reconcile subtotal plus tax to total; do not post to accounting or initiate payment.",
+    "prompt": "From these invoices, extract supplier, invoice number, date, currency, subtotal, tax, total and source filename. Leave unreadable or absent values blank and flag them. Identify possible duplicates without deleting anything. Reconcile subtotal plus tax to total; do not post to accounting or initiate payment.",
     "check": "Verify every amount and currency against the original. Check duplicate invoices, credit notes, OCR errors and tax treatment before importing. Extraction is not bookkeeping approval."
   }
 ]

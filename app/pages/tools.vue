@@ -25,6 +25,6 @@ async function copy(id: string, prompt: string) { try { await navigator.clipboar
       <p class="job-check"><b>Before using the result</b><br />{{ job.check }}</p>
     </article>
   </div><p v-if="!filtered.length" class="empty-state">No match yet. Try “sales”, “documents” or a tool name. <button class="copy-button" @click="query = ''; category = 'All tasks'">Show all tasks</button></p><p v-if="copyError" role="status">Clipboard access is unavailable. Select and copy the visible prompt.</p>
-  <section class="brief-panel"><div><p class="eyebrow">A sensible first experiment</p><h2 class="display">One task.<br />One useful result.</h2></div><div><p>Use fictional or authorised data. Try the same small task in a tool you already have. Compare accuracy, edits needed, time and cost before adding another subscription.</p><NuxtLink class="button button-secondary" to="/workflow">Map your first workflow ↗</NuxtLink></div></section>
+  <section class="brief-panel"><div><p class="eyebrow">A sensible first experiment</p><h2 class="display">One task.<br />One useful result.</h2></div><div><p>Use information you are authorised to share. Try the same small task in a tool you already have. Compare accuracy, edits needed, time and cost before adding another subscription.</p><NuxtLink class="button button-secondary" to="/workflow">Map your first workflow ↗</NuxtLink></div></section>
 </main>
 </template>

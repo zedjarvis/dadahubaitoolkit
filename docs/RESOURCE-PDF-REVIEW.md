@@ -11,3 +11,7 @@
 - Nuxt typecheck and production build passed. Public PDF, ZIP contents and production links are verified after the Git-triggered deployment.
 
 The RFQ is still clearly labelled fictional. Previously prepared notebooks may retain the original text upload; its section wording is unchanged. The run sheet explains which PDF to use when preparing a new notebook.
+
+## Business-scenario copy update
+
+Removed repeated fictional/training labels from the audience-facing site, prompts, slides and PDF kit. The current RFQ is `03-cleaning-rfq.pdf`; the former download URL redirects to it. Requirements, deadlines, data and calculations are unchanged. Calculation assumptions and the local workflow capability notes remain explicit. Rendered all 79 PDF pages, inspected changed pages and the refreshed deck, verified current prompt/source text against PDF extraction, and checked text bounds. Eight calculation/workflow tests, typecheck and the complete production build passed. Historical product responses are marked as edited only to remove scenario labels.

@@ -3,6 +3,9 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineNuxtConfig({
   compatibilityDate: '2026-10-31',
   devtools: { enabled: false },
+  routeRules: {
+    '/resources/03-fictional-cleaning-rfq.pdf': { redirect: { to: '/resources/03-cleaning-rfq.pdf', statusCode: 301 } },
+  },
   css: ['~/assets/css/main.css'],
   vite: { plugins: [tailwindcss()] },
   app: {

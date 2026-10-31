@@ -2,7 +2,7 @@ YOUR FIRST CONNECTED WORKFLOW — IMPLEMENTATION RECIPE
 This is a plan to configure and test, not an installed integration or importable template.
 
 Goal: a new enquiry becomes one internal record and a draft for an owner to review.
-Start with synthetic enquiries. Keep automatic sending disabled.
+Start with the supplied enquiry. Keep automatic sending disabled.
 
 1. TRIGGER
 Choose the form or inbox your team already uses. A structured form is easier to start with than unstructured messages. Capture enquiry ID, client label, service, area, requested date and contact channel. Do not include unnecessary sensitive information.

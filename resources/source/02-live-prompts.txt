@@ -1,16 +1,16 @@
-EXACT LIVE PROMPTS — ALL EXAMPLES FICTIONAL
+EXACT LIVE PROMPTS
 OPENING HOOK
-Turn these fictional enquiry notes into a three-line WhatsApp acknowledgement for Safi Services & Supplies. Keep KES 120,000 as the client's monthly budget, not our quote. Treat 16 November 2026 as a requested start date, subject to confirming scope and availability. Ask to confirm window count, size and height. Do not promise a price or start date.
+Turn these client enquiry notes into a three-line WhatsApp acknowledgement for Safi Services & Supplies. Keep KES 120,000 as the client's monthly budget, not our quote. Treat 16 November 2026 as a requested start date, subject to confirming scope and availability. Ask to confirm window count, size and height. Do not promise a price or start date.
 
 Parklands Learning Centre; 400 m²; cleaning Monday, Wednesday and Friday after 6 pm; monthly window cleaning; budget 120k including tax; wants start 16 Nov. Window details missing.
 
 01 — A better client reply
-You manage enquiries for Safi Services & Supplies, a fictional Nairobi cleaning company that also sells cleaning supplies.
+You manage enquiries for Safi Services & Supplies, a Nairobi cleaning company that also sells cleaning supplies.
 Using only the notes below, draft an email of no more than 180 words to the administrator of Parklands Learning Centre. Use five short sections: Your needs; Proposed next step; Timing; Budget; What we need from you.
 Keep the language simple and professional. KES 120,000 is the client's monthly budget inclusive of tax, not our quote. A costed proposal follows scope and access checks. Treat 16 November 2026 as a requested start date, subject to confirming scope and availability. Do not invent prices, discounts, certifications or staffing. Do not mention the administrator's possible home-cleaning request in the customer-facing email; note it only in internal checks as a separate enquiry.
 After the email, add a separate 'Internal checks — remove before sending' section. List missing facts and assumptions there, not inside the customer-facing email.
 
-Fictional enquiry notes:
+Client enquiry:
 Parklands Learning Centre, 400 m² offices. Cleaning Mon/Wed/Fri after 6 pm. Floors, desks, washrooms, waste to on-site collection point. We provide products, equipment and staff. Wants windows monthly too; count, size, height and safe access unknown. Budget 120k per month incl tax. Requested start 16 Nov 2026 for 3 months. Admin also mentioned maybe cleaning her home later. No availability or final quote confirmed.
 FOLLOW-UP
 Turn only the customer-facing email into a three-line WhatsApp reply. Keep KES 120,000 as the client's budget, keep the requested start date subject to confirmation, and ask for the missing window details. Do not include internal notes or the separate home-cleaning request.
@@ -20,7 +20,7 @@ KES 120,000 remains a monthly budget inclusive of tax, not a quote.
 Window details are requested; the separate home job is excluded.
 
 02 — An answer you can trace
-Using only the selected fictional RFQ, make a compact bidder checklist of no more than 300 words. Use three sections:
+Using only the selected RFQ, make a compact bidder checklist of no more than 300 words. Use three sections:
 1. Requirements: list the six mandatory submission items, the budget ceiling, submission deadline and format, and the optional site visit. Give a supporting citation and section identifier for each row.
 2. Explicit rejection grounds: list only the four grounds actually stated in Section 5.
 3. Before quoting: list the three most useful clarification questions.
@@ -35,9 +35,9 @@ The site visit is optional.
 Window count, size and height are not specified.
 
 03 — What is your stock saying?
-Act as a retail operations analyst explaining Safi Services & Supplies' fictional product sales to its
+Act as a retail operations analyst explaining Safi Services & Supplies' product sales to its
 owner. Use a calculation/data-analysis tool if available and tell me if it is
-not available. Treat the following as a simplified classroom example.
+not available. Analyse the following 30-day sales report.
 
 Assume no restocking, returns, shrinkage, price changes or stockouts during the
 30 days. Assume the next 30 days have the same demand, instant delivery and no
@@ -70,7 +70,7 @@ Bin liner box,40,8,900,1100
 FOLLOW-UP
 Create a horizontal bar chart of total gross-profit contribution by product,
 sorted from largest to smallest. Label values in KES and use the title
-"Gross profit from units sold — fictional 30-day example". Explain in two
+"Gross profit from units sold — 30-day sales". Explain in two
 sentences why a high margin percentage need not mean the most total profit.
 CHECKS
 Revenue: KES 179,640. Gross profit: KES 30,295.
@@ -85,7 +85,7 @@ images, fonts, services or network requests. Create the actual file, perform
 the checks below using the tools available to you, and open or link the working
 result for review. If an interactive HTML preview is available, show it too.
 
-Business rules for this fictional training example:
+Business rules:
 - Floor area in square metres must be a finite number greater than zero.
 - Visits per week: choose 1, 3 or 5.
 - Windows: yes or no.
@@ -93,16 +93,15 @@ Business rules for this fictional training example:
 - Cleaning price: KES 18 per square metre per visit.
 - Windows: a fixed KES 6,000 per month when selected.
 - Subtotal = area × 18 × visits per week × 52 / 12 + windows fee.
-- Apply an illustrative 16% VAT to the entire subtotal, including windows.
-- Total = subtotal + illustrative VAT.
+- Apply an assumed 16% VAT to the entire subtotal, including windows.
+- Total = subtotal + VAT.
 - Retain full precision during calculation; display currency to two decimals.
 
 Show area, average visits per month, cleaning amount, windows amount, subtotal,
-illustrative VAT and grand total, all clearly labelled. Explain that 52/12 is
-an average estimate; actual calendar visits may differ. Label the rates and
-tax assumption as fictional training inputs, not verified market or tax advice.
+VAT and grand total, all clearly labelled. Explain that 52/12 is
+an average estimate; actual calendar visits may differ. State the rates and tax assumption used; confirm them before issuing a quotation.
 Default to 400 square metres, 3 visits per week and windows included. This
-matches our fictional RFQ; do not claim it is a final commercial quote.
+matches our RFQ; do not claim it is a final commercial quote.
 For invalid or missing area input, show a helpful error and no valid quote.
 Use large text, clear form labels and a professional design.
 
@@ -119,7 +118,7 @@ performed and any you could not perform. Give a brief delivery summary and
 the path to the finished file. Do not publish or deploy it.
 FOLLOW-UP
 Add a "Print estimate" button. The print view must retain the inputs, amount
-breakdown and training/assumption notes. Preserve every calculation rule and
+breakdown and calculation assumptions. Preserve every calculation rule and
 rerun the same checks.
 CHECKS
 100 m², 3 visits/week, windows: KES 34,104.

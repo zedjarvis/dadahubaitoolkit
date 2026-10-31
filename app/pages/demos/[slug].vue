@@ -28,10 +28,10 @@ const profitRows = [...inventory].sort((a, b) => b.profit - a.profit)
       <div><div class="prompt-area"><div class="prompt-toolbar"><span>Your copy-and-paste prompt</span><button class="copy-button" aria-live="polite" @click="copyPrompt">{{ copied ? 'Copied ✓' : 'Copy prompt' }}</button></div><pre class="prompt-text" tabindex="0">{{ demo.prompt }}</pre></div><p v-if="copyError" role="status" class="fine-print">Clipboard access is unavailable. Select the prompt text and copy it manually.</p>
         <NuxtLink :to="`/rehearsal#${demo.slug}`" class="text-link">Rehearsal script & fallback ↗</NuxtLink><h2 class="detail-heading">One useful follow-up</h2><div class="followup">{{ demo.followup }}</div>
         <details><summary>The checks to make before using the result</summary><p v-for="check in demo.checks" :key="check">{{ check }}</p>
-          <div v-if="demo.slug === 'stock'" class="stock-chart" aria-label="Gross profit by product"><div v-for="row in profitRows" :key="row.name" class="stock-chart-row"><span>{{ row.name }}</span><div class="chart-bar" :style="{ width: `${row.profit / 9100 * 100}%` }" /><b>{{ row.profit.toLocaleString() }}</b></div><p>Gross profit in KES from fictional 30-day data.</p></div>
+          <div v-if="demo.slug === 'stock'" class="stock-chart" aria-label="Gross profit by product"><div v-for="row in profitRows" :key="row.name" class="stock-chart-row"><span>{{ row.name }}</span><div class="chart-bar" :style="{ width: `${row.profit / 9100 * 100}%` }" /><b>{{ row.profit.toLocaleString() }}</b></div><p>Gross profit in KES from 30-day data.</p></div>
         </details>
       </div>
-      <aside><div class="aside-block"><h2>The problem</h2><p>{{ demo.problem }}</p></div><div class="aside-block"><h2>The AI opportunity</h2><p>{{ demo.opportunity }}</p></div><div class="aside-block"><h2>Your first step</h2><p>{{ demo.firstStep }}</p></div><p class="fine-print">Workshop data is fictional. Review generated work before using it in your business.</p></aside>
+      <aside><div class="aside-block"><h2>The problem</h2><p>{{ demo.problem }}</p></div><div class="aside-block"><h2>The AI opportunity</h2><p>{{ demo.opportunity }}</p></div><div class="aside-block"><h2>Your first step</h2><p>{{ demo.firstStep }}</p></div><p class="fine-print">Review the facts, figures and commitments before using the result.</p></aside>
     </div>
   </main>
 </template>

@@ -1,12 +1,9 @@
-FICTIONAL TRAINING DOCUMENT — NOT A REAL TENDER
 Parklands Learning Centre — Office Cleaning Request for Quotations
-Reference: TRAINING-2026-001 | Issue date: 31 October 2026
-Created for the DADA HUB AI Toolkit workshop. All organisations, requirements,
-dates, rates and commercial details in this document are illustrative.
+Reference: RFQ-2026-001 | Issue date: 31 October 2026
 
 SECTION 1 — PURPOSE AND SCOPE
-The fictional Parklands Learning Centre invites quotations for routine office
-cleaning at its fictional Parklands premises. The cleaned floor area is 400
+The Parklands Learning Centre invites quotations for routine office
+cleaning at its Parklands premises. The cleaned floor area is 400
 square metres. Service is required three times per week: Monday, Wednesday
 and Friday after 6:00 PM. The proposed start date is 16 November 2026. The
 initial contract term is three months.
@@ -35,8 +32,7 @@ No contract award is promised by this request.
 
 SECTION 4 — SUBMISSION AND SITE VISIT
 The submission deadline is Friday, 6 November 2026 at 12:00 noon, East Africa
-Time. Submit one PDF through the fictional training procurement portal.
-There is no real portal or recipient; do not send a bid anywhere.
+Time. Submit one PDF through the procurement portal.
 An optional site visit is scheduled for Monday, 2 November 2026 at 10:00 AM EAT.
 Attendance at the site visit is not a mandatory bidding requirement.
 
@@ -54,4 +50,4 @@ The source does not state a method or deadline for clarification requests,
 payment terms, insurance requirements, or minimum staffing levels. Do not
 assume those details or describe them as mandatory bid requirements.
 
-END OF FICTIONAL TRAINING DOCUMENT
+END OF DOCUMENT

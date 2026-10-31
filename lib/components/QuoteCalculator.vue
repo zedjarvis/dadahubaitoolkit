@@ -19,10 +19,10 @@ function printEstimate() { window.print() }
       <p v-if="!result" id="quote-error" role="alert" class="quote-error">Enter a valid floor area greater than zero.</p>
     </div>
     <div class="quote-result" aria-live="polite" aria-atomic="true">
-      <template v-if="result"><div class="quote-label">ESTIMATED MONTHLY TOTAL</div><strong class="quote-total">{{ kes(result.total) }}</strong><p class="quote-average">{{ result.monthlyVisits.toFixed(2).replace('.00', '') }} average visits per month</p><dl><div><dt>Routine cleaning</dt><dd>{{ kes(result.cleaning) }}</dd></div><div><dt>Windows</dt><dd>{{ kes(result.windowFee) }}</dd></div><div class="subtotal"><dt>Subtotal</dt><dd>{{ kes(result.subtotal) }}</dd></div><div><dt>Illustrative VAT (16%)</dt><dd>{{ kes(result.tax) }}</dd></div></dl><button v-if="!compact" type="button" class="quote-print" @click="printEstimate">Print estimate ↗</button></template>
+      <template v-if="result"><div class="quote-label">ESTIMATED MONTHLY TOTAL</div><strong class="quote-total">{{ kes(result.total) }}</strong><p class="quote-average">{{ result.monthlyVisits.toFixed(2).replace('.00', '') }} average visits per month</p><dl><div><dt>Routine cleaning</dt><dd>{{ kes(result.cleaning) }}</dd></div><div><dt>Windows</dt><dd>{{ kes(result.windowFee) }}</dd></div><div class="subtotal"><dt>Subtotal</dt><dd>{{ kes(result.subtotal) }}</dd></div><div><dt>VAT (assumed 16%)</dt><dd>{{ kes(result.tax) }}</dd></div></dl><button v-if="!compact" type="button" class="quote-print" @click="printEstimate">Print estimate ↗</button></template>
       <div v-else class="quote-empty">Your estimate will appear here once the floor area is valid.</div>
     </div>
-    <p class="quote-note">Training example. KES 18/m²/visit, 52 ÷ 12 weeks/month. The illustrative 16% VAT applies to both cleaning and windows. Actual visits, scope and applicable taxes need confirmation.</p>
+    <p class="quote-note">Estimate inputs: KES 18/m²/visit, 52 ÷ 12 weeks/month. The estimate assumes 16% VAT on both cleaning and windows. Actual visits, scope and applicable taxes need confirmation.</p>
   </section>
 </template>
 

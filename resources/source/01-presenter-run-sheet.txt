@@ -1,19 +1,13 @@
 THE AI TOOLKIT — PRESENTER REHEARSAL
 DADA HUB, 31 October 2026, 09:20–10:20 EAT
-Fictional company: Safi Services & Supplies. Fictional client: Parklands Learning Centre.
-
-PROMISE: practical everyday AI work, with a repeatable workflow. This is a guided introduction, not a completed cross-app automation installation.
-
-BEFORE THE ROOM
-Open the deck, ChatGPT, the prepared notebook with only the fictional RFQ selected, Codex in an empty demo folder, /workflow, and the offline calculator. Clear welcome dialogs; hide unrelated chats; test text size, projector and hotspot. Download the PDF and kit.
-30-second opening timeout; 45 seconds for later generations. One recovery attempt then fallback. Cut optional chart generation and print enhancement first; protect audience exercises and finish.
+Business: Safi Services & Supplies. Client: Parklands Learning Centre.
 
 09:20–09:23 EAT | 3 min | Open with the work
 SAY: Before I introduce myself, imagine this enquiry has just arrived while you are out on a job. Can we give the client a useful reply without promising something we cannot deliver?
 DO:
 1. Keep the cover on screen, then switch to the prepared ChatGPT tab. Paste the opening prompt as one complete message; check it before pressing Send.
 2. Give generation 30 seconds. Read the three lines, then ask: “Did it turn the budget into our price? Did it promise the start date?”
-3. Introduce yourself in one sentence. Show the Flowt and SchoolBooks slides for about 20 seconds each. Say: “Today we follow one fictional company, Safi Services & Supplies, through its working day.”
+3. Introduce yourself in one sentence. Show the Flowt and SchoolBooks slides for about 20 seconds each. Say: “Today we follow Safi Services & Supplies through its working day.”
 PASS: Three short paragraphs; KES 120,000 remains the client budget; 16 November remains conditional; window details are requested.
 FALLBACK: “That is taking longer than our slot. Here is a saved rehearsal result from the same brief. Let’s check the commitments together.” Open the saved reply; do not call it a live result.
 
@@ -22,7 +16,7 @@ SAY: Safi cleans offices and sells cleaning supplies. An enquiry arrives. Someon
 DO:
 1. Open /workflow. Submit SAFI-001 with windows blank. Point to the new record, draft and “Needs clarification” status. Try approval: it is disabled.
 2. Submit the same ID again. Show that a duplicate record is not created.
-3. In the held record, enter “10 ground-floor windows, 1 × 1 m; safe access confirmed for this fictional test” under Confirmed window details. Click Resolve missing details, then approve the revised draft locally. The same enquiry ID is preserved; nothing is sent.
+3. In the held record, enter “10 ground-floor windows, 1 × 1 m; safe access confirmed” under Confirmed window details. Click Resolve missing details, then approve the revised draft locally. The same enquiry ID is preserved; nothing is sent.
 4. Say explicitly: “This is working browser-only automation using a fixed template. No AI or email service is connected here. We will use ChatGPT for writing next. Make, Zapier or n8n can connect these steps to real apps once configured.”
 5. Explain the three levels: an AI draft you request; a reusable tool you open; a connected workflow triggered by an event. Ask for one repeated task from the room.
 PASS: One submission creates one record; missing data pauses approval; duplicates are rejected; approval is a deliberate action. The audience understands the local-versus-connected distinction.
@@ -34,7 +28,7 @@ DO:
 1. Open Demo 1 and copy the full prompt into ChatGPT. Read only the brief’s constraints aloud; do not read the entire prompt.
 2. Check budget, date and the separate home-cleaning request. Point out the internal checklist and remove it before any real sending. We send nothing today.
 3. Run the three-line WhatsApp follow-up if time allows. Ask: “Which sentence would you edit before sending?”
-4. Give participants three full minutes: use fictional notes, change one requirement, generate a reply and underline one claim they checked. People without accounts pair up or edit the prepared reply.
+4. Give participants three full minutes: use notes, change one requirement, generate a reply and underline one claim they checked. People without accounts pair up or edit the prepared reply.
 5. Take one example, ask what changed, then move at 09:39. This audience-made reply is the first take-home result.
 PASS: The five email sections stay under 180 words; missing facts are separate; no fabricated quote, staffing, certification or start commitment.
 FALLBACK: “Here is the reply from rehearsal. The useful part now is spotting what you would change.” Use the saved output or clearly labelled prepared reference. Keep the three-minute audience exercise.
@@ -42,7 +36,7 @@ FALLBACK: “Here is the reply from rehearsal. The useful part now is spotting w
 09:39–09:48 EAT | 9 min | 10:00 — the RFQ arrives
 SAY: The same client sends a formal request. A summary can be useful, but the important question is: where does the answer come from?
 DO:
-1. Open the prepared notebook with only 03-fictional-cleaning-rfq.pdf selected. On this account the interface says Gemini Notebook; attendees may know it as NotebookLM. Do not create or upload the source on stage.
+1. Open the prepared notebook with only the cleaning RFQ selected. Use 03-cleaning-rfq.pdf when preparing a new notebook; the earlier text source has the same wording. On this account the interface says Gemini Notebook; attendees may know it as NotebookLM. Do not create or upload the source on stage.
 2. Paste the checklist prompt. Open the citation for the submission deadline and read Section 4: Friday 6 November 2026, noon EAT. Confirm that the site visit is optional.
 3. Ask the missing-windows follow-up. Open Section 1 or 6 to establish what is absent. Ask: “Would you quote the windows yet?”
 4. Make the lesson explicit: the document can be incomplete even when a quotation fits the budget. A citation still needs inspection.
@@ -66,8 +60,8 @@ SAY: This brief asks for an actual working file and checks. A good-looking calcu
 DO:
 1. Return to the Codex task started at 09:47. Show the delivered file and the checks actually performed. If unfinished, switch promptly to the prepared offline calculator.
 2. Try 100 m², three visits, windows included: KES 34,104. Turn windows off: KES 27,144. Clear the area: no valid quote.
-3. Return to 400 m² with windows: KES 115,536. This is KES 4,464 below the fictional budget, but the window scope is still unresolved. It is an estimate, not permission to send a quote.
-4. Explain average visits = visits per week × 52 / 12; calendar months differ. Rates and 16% tax are classroom inputs, not verified commercial or tax guidance.
+3. Return to 400 m² with windows: KES 115,536. This is KES 4,464 below the budget, but the window scope is still unresolved. It is an estimate, not permission to send a quote.
+4. Explain average visits = visits per week × 52 / 12; calendar months differ. Explain the pricing inputs and 16% tax assumption; confirm applicable taxes before issuing a quotation.
 5. If ahead, ask for the print button and repeat the checks. If behind, skip this enhancement. Never spend stage time fixing installation or permissions.
 PASS: The actual file opens; all known totals reconcile; invalid input produces no quote; labels and controls work on a phone.
 FALLBACK: “The live build is not ready for review. This is the checked version prepared before the session, and we will test it the same way.” Open the downloaded quote-calculator.html, which works without internet.

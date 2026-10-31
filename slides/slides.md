@@ -6,7 +6,7 @@ author: Cedrouseroll Omondi
 info: |
   A practical 60-minute session for business owners at DADA HUB, Parklands.
   Saturday 31 October 2026, 9:20–10:20 AM EAT.
-  ChatGPT, Codex and NotebookLM. All demo records are fictional.
+  ChatGPT, Codex and NotebookLM.
 colorSchema: light
 layout: intro
 introImage: /images/ced-illustrated.png
@@ -43,7 +43,7 @@ favicon: /favicon.svg
 <div class="event">DADA HUB, Parklands<br>31 October 2026 · 9:20–10:20 AM EAT</div>
 
 <!--
-09:20–09:21:30. Say: “Before I introduce myself, imagine this enquiry has arrived while you are out on a job. Can we give a useful reply without promising something we cannot deliver?” Switch to the prepared ChatGPT tab and run the opening hook from /rehearsal. Allow 30 seconds, then use the saved rehearsal output if needed. Check budget, date and windows with the room. This is fictional training data.
+09:20–09:21:30. Say: “Before I introduce myself, imagine this enquiry has arrived while you are out on a job. Can we give a useful reply without promising something we cannot deliver?” Switch to the prepared ChatGPT tab and run the opening hook from /rehearsal. Allow 30 seconds, then use the saved rehearsal output if needed. Check budget, date and windows with the room.
 Introduce yourself in one sentence before the next two company slides. The illustrated portrait uses the speaker's supplied photo. Full minute-by-minute script: https://dadahubaitoolkit.vercel.app/rehearsal
 -->
 
@@ -94,7 +94,7 @@ logoHeader: ''
 
 ---
 
-<div class="kicker">One fictional business / one working day</div>
+<div class="kicker">One business / one working day</div>
 
 # Meet Safi Services & Supplies.
 <p class="lead">Office cleaning. Cleaning supplies.<br>A small team with a full day ahead.</p>
@@ -102,7 +102,7 @@ logoHeader: ''
 <p class="small mt-7">Leave with a checked reply and one workflow to try.</p>
 
 <!--
-09:22:30–09:23. The client is the fictional Parklands Learning Centre. Explain that the story clock is illustrative; the session clock remains 09:20–10:20. This is not a product tour or an installation clinic. All sample data is fictional.
+09:22:30–09:23. The client is Parklands Learning Centre. Explain that the business-day clock shows the sequence of work; the session clock remains 09:20–10:20. This is not a product tour or an installation clinic.
 -->
 
 ---
@@ -115,7 +115,7 @@ logoHeader: ''
 <p class="small">Fixed rules in the browser. No AI or email connection. Nothing is sent.</p>
 
 <!--
-09:23–09:27. Open /workflow. Submit SAFI-001 with windows blank: a record and template draft appear, held for clarification. Approval is disabled. Resubmit same ID: duplicate rejected. Resolve the held record with confirmed fictional window details; the same ID is preserved. Review and explicitly approve the revised draft. The browser automates these local steps. Explain the lack of external app connections rather than implying a connected Make/Gmail workflow. If unavailable, trace the three cases on this slide and label it a walkthrough.
+09:23–09:27. Open /workflow. Submit SAFI-001 with windows blank: a record and template draft appear, held for clarification. Approval is disabled. Resubmit same ID: duplicate rejected. Resolve the held record with confirmed window details; the same ID is preserved. Review and explicitly approve the revised draft. The browser automates these local steps. Explain the lack of external app connections rather than implying a connected Make/Gmail workflow. If unavailable, trace the three cases on this slide and label it a walkthrough.
 -->
 
 ---
@@ -160,7 +160,7 @@ layout: center
 <div class="kicker">Your turn / 3 minutes</div>
 
 # One change. One checked reply.
-<p class="lead">Use the fictional notes.<br>Change one requirement.<br>Underline one claim you checked.</p>
+<p class="lead">Use the notes.<br>Change one requirement.<br>Underline one claim you checked.</p>
 <p class="small mt-7">No account open? Pair up or edit the prepared reply.</p>
 
 <!--
@@ -178,7 +178,7 @@ sectionImage: /section-illustration.svg
 <p class="lead">NotebookLM / Gemini Notebook</p>
 
 <!--
-09:39–09:40. The same client sends a formal request. Open the preloaded notebook with only the fictional RFQ selected. The presenting account currently says Gemini Notebook. Do not spend stage time creating a notebook or uploading files.
+09:39–09:40. The same client sends a formal request. Open the preloaded notebook with only the RFQ selected. The presenting account currently says Gemini Notebook. Do not spend stage time creating a notebook or uploading files.
 -->
 
 ---
@@ -237,7 +237,7 @@ sectionImage: /section-illustration.svg
 | Bleach 1L | 88 | 170 | 210 |
 | Microfibre pack | 12 | 350 | 480 |
 | Toilet paper 10 pack | 82 | 380 | 450 |
-<p class="small">Selected rows from the fictional 30-day dataset. Amounts in KES.</p>
+<p class="small">Selected rows from the 30-day dataset. Amounts in KES.</p>
 <a class="live-link" href="https://dadahubaitoolkit.vercel.app/demos/stock" target="_blank">Open all eight rows & the analysis prompt ↗</a>
 
 <!--
@@ -248,7 +248,7 @@ sectionImage: /section-illustration.svg
 
 # Floor cleaner contributes the most.
 <ProfitChart />
-<p class="tiny">Gross profit from units sold, in KES. Fictional data. Independently checked reference chart.</p>
+<p class="tiny">Gross profit from units sold, in KES. Independently checked reference chart.</p>
 
 <!--
 09:51–09:53. Top three: floor cleaner 9,100; multipurpose cleaner 6,650; toilet paper 5,740. Microfibre packs have a higher margin percentage than floor cleaner but less total contribution. This is a prepared reference chart, not a live model output. Generating another chart is optional and is cut first if behind.
@@ -261,7 +261,7 @@ sectionImage: /section-illustration.svg
 <p class="small mt-7">Floor cleaner: 70 × (850 − 720) = KES 9,100</p>
 
 <!--
-09:53–09:57. Give pairs two minutes to calculate floor cleaner and multipurpose cleaner (95 × 70 = 6,650). Correct rows do not prove all totals; reconcile the whole table with the key. Ask what matters before ordering: lead time, future demand, storage and cash. Simple top-ups: multipurpose cleaner70, floor cleaner60, bleach76, toilet paper74. They are classroom quantities, not a final ordering instruction. Return to Codex at 09:57.
+09:53–09:57. Give pairs two minutes to calculate floor cleaner and multipurpose cleaner (95 × 70 = 6,650). Correct rows do not prove all totals; reconcile the whole table with the key. Ask what matters before ordering: lead time, future demand, storage and cash. Simple top-ups: multipurpose cleaner70, floor cleaner60, bleach76, toilet paper74. They are quantities based on the stated assumptions, not a final ordering instruction. Return to Codex at 09:57.
 -->
 
 ---
@@ -286,7 +286,7 @@ sectionImage: /section-illustration.svg
 <p class="lead mt-10">A finished-looking screen still needs testing.</p>
 
 <!--
-09:58–10:00. Show actual delivery summary and performed tests, not source code. Explain average monthly visits = weekly visits × 52 / 12. Rates and 16% tax are fictional training assumptions. Do not claim that ChatGPT cannot build tools or that an agent is infallible.
+09:58–10:00. Show actual delivery summary and performed tests, not source code. Explain average monthly visits = weekly visits × 52 / 12. Explain the rates and the 16% tax assumption used in the estimate. Do not claim that ChatGPT cannot build tools or that an agent is infallible.
 -->
 
 ---
@@ -301,7 +301,7 @@ sectionImage: /section-illustration.svg
 ---
 
 # Under budget is not ready to send.
-<div class="two"><div><div class="big-value">115,536</div><p class="stat-label">KES illustrative monthly estimate</p><p class="small">KES 4,464 below the client’s budget.</p></div><div class="rule"><h2>What is still unknown?</h2><p class="lead">Window scope.<br>Safe access.<br>Availability.</p></div></div>
+<div class="two"><div><div class="big-value">115,536</div><p class="stat-label">KES monthly estimate</p><p class="small">KES 4,464 below the client’s budget.</p></div><div class="rule"><h2>What is still unknown?</h2><p class="lead">Window scope.<br>Safe access.<br>Availability.</p></div></div>
 
 <!--
 10:04–10:07. Tie the calculator back to NotebookLM’s missing facts. A correct formula does not validate commercial assumptions. If ahead, ask Codex for a print button and rerun the same checks. Otherwise skip the enhancement. This is the perspective shift: useful work combines generation, rules, evidence and a responsible reviewer.
@@ -379,7 +379,7 @@ Appendix only. The PDF is static. The downloaded standalone calculator works off
 - [Slidev: work with AI](https://sli.dev/guide/work-with-ai) · [Unicorn theme](https://github.com/dawntraoz/slidev-theme-unicorn)
 
 </div>
-<p class="tiny mt-8">All client, RFQ, sales and pricing examples are fictional. Rates, demand and tax assumptions are for training. Source review: 31 October 2026. Product access varies. Tool-fit recommendations are editorial judgments, not measured rankings. The portrait is AI-stylised from the speaker’s photograph.</p>
+<p class="tiny mt-8">Confirm rates, demand and applicable taxes before using an estimate. Source review: 31 October 2026. Product access varies. Tool-fit recommendations are editorial judgments, not measured rankings. The portrait is AI-stylised from the speaker’s photograph.</p>
 
 <!--
 Appendix only. Read the rehearsal audit for what was actually tested. No connected external automation is claimed. The local workflow and offline calculator are implemented and checked artifacts.

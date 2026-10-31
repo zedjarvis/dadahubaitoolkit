@@ -24,7 +24,7 @@ Notion AI — Consider when the brief and SOP already live in Notion.
 https://www.notion.com/product/ai
 ACCESS: Best evaluated inside an existing Notion workspace; full AI access depends on plan.
 SOURCE: https://www.notion.com/help/notion-ai-faqs
-STARTER PROMPT: Using only these approved notes, draft a 150-word client reply. Separate confirmed facts from questions. Do not invent prices, dates or commitments. Put internal checks after the reply. Notes: [paste fictional or authorised notes].
+STARTER PROMPT: Using only these approved notes, draft a 150-word client reply. Separate confirmed facts from questions. Do not invent prices, dates or commitments. Put internal checks after the reply. Notes: [paste approved client notes].
 CHECK: Check every promise, amount and date. Remove internal notes before sending.
 
 UNDERSTAND A TENDER OR POLICY
@@ -278,5 +278,5 @@ Adobe Acrobat AI — Ask questions about a PDF and inspect its source.
 https://www.adobe.com/acrobat/generative-ai-pdf.html
 ACCESS: Check AI Assistant/PDF Spaces entitlement; OCR quality affects scanned documents.
 SOURCE: https://helpx.adobe.com/acrobat/desktop/explore-pdf-spaces/view-citations.html
-STARTER PROMPT: From these fictional invoices, extract supplier, invoice number, date, currency, subtotal, tax, total and source filename. Leave unreadable or absent values blank and flag them. Identify possible duplicates without deleting anything. Reconcile subtotal plus tax to total; do not post to accounting or initiate payment.
+STARTER PROMPT: From these invoices, extract supplier, invoice number, date, currency, subtotal, tax, total and source filename. Leave unreadable or absent values blank and flag them. Identify possible duplicates without deleting anything. Reconcile subtotal plus tax to total; do not post to accounting or initiate payment.
 CHECK: Verify every amount and currency against the original. Check duplicate invoices, credit notes, OCR errors and tax treatment before importing. Extraction is not bookkeeping approval.

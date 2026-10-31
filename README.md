@@ -185,3 +185,6 @@ The standalone `public/resources/quote-calculator.html` works offline. The demo 
 All written handouts in `public/resources/` are designed PDFs. The ZIP contains 12 PDFs (including the existing presentation), the original stock CSV and the offline HTML calculator; no TXT files. The RFQ wording and numbered sections are preserved.
 
 Editable reference sources live in `resources/source/`; prompts, rehearsal cues and the tools directory are also generated from `app/data/`. Regenerate the PDFs and ZIP with `python3 scripts/build-resource-pdfs.py` after installing `reportlab` and `pypdf`. Lato is embedded when available; the script falls back to ReportLab’s bundled Vera fonts. Review rendered pages before publishing. PDF generation is an editorial build step; the checked files are committed so deployment does not require Python.
+
+
+Audience copy uses direct business language, without repeated scenario disclaimers. The Safi/PLC records remain authored workshop examples; removing those labels does not change their provenance. Keep the calculation assumptions and the local workflow’s actual capabilities explicit. The public RFQ is `03-cleaning-rfq.pdf`; the former filename redirects to it.
