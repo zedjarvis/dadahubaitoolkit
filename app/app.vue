@@ -2,7 +2,12 @@
   <div>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
-      <NuxtLink to="/toolkit" class="wordmark" aria-label="The AI Toolkit home"><img src="/favicon.svg" width="32" height="32" alt="" /><span class="wordmark-name">AI TOOLKIT</span><span class="wordmark-dot">/</span><span class="wordmark-event">DADA HUB</span></NuxtLink>
+      <NuxtLink to="/toolkit" class="wordmark" aria-label="The AI Toolkit at DADA HUB home">
+        <img src="/favicon.svg" width="32" height="32" alt="" />
+        <span class="wordmark-name">AI TOOLKIT</span>
+        <span class="wordmark-dot" aria-hidden="true">/</span>
+        <img class="wordmark-event-logo" src="/brands/dada-hub.png" width="72" height="41" alt="DADA HUB" />
+      </NuxtLink>
       <nav aria-label="Main navigation">
         <NuxtLink to="/toolkit#sessions">Demos</NuxtLink>
         <NuxtLink to="/tools">Tools</NuxtLink>
