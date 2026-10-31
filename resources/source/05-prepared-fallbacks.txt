@@ -29,3 +29,18 @@ QUOTE CHECKS
 400 m², three visits weekly, windows: total 115,536; below the 120,000 budget by 4,464. Missing scope still prevents a final commercial quote.
 Blank, zero, negative, non-numeric or non-finite area: no valid quote.
 Open quote-calculator.html offline to demonstrate the actual calculation and controls.
+
+MARKETING PLAN — PREPARED EXAMPLE
+Audience: office managers in Parklands. Aim for three qualified enquiries in seven days; a target, not a forecast. Qualified means location, approximate floor area and preferred schedule are supplied.
+Mon · 2 Nov: Answer a question. What should an office-cleaning enquiry include? Visual: A simple checklist graphic. DM OFFICE with location, floor area and schedule.
+Wed · 4 Nov: Explain the process. Working around office hours starts with an access plan. Visual: Your own photo of prepared equipment; no client details. DM OFFICE and tell us your preferred cleaning times.
+Fri · 6 Nov: Invite a conversation. Planning regular office cleaning? Start with the scope. Visual: A clear service checklist. DM OFFICE with the three details needed for a quote.
+
+MONDAY CAPTION
+Planning office cleaning in Parklands? A useful quote starts with a few details: your location, approximate floor area and preferred cleaning days and times. Safi Services & Supplies handles office floors, desks, washrooms and waste to your on-site collection point, with staff, products and equipment included. Need windows cleaned too? We’ll confirm the scope and safe access first. DM OFFICE with those three details. We’ll discuss the scope and availability before confirming a price or start date.
+
+WHATSAPP STATUS
+Office cleaning in Parklands? Message OFFICE with your location, approximate floor area and preferred schedule. We’ll confirm scope and availability before pricing.
+
+SAVE AND REUSE
+Copy the Sales & Content Kit into your usual document or phone note. Update the weekly brief, review each draft and publish manually. Record actual enquiries, qualified enquiries, site visits and quote requests. The editable CSV leaves these results blank.

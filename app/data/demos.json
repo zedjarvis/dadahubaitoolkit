@@ -2,15 +2,15 @@
   {
     "slug": "proposal",
     "number": "01",
-    "title": "A better client reply",
-    "category": "08:15 / Reply to the client",
+    "title": "Sales replies & a week of marketing",
+    "category": "08:15 / Win and attract work",
     "tool": "ChatGPT",
-    "time": "9:29–9:39",
-    "minutes": "10 min",
-    "description": "Turn a cleaning enquiry into a useful reply without promising a price or date.",
-    "problem": "A promising enquiry arrives while you are busy running the business.",
-    "opportunity": "Draft the reply from the facts, then check the commitments before sending.",
-    "firstStep": "Use Safi’s enquiry. Change one requirement and check the reply.",
+    "time": "9:27–9:39",
+    "minutes": "12 min",
+    "description": "Reply to a promising enquiry, then plan three useful posts that invite the next customer to get in touch.",
+    "problem": "The owner is out supervising jobs. A good enquiry sits in WhatsApp, while the business page has gone quiet. Both jobs get pushed into the evening.",
+    "opportunity": "Turn the enquiry into a clear next step, then turn recurring customer questions into useful marketing. You supply the offer and facts; AI helps shape the words.",
+    "firstStep": "Draft the reply, check one commitment, then save the reusable brief below. Try one post before planning a whole month.",
     "prompt": "You manage enquiries for Safi Services & Supplies, a Nairobi cleaning company that also sells cleaning supplies.\nUsing only the notes below, draft an email of no more than 180 words to the administrator of Parklands Learning Centre. Use five short sections: Your needs; Proposed next step; Timing; Budget; What we need from you.\nKeep the language simple and professional. KES 120,000 is the client's monthly budget inclusive of tax, not our quote. A costed proposal follows scope and access checks. Treat 16 November 2026 as a requested start date, subject to confirming scope and availability. Do not invent prices, discounts, certifications or staffing. Do not mention the administrator's possible home-cleaning request in the customer-facing email; note it only in internal checks as a separate enquiry.\nAfter the email, add a separate 'Internal checks — remove before sending' section. List missing facts and assumptions there, not inside the customer-facing email.\n\nClient enquiry:\nParklands Learning Centre, 400 m² offices. Cleaning Mon/Wed/Fri after 6 pm. Floors, desks, washrooms, waste to on-site collection point. We provide products, equipment and staff. Wants windows monthly too; count, size, height and safe access unknown. Budget 120k per month incl tax. Requested start 16 Nov 2026 for 3 months. Admin also mentioned maybe cleaning her home later. No availability or final quote confirmed.",
     "followup": "Turn only the customer-facing email into a three-line WhatsApp reply. Keep KES 120,000 as the client's budget, keep the requested start date subject to confirmation, and ask for the missing window details. Do not include internal notes or the separate home-cleaning request.",
     "checks": [
@@ -24,7 +24,133 @@
       "Microsoft 365 Copilot",
       "Notion AI"
     ],
-    "toolkitCategory": "writing"
+    "toolkitCategory": "writing",
+    "marketing": {
+      "title": "Now bring in the next enquiry.",
+      "intro": "A reply helps with a lead you already have. Marketing gives the next customer a reason to contact you. Start with one service and the questions that customer is already asking.",
+      "brief": [
+        {
+          "label": "Who",
+          "value": "Office managers in Parklands"
+        },
+        {
+          "label": "Offer",
+          "value": "Office cleaning, scoped before pricing"
+        },
+        {
+          "label": "Action",
+          "value": "DM OFFICE + location, area and schedule"
+        },
+        {
+          "label": "Measure",
+          "value": "Qualified enquiries after seven days"
+        }
+      ],
+      "prompt": "You help Safi Services & Supplies plan practical marketing for its Nairobi office-cleaning service.\n\nCampaign brief:\n- Audience: office managers and administrators in Parklands, Nairobi.\n- Goal: aim for three qualified cleaning enquiries in the week starting 2 November 2026. This is a target, not a forecast or guarantee.\n- For this campaign, qualified means the person gives an office location, approximate floor area and preferred cleaning schedule.\n- Approved facts: we clean office floors, desks and washrooms and move waste to the on-site collection point. We supply staff, products and equipment. Window work needs its own scope and safe-access check. Price and start date follow scope and availability checks.\n- Common questions: What is included? Can cleaning fit around working hours? What information is needed for a quote?\n- Channels for this small experiment: Instagram and our own WhatsApp Status. Do not send direct messages to anyone.\n- Next step: invite people to DM the word OFFICE with their location, approximate floor area and preferred schedule.\n- Voice: clear, warm and specific. Avoid hype, jargon and phrases such as \"transform your space\".\n\nMake a three-post plan for Monday, Wednesday and Friday. Give each post a different job: answer a useful question; explain how we plan the work; invite an enquiry. For each, give the day, channel, opening line, main point, simple photo or graphic idea, and call to action. Then write Monday's Instagram caption in 60-90 words and a WhatsApp Status version of no more than 30 words. Put those finished words in separate sections.\n\nDo not reuse private client details from this chat. Do not name Parklands Learning Centre, publish its budget or imply it is our customer. Do not invent testimonials, before-and-after results, discounts, certifications, prices, availability, contact numbers or images we do not have. Suggest an image to capture, not an asset that already exists.\n\nEnd with a short publishing check and a simple tracking row: post, enquiries, qualified enquiries, site visits agreed, quotes requested. Review actual results after seven days; do not fabricate results or promise sales. Draft only; do not publish or schedule anything.",
+      "followup": "Turn Monday’s post into a simple graphic I can assemble in Canva. Give me a headline of at most six words, one supporting sentence, a short DM call to action and an image direction. Keep the caption separate. Add plain-language alt text for the proposed visual, to update after I choose the actual image. Use only the approved facts; do not invent a testimonial or discount.",
+      "checks": [
+        "The post is useful to an office manager, rather than a generic “we are the best” advert.",
+        "There is one clear next step, and no private client details or invented proof.",
+        "Use your own or authorised image; check text size on a phone and describe the actual visual in alt text.",
+        "Three enquiries is our target. Leave results blank until there are real enquiries."
+      ],
+      "plan": [
+        {
+          "day": "Mon · 2 Nov",
+          "job": "Answer a question",
+          "idea": "What should an office-cleaning enquiry include?",
+          "visual": "A simple checklist graphic",
+          "action": "DM OFFICE with location, floor area and schedule."
+        },
+        {
+          "day": "Wed · 4 Nov",
+          "job": "Explain the process",
+          "idea": "Working around office hours starts with an access plan.",
+          "visual": "Your own photo of prepared equipment; no client details",
+          "action": "DM OFFICE and tell us your preferred cleaning times."
+        },
+        {
+          "day": "Fri · 6 Nov",
+          "job": "Invite a conversation",
+          "idea": "Planning regular office cleaning? Start with the scope.",
+          "visual": "A clear service checklist",
+          "action": "DM OFFICE with the three details needed for a quote."
+        }
+      ],
+      "caption": "Planning office cleaning in Parklands? A useful quote starts with a few details: your location, approximate floor area and preferred cleaning days and times. Safi Services & Supplies handles office floors, desks, washrooms and waste to your on-site collection point, with staff, products and equipment included. Need windows cleaned too? We’ll confirm the scope and safe access first. DM OFFICE with those three details. We’ll discuss the scope and availability before confirming a price or start date.",
+      "status": "Office cleaning in Parklands? Message OFFICE with your location, approximate floor area and preferred schedule. We’ll confirm scope and availability before pricing.",
+      "sources": [
+        {
+          "label": "Mailchimp: goals, owners and a content calendar",
+          "url": "https://mailchimp.com/resources/content-calendar/"
+        }
+      ]
+    },
+    "extraFollowups": [
+      {
+        "title": "Shorten without losing the point",
+        "body": "Make the customer-facing email 40% shorter. Keep the budget, conditional start date and missing window details. Keep internal checks separate."
+      },
+      {
+        "title": "Handle a price objection",
+        "body": "The client asks whether the eventual quote could cost less. Draft a warm reply offering two scope choices to discuss: fewer cleaning visits, or windows priced separately. Explain the trade-off for each. Do not promise a discount, final price or that either option fits the budget. Ask which option they would like us to cost."
+      }
+    ],
+    "context": {
+      "title": "Two jobs before the next site visit.",
+      "story": "Safi Services & Supplies cleans offices and sells cleaning products in Nairobi. Parklands Learning Centre has asked about a three-month contract. The owner needs to move that enquiry forward and attract other suitable enquiries without spending every evening writing.",
+      "goal": "Get the information needed for a costed proposal, and test a small campaign for office managers in Parklands.",
+      "inputs": [
+        "The client’s WhatsApp notes, budget and requested dates.",
+        "Approved service facts and the questions prospects keep asking.",
+        "One audience, one service and one next step for this week."
+      ],
+      "output": "A client email, a short WhatsApp reply and a three-post marketing plan with a finished caption.",
+      "decision": "Is the reply accurate enough to send? Does each post help the intended customer take a useful next step?",
+      "transfer": "Interior design: a room brief and a post about choosing fabrics. School: an admissions enquiry and a visit-day post using approved dates. Retail: a product question and a stock-availability post."
+    },
+    "reuse": {
+      "title": "Your Sales & Content Kit",
+      "intro": "Keep one short business brief and two saved prompts. Reuse the instructions; replace the client notes or weekly campaign details each time.",
+      "setup": "15 minutes once",
+      "cadence": "Each enquiry; one 20-minute marketing review each week",
+      "owner": "The owner or the person responsible for customer enquiries",
+      "steps": [
+        {
+          "title": "Create one home for it",
+          "body": "Create a Google Doc, Word document or phone note called “Safi — Sales & Content Kit”. Save the template below, both prompts and one reply you like. Bookmark the document on your phone."
+        },
+        {
+          "title": "Write down the facts once",
+          "body": "Add services, service area, tone, approved contact details, what is included and what needs a quote. Add a last-reviewed date. Keep private client notes out of this shared business brief."
+        },
+        {
+          "title": "Use a fresh brief each time",
+          "body": "Copy the instructions into a new chat with this enquiry’s notes or this week’s campaign details. If you use a ChatGPT Project, keep the approved brief in its files/instructions and start a separate chat for each client or campaign."
+        },
+        {
+          "title": "Review and publish deliberately",
+          "body": "Check prices, dates, promises, spelling and the image. Remove internal notes from replies. Copy approved posts to your usual app yourself; use a simple Canva layout if you need a graphic."
+        },
+        {
+          "title": "Keep the result and learn",
+          "body": "Save approved work in the same folder. Use the planner to note enquiries and next steps. Once a week, keep what brought useful conversations and revise one weak post."
+        }
+      ],
+      "nextRun": "Next Monday: reopen the same kit, update the service or customer question, run the marketing prompt and review one post before publishing.",
+      "measure": "Track drafting time and edits for replies; track qualified enquiries, site visits and quote requests for posts.",
+      "template": "SALES & CONTENT KIT\nOwner: [name] | Last reviewed: [date]\nBusiness / service area: [facts]\nServices and inclusions: [approved facts]\nPrices / dates that require confirmation: [rules]\nVoice: [three words and one approved example]\nApproved contact / next step: [details]\nNever invent: prices, availability, testimonials or credentials.\n\nFOR EACH ENQUIRY\nNew client notes: [paste authorised notes here]\nTask: draft a short reply that acknowledges needs, asks for missing facts and gives a next step. Keep budget separate from our price. Put internal checks after the reply.\nReview before sending: names, scope, budget, dates, promises; remove internal notes.\n\nFOR EACH WEEK OF MARKETING\nWeek: [date] | Audience: [specific customer] | Service: [one offer]\nCustomer question: [one real question, without personal details]\nApproved facts / proof we may use: [facts and authorised assets]\nChannel: [where our customers already hear from us]\nOne call to action: [what the reader should do]\nGoal: [target, not a forecast]\nTask: draft three distinct post ideas and one finished caption. Suggest a visual. Use only these facts; do not publish anything.\nRecord after publishing: enquiries, qualified enquiries, site visits agreed, quotes requested.\nReview after seven days: [what happened / one change for next week]",
+      "sources": [
+        {
+          "label": "OpenAI: projects, files and saved instructions",
+          "url": "https://learn.chatgpt.com/docs/projects"
+        },
+        {
+          "label": "Mailchimp: goals, owners and a content calendar",
+          "url": "https://mailchimp.com/resources/content-calendar/"
+        }
+      ]
+    }
   },
   {
     "slug": "research",
@@ -35,9 +161,9 @@
     "time": "9:39–9:48",
     "minutes": "9 min",
     "description": "Turn a short cleaning RFQ into a checklist, then open the source behind an answer.",
-    "problem": "The documents that matter are often the ones nobody has time to read.",
-    "opportunity": "Find requirements quickly and inspect the passages that support them.",
-    "firstStep": "Upload the RFQ, select it as the only source and ask for a checklist.",
+    "problem": "An RFQ lands while the team is busy. The risk is missing a required document, confusing dates or quoting work whose scope is unclear.",
+    "opportunity": "Extract requirements and trace each to its source, then turn the answer into a checklist with ownership.",
+    "firstStep": "Start with one current document. Check a deadline and a mandatory requirement against the original before assigning the work.",
     "prompt": "Using only the selected RFQ, make a compact bidder checklist of no more than 300 words. Use three sections:\n1. Requirements: list the six mandatory submission items, the budget ceiling, submission deadline and format, and the optional site visit. Give a supporting citation and section identifier for each row.\n2. Explicit rejection grounds: list only the four grounds actually stated in Section 5.\n3. Before quoting: list the three most useful clarification questions.\nDo not infer extra mandatory conditions. Mark absent details \"Not specified in the source\". In particular, do not call insurance or minimum staffing mandatory: neither is specified. Distinguish the optional site-visit date from the submission deadline. Do not invent window measurements or a tax rate.",
     "followup": "How many windows are there, what size are they, and can our team clean all of\nthem safely from ground level? Cite any supporting passage. If the RFQ does\nnot establish an answer, say so and draft one short clarification question.",
     "checks": [
@@ -52,7 +178,69 @@
       "Gemini",
       "Adobe Acrobat AI"
     ],
-    "toolkitCategory": "documents"
+    "toolkitCategory": "documents",
+    "marketing": null,
+    "extraFollowups": [
+      {
+        "title": "Turn the answer into work",
+        "body": "Using only the verified checklist, make a bid-preparation table: task, source section, document needed, owner and internal due date. Leave owner and internal due date blank for us to fill. Keep the published submission deadline separate. Flag unresolved questions; do not mark anything complete."
+      },
+      {
+        "title": "Compare suppliers after uploading both quotes",
+        "body": "After I upload two supplier quotations, compare only equivalent items needed for this RFQ. Show specification, pack size, quantity, unit price, tax basis, delivery and source citation. Mark missing or incomparable terms. Do not recommend the cheapest supplier until scope and total delivered cost are comparable."
+      }
+    ],
+    "context": {
+      "title": "The enquiry becomes a tender.",
+      "story": "Parklands Learning Centre sends a formal RFQ. Safi must decide whether it can submit a complete bid on time and whether the window work can be priced responsibly. A missed requirement could waste the effort put into the proposal.",
+      "goal": "Create a bid checklist with evidence for every requirement and questions to resolve.",
+      "inputs": [
+        "The current RFQ PDF and its reference/date.",
+        "Official clarifications or addenda when they arrive.",
+        "Safi’s actual documents and availability, checked by a person."
+      ],
+      "output": "A cited checklist, explicit rejection grounds and clarification questions; then an owner and due date for each outstanding task.",
+      "decision": "Can we bid, what is missing, and who must supply it before the submission deadline?",
+      "transfer": "Interior design: a fit-out brief. School: a supplier agreement. Retail: two supplier quotations with matching quantities, pack sizes and tax treatment before comparing them."
+    },
+    "reuse": {
+      "title": "Your RFQ Review Folder",
+      "intro": "One notebook per opportunity, one checklist to act on. Keep source evidence separate from your decisions.",
+      "setup": "10 minutes once",
+      "cadence": "When an RFQ or an official update arrives",
+      "owner": "The person coordinating the bid",
+      "steps": [
+        {
+          "title": "Name the opportunity",
+          "body": "Create a NotebookLM notebook called “PLC — RFQ-2026-001”. Keep the original PDF in a folder with the same name. Bookmark the notebook and folder."
+        },
+        {
+          "title": "Keep sources current",
+          "body": "Upload the current RFQ. Add official clarifications with dates and select relevant sources. For a revised uploaded PDF, replace the outdated source. Verify the active version; an old generated answer does not update itself."
+        },
+        {
+          "title": "Save a checked checklist",
+          "body": "Run the checklist prompt. Open key citations. Copy the checked table into a Google Doc or Sheet named “Bid checklist”. Add owner, internal due date and status yourself."
+        },
+        {
+          "title": "Reopen it at the next check-in",
+          "body": "Resolve each missing document or question and record the supporting source section. Recheck changed clauses after an addendum."
+        },
+        {
+          "title": "Make a human bid decision",
+          "body": "Have the responsible person review the final documents against the current RFQ. Share only with people who need access. Start a new notebook for the next opportunity."
+        }
+      ],
+      "nextRun": "When an addendum arrives, update the selected sources, rerun affected questions and review the checklist again.",
+      "measure": "Count unresolved requirements and minutes spent finding evidence. Does the checklist help produce a complete submission?",
+      "template": "RFQ REVIEW\nOpportunity / reference: [name]\nSource filename and issue date: [current version]\nOfficial updates included: [list or none]\nPublished submission deadline and format: [verify in source]\n\nSAVED QUESTION\nUsing only the selected current sources, list mandatory requirements, explicit rejection grounds, deadlines and missing information. Cite the supporting section for each. Distinguish required from optional. Say \"not specified\" where the source is silent.\n\nWORKING CHECKLIST\nRequirement | Source section | Document needed | Owner | Internal due date | Status\n[Fill after checking the source]\n\nDECISION LOG\nQuestion still open: [question]\nWho will resolve it: [name]\nLatest check: [date]\nBid / wait / decline: [human decision and reason]\nFinal reviewer: [name]",
+      "sources": [
+        {
+          "label": "Google: selecting and updating notebook sources",
+          "url": "https://support.google.com/gemininotebook/answer/16215270"
+        }
+      ]
+    }
   },
   {
     "slug": "stock",
@@ -63,9 +251,9 @@
     "time": "9:48–9:57",
     "minutes": "9 min",
     "description": "Find the biggest profit contributors, slow movers and a simple stock top-up.",
-    "problem": "Sales sit in a spreadsheet while purchasing decisions happen on instinct.",
-    "opportunity": "Calculate consistently and turn the table into questions worth investigating.",
-    "firstStep": "Paste the supplied data, then compare the answer with the checked totals.",
+    "problem": "The spreadsheet records activity, but the next purchase happens on instinct. Cash can sit in slow stock while useful products run low.",
+    "opportunity": "Calculate the pattern, then check it against stock records and buying constraints.",
+    "firstStep": "Use one clean period of data. Reconcile totals and check two rows; choose one stock decision to investigate.",
     "prompt": "Act as a retail operations analyst explaining Safi Services & Supplies' product sales to its\nowner. Use a calculation/data-analysis tool if available and tell me if it is\nnot available. Analyse the following 30-day sales report.\n\nAssume no restocking, returns, shrinkage, price changes or stockouts during the\n30 days. Assume the next 30 days have the same demand, instant delivery and no\nsafety stock. Costs and sales prices use the same simplified tax basis.\n\nCalculate per product:\n1. Revenue = units sold × selling price.\n2. Gross profit = units sold × (selling price - unit cost).\n3. Closing stock = opening stock - units sold.\n4. Sell-through percentage = units sold / opening stock × 100.\n5. Top-up quantity = max(0, units sold - closing stock).\n\nGive one table and the total revenue, cost of goods sold and gross profit.\nRank the top three products by total gross-profit contribution.\nDefine slow-moving as lowest sell-through percentage and name the bottom\nthree, noting ties. Explain the next actions in no more than five bullets.\nShow the formulas and the worked calculation for multipurpose cleaner and floor cleaner.\nState that overheads are absent, so net profit cannot be determined. State\nwhich real-world information is missing before a purchasing decision.\n\nProduct,Opening stock,Units sold (30 days),Unit cost KES,Selling price KES\nMultipurpose cleaner 2L,120,95,310,380\nFloor cleaner 5L,80,70,720,850\nHand soap 1L,150,40,260,300\nLaundry soap bar,200,35,45,60\nBleach 1L,100,88,170,210\nMicrofibre pack,60,12,350,480\nToilet paper 10 pack,90,82,380,450\nBin liner box,40,8,900,1100",
     "followup": "Create a horizontal bar chart of total gross-profit contribution by product,\nsorted from largest to smallest. Label values in KES and use the title\n\"Gross profit from units sold — 30-day sales\". Explain in two\nsentences why a high margin percentage need not mean the most total profit.",
     "checks": [
@@ -79,7 +267,65 @@
       "Excel Copilot",
       "Julius"
     ],
-    "toolkitCategory": "numbers"
+    "toolkitCategory": "numbers",
+    "marketing": null,
+    "extraFollowups": [
+      {
+        "title": "Turn numbers into a buying conversation",
+        "body": "Using the checked table, prepare a purchasing review. Separate calculated top-up quantities from decisions needing current stock, lead time, demand and cash. For the slowest mover, suggest two actions to investigate and their trade-offs. Do not place an order or invent supplier terms."
+      }
+    ],
+    "context": {
+      "title": "Sales are up. Is the cash working?",
+      "story": "Safi has a 30-day sales sheet and needs to choose what to replenish. Some products sell quickly; others hold cash on the shelf. A high selling price alone does not tell us which line contributes the most profit.",
+      "goal": "Find profit contributors and slow stock, then prepare a sensible buying decision.",
+      "inputs": [
+        "Eight products: opening stock, units sold, unit cost and selling price.",
+        "One 30-day period with consistent units and currency.",
+        "For a real order: current stock, lead times, cash and expected demand."
+      ],
+      "output": "A reconciled table, three profit contributors, three slow movers and an explained stock top-up estimate.",
+      "decision": "What should we investigate, count or price with the supplier before spending money on stock?",
+      "transfer": "Retail: the same analysis with your products. School: an anonymised fee-ageing summary and follow-up priorities, with balances checked against the ledger."
+    },
+    "reuse": {
+      "title": "Your Monthly Stock Review",
+      "intro": "Keep a master spreadsheet, a saved analysis prompt and a short record of the decision you made.",
+      "setup": "15 minutes once",
+      "cadence": "Monthly, or before the regular stock order",
+      "owner": "The owner or stock controller",
+      "steps": [
+        {
+          "title": "Save a clean master",
+          "body": "Create “Stock review — master” in your spreadsheet app. Keep product, opening stock, units sold, unit cost and selling price in separate columns. Include reporting dates and units."
+        },
+        {
+          "title": "Make a dated copy",
+          "body": "Duplicate it for each period and enter new data. Keep the original export unchanged. Check missing values, duplicates and consistent tax treatment for costs and prices."
+        },
+        {
+          "title": "Run the same analysis",
+          "body": "Use a fresh chat and the saved prompt with the new file. Change assumptions if there were restocks, returns or price changes; the workshop’s simple closing-stock formula will not cover those."
+        },
+        {
+          "title": "Check before deciding",
+          "body": "Compare totals with the source report and check two product calculations independently. Investigate mismatches. Add lead times, cash and demand before agreeing an order."
+        },
+        {
+          "title": "Keep a decision log",
+          "body": "Save the checked table beside the source. Write “buy / wait / investigate”, the reason, approver and review date. Bookmark the folder for next month."
+        }
+      ],
+      "nextRun": "Duplicate the master, replace period-specific values and compare the new result with the previous decision.",
+      "measure": "Track review time, corrected data errors and actual stock outcomes. Compare suggestions with what happened.",
+      "template": "MONTHLY STOCK REVIEW\nPeriod: [start/end] | Owner: [name] | Source file: [filename]\nCurrency and unit: [KES / item / pack]\nRestocks, returns, shrinkage, stockouts or price changes: [details]\n\nSAVED QUESTION\nAnalyse the attached period. Calculate revenue, cost of units sold and gross profit. Show formulas and totals. Rank total gross-profit contribution and slow-moving stock using a stated measure. Show two worked rows. Flag missing information and ask where the data cannot support a calculation. Do not infer net profit without overheads or a final order without buying constraints.\n\nREVIEW\nSource totals match: [yes/no; explain differences]\nTwo rows independently checked: [products and results]\nCurrent stock / lead time / cash / expected demand: [verified facts]\nDecision: [buy / wait / investigate]\nReason, approver and review date: [details]",
+      "sources": [
+        {
+          "label": "OpenAI: projects, files and saved instructions",
+          "url": "https://learn.chatgpt.com/docs/projects"
+        }
+      ]
+    }
   },
   {
     "slug": "calculator",
@@ -90,9 +336,9 @@
     "time": "9:57–10:07",
     "minutes": "10 min",
     "description": "Delegate a cleaning calculator, inspect its checks and try the finished result.",
-    "problem": "You need a repeatable way to estimate a cleaning job without rebuilding the maths.",
-    "opportunity": "Give Codex a goal, business rules and acceptance checks, then review its work.",
-    "firstStep": "Start the build at the end of Demo 2. Return to the result after the stock demo.",
+    "problem": "Each prospect means another copied formula. A typo or an outdated rate can quietly change the price.",
+    "opportunity": "Ask for the working file, evidence of checks and a short handover explaining how to use and update it.",
+    "firstStep": "Use the checked example first. Write down your own rates and two known answers before requesting a calculator for your business.",
     "prompt": "Build and test a working, phone-friendly cleaning quote calculator in this\ndemo folder. Deliver a self-contained quote-calculator.html file with its CSS\nand JavaScript included. It must work offline with no external libraries,\nimages, fonts, services or network requests. Create the actual file, perform\nthe checks below using the tools available to you, and open or link the working\nresult for review. If an interactive HTML preview is available, show it too.\n\nBusiness rules:\n- Floor area in square metres must be a finite number greater than zero.\n- Visits per week: choose 1, 3 or 5.\n- Windows: yes or no.\n- Use exactly 52 / 12 weeks per month to estimate average monthly visits.\n- Cleaning price: KES 18 per square metre per visit.\n- Windows: a fixed KES 6,000 per month when selected.\n- Subtotal = area × 18 × visits per week × 52 / 12 + windows fee.\n- Apply an assumed 16% VAT to the entire subtotal, including windows.\n- Total = subtotal + VAT.\n- Retain full precision during calculation; display currency to two decimals.\n\nShow area, average visits per month, cleaning amount, windows amount, subtotal,\nVAT and grand total, all clearly labelled. Explain that 52/12 is\nan average estimate; actual calendar visits may differ. State the rates and tax assumption used; confirm them before issuing a quotation.\nDefault to 400 square metres, 3 visits per week and windows included. This\nmatches our RFQ; do not claim it is a final commercial quote.\nFor invalid or missing area input, show a helpful error and no valid quote.\nUse large text, clear form labels and a professional design.\n\nVerify these cases before delivering the file:\n100 m2, 3 visits/week, windows yes: subtotal KES 29,400; VAT KES 4,704;\ngrand total KES 34,104.\n100 m2, 3 visits/week, windows no: grand total KES 27,144.\n400 m2, 3 visits/week, windows yes: grand total KES 115,536.\nBlank, zero, negative and non-numeric area: validation error, no valid quote.\nTest the actual implemented calculation logic, not just a separate copy of\nthe formula. If browser tools are available, also check the form controls,\ninvalid inputs and a narrow phone viewport. Report which checks you actually\nperformed and any you could not perform. Give a brief delivery summary and\nthe path to the finished file. Do not publish or deploy it.",
     "followup": "Add a \"Print estimate\" button. The print view must retain the inputs, amount\nbreakdown and calculation assumptions. Preserve every calculation rule and\nrerun the same checks.",
     "checks": [
@@ -106,6 +352,64 @@
       "Replit",
       "Lovable"
     ],
-    "toolkitCategory": "building"
+    "toolkitCategory": "building",
+    "marketing": null,
+    "extraFollowups": [
+      {
+        "title": "Ask for a plain-language handover",
+        "body": "Write a short owner’s guide: how to open the calculator, what each input means, where its rates are shown, how to request a rate change and which examples to check afterwards. Explain that sharing a local file differs from publishing a website. Use language for someone who does not write code."
+      }
+    ],
+    "context": {
+      "title": "Stop rebuilding the same estimate.",
+      "story": "After checking the RFQ and stock, Safi needs a consistent monthly cleaning estimate. Re-entering a formula for every prospect invites mistakes, especially when someone changes the area or number of visits on a phone.",
+      "goal": "Turn explicit pricing rules into a calculator that the owner can reopen and test.",
+      "inputs": [
+        "Floor area, weekly visits and whether windows are included.",
+        "Approved pricing rules and a tax assumption written down explicitly.",
+        "Known correct examples, plus missing and invalid inputs to reject."
+      ],
+      "output": "A working offline file with a clear breakdown and checks, rather than a screenshot or a description of an app.",
+      "decision": "Does it follow the rules, and are scope, rates and availability confirmed before a quotation goes out?",
+      "transfer": "Interior design: a materials estimate. Retail: a margin calculator. School: a fee-plan calculator using approved rules, without student personal data."
+    },
+    "reuse": {
+      "title": "Your Saved Estimate Calculator",
+      "intro": "Keep one approved copy and a note of its rates. Everyday use means opening it; changes to the rules get a separate review.",
+      "setup": "10 minutes after the file is checked",
+      "cadence": "Each estimate; review whenever rates or rules change",
+      "owner": "The person authorised to maintain pricing",
+      "steps": [
+        {
+          "title": "Keep the approved copy",
+          "body": "Download the checked HTML file into “Safi — Estimate calculator”. Open it in a desktop browser and keep a backup. For today’s phone example, bookmark the “Try the quote calculator” link."
+        },
+        {
+          "title": "Write a short rate card",
+          "body": "Keep the area rate, windows charge, visits rule, tax assumption, owner and review date beside it. Replace workshop assumptions only with rules your business has approved."
+        },
+        {
+          "title": "Run three quick checks",
+          "body": "Try a known estimate, change one option and leave area blank. Confirm totals and the error. After any change, repeat all supplied checks before using the new copy."
+        },
+        {
+          "title": "Make access easy",
+          "body": "On a desktop, bookmark the opened file. For a team or phone link to your own version, ask the person helping with setup to publish the reviewed calculator and test the URL. A local file is not automatically a shared website."
+        },
+        {
+          "title": "Update through the same brief",
+          "body": "When pricing changes, give Codex the approved rules and request a new version with tests and a delivery summary. Keep the old copy dated until the new one is checked."
+        }
+      ],
+      "nextRun": "Reopen the approved copy, enter this enquiry’s inputs, check the breakdown and resolve site details before preparing a quotation.",
+      "measure": "Track estimating time and corrections. Confirm a colleague can open it and reproduce a known answer without help.",
+      "template": "CALCULATOR HANDOVER\nApproved file / link: [location]\nOwner: [name] | Version / review date: [date]\nPurpose: [what it estimates]\nApproved rates and assumptions: [list]\nInputs that change per enquiry: [list]\n\nBEFORE USE\nOpen a known example and check the total.\nEnter the new inputs; review every line.\nConfirm scope, availability and applicable tax before a quote.\n\nWHEN A RULE CHANGES — ASK CODEX\nUpdate this calculator using only the approved rules below. Preserve other behaviour. Test the actual calculation and invalid inputs. Report which tests ran, deliver the working file and explain how to open it. Do not publish it.\nNew approved rules: [details]\nKnown expected answers: [examples]\n\nRelease check: [reviewer, date and version approved]",
+      "sources": [
+        {
+          "label": "OpenAI: projects, files and saved instructions",
+          "url": "https://learn.chatgpt.com/docs/projects"
+        }
+      ]
+    }
   }
 ]

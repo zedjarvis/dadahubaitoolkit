@@ -1,95 +1,87 @@
-THE AI TOOLKIT — PRESENTER REHEARSAL
-DADA HUB, 31 October 2026, 09:20–10:20 EAT
-Business: Safi Services & Supplies. Client: Parklands Learning Centre.
+PRESENTER RUN SHEET
 
-09:20–09:23 EAT | 3 min | Open with the work
-SAY: Before I introduce myself, imagine this enquiry has just arrived while you are out on a job. Can we give the client a useful reply without promising something we cannot deliver?
-DO:
-1. Keep the cover on screen, then switch to the prepared ChatGPT tab. Paste the opening prompt as one complete message; check it before pressing Send.
-2. Give generation 30 seconds. Read the three lines, then ask: “Did it turn the budget into our price? Did it promise the start date?”
-3. Introduce yourself in one sentence. Show the Flowt and SchoolBooks slides for about 20 seconds each. Say: “Today we follow Safi Services & Supplies through its working day.”
-PASS: Three short paragraphs; KES 120,000 remains the client budget; 16 November remains conditional; window details are requested.
-FALLBACK: “That is taking longer than our slot. Here is a saved rehearsal result from the same brief. Let’s check the commitments together.” Open the saved reply; do not call it a live result.
+09:20–09:23 — Open with the work
+Say: Before I introduce myself, imagine this enquiry has just arrived while you are out on a job. Can we give the client a useful reply without promising something we cannot deliver?
+Keep the cover on screen, then switch to the prepared ChatGPT tab. Paste the opening prompt as one complete message; check it before pressing Send.
+Give generation 30 seconds. Read the three lines, then ask: “Did it turn the budget into our price? Did it promise the start date?”
+Introduce yourself in one sentence. Show the Flowt and SchoolBooks slides for about 20 seconds each. Say: “Today we follow Safi Services & Supplies through its working day.”
+Pass: Three short paragraphs; KES 120,000 remains the client budget; 16 November remains conditional; window details are requested.
+Fallback: “That is taking longer than our slot. Here is a saved rehearsal result from the same brief. Let’s check the commitments together.” Open the saved reply; do not call it a live result.
 
-09:23–09:29 EAT | 6 min | 08:00 — make the repeated steps visible
-SAY: Safi cleans offices and sells cleaning supplies. An enquiry arrives. Someone copies it into a list, writes a reply, and remembers to follow up. Which of those steps need judgment, and which are simply rules?
-DO:
-1. Open /workflow. Submit SAFI-001 with windows blank. Point to the new record, draft and “Needs clarification” status. Try approval: it is disabled.
-2. Submit the same ID again. Show that a duplicate record is not created.
-3. In the held record, enter “10 ground-floor windows, 1 × 1 m; safe access confirmed” under Confirmed window details. Click Resolve missing details, then approve the revised draft locally. The same enquiry ID is preserved; nothing is sent.
-4. Say explicitly: “This is working browser-only automation using a fixed template. No AI or email service is connected here. We will use ChatGPT for writing next. Make, Zapier or n8n can connect these steps to real apps once configured.”
-5. Explain the three levels: an AI draft you request; a reusable tool you open; a connected workflow triggered by an event. Ask for one repeated task from the room.
-PASS: One submission creates one record; missing data pauses approval; duplicates are rejected; approval is a deliberate action. The audience understands the local-versus-connected distinction.
-FALLBACK: “The screen is not responding. The rule is still simple: create one record, stop when facts are missing, and let a person approve the reply.” Use the workflow slide and trace the three prepared cases. This is a walkthrough, not a live execution.
+09:23–09:27 — 08:00 — make the repeated steps visible
+Say: Safi cleans offices and sells cleaning supplies. An enquiry arrives. Someone copies it into a list, writes a reply, and remembers to follow up. Which of those steps need judgment, and which are simply rules?
+Open /workflow. Submit SAFI-001 with windows blank. Point to the new record, draft and “Needs clarification” status. Try approval: it is disabled.
+Submit the same ID again. Show that a duplicate record is not created.
+In the held record, enter “10 ground-floor windows, 1 × 1 m; safe access confirmed” under Confirmed window details. Click Resolve missing details, then approve the revised draft locally. The same enquiry ID is preserved; nothing is sent.
+Say explicitly: “This is working browser-only automation using a fixed template. No AI or email service is connected here. We will use ChatGPT for writing next. Make, Zapier or n8n can connect these steps to real apps once configured.”
+In the final 30 seconds, distinguish an AI draft, a reusable tool and a connected workflow. Move at 09:27; do not open Make or start account setup.
+Pass: One submission creates one record; missing data pauses approval; duplicates are rejected; approval is a deliberate action. The audience understands the local-versus-connected distinction.
+Fallback: “The screen is not responding. The rule is still simple: create one record, stop when facts are missing, and let a person approve the reply.” Use the workflow slide and trace the three prepared cases. This is a walkthrough, not a live execution.
 
-09:29–09:39 EAT | 10 min | 08:15 — reply to the client
-SAY: A useful brief gives the facts, the job and the limits. Watch what happens when we tell it what it must not invent.
-DO:
-1. Open Demo 1 and copy the full prompt into ChatGPT. Read only the brief’s constraints aloud; do not read the entire prompt.
-2. Check budget, date and the separate home-cleaning request. Point out the internal checklist and remove it before any real sending. We send nothing today.
-3. Run the three-line WhatsApp follow-up if time allows. Ask: “Which sentence would you edit before sending?”
-4. Give participants three full minutes: use notes, change one requirement, generate a reply and underline one claim they checked. People without accounts pair up or edit the prepared reply.
-5. Take one example, ask what changed, then move at 09:39. This audience-made reply is the first take-home result.
-PASS: The five email sections stay under 180 words; missing facts are separate; no fabricated quote, staffing, certification or start commitment.
-FALLBACK: “Here is the reply from rehearsal. The useful part now is spotting what you would change.” Use the saved output or clearly labelled prepared reference. Keep the three-minute audience exercise.
+09:27–09:39 — 08:15 — reply to a lead, then attract the next one
+Say: You’re on a job, a promising enquiry lands in WhatsApp, and your business page has gone quiet. Let’s get the client to a useful next step, then use customers’ questions to plan this week’s marketing.
+09:27–09:28: show the situation and enquiry on the demo page. Name the goal: a reply that moves the conversation forward, plus one small campaign.
+09:28–09:30: run the reply prompt. Check budget, date and missing windows. Show internal checks; remove those before real sending. The WhatsApp and objection follow-ups remain available on the page.
+09:30–09:33: open Marketing and run its full prompt. Point to audience, offer and DM OFFICE. Inspect one caption and visual idea. Ask: “Would an office manager know what to do next?” Do not run an image-generation tool on stage.
+09:33–09:35: show the three-post planner and Sales & Content Kit. Copy the template into a prepared note or document. Explain: update the brief, review, publish manually, record enquiries. No posting is connected.
+09:35–09:38: give participants three full minutes. Choose a client reply or one post. Change the audience or a requirement, draft it and underline one checked claim. People without accounts edit the worked example.
+09:38–09:39: take one example and ask where they will save it. Close: “Next week, change the brief and use the same process.” Move to the RFQ.
+Pass: No invented client commitment. The campaign has an audience, three distinct post purposes, one clear next step and an honest measure. Private client facts stay out of public copy. A saved brief makes the next run possible.
+Fallback: “The response is taking too long. Here is the worked example we can edit together.” Use the prepared reply and marketing plan on the page. Check one caption and demonstrate saving the brief. Keep the three-minute exercise; do not spend it retrying.
 
-09:39–09:48 EAT | 9 min | 10:00 — the RFQ arrives
-SAY: The same client sends a formal request. A summary can be useful, but the important question is: where does the answer come from?
-DO:
-1. Open the prepared notebook with only the cleaning RFQ selected. Use 03-cleaning-rfq.pdf when preparing a new notebook; the earlier text source has the same wording. On this account the interface says Gemini Notebook; attendees may know it as NotebookLM. Do not create or upload the source on stage.
-2. Paste the checklist prompt. Open the citation for the submission deadline and read Section 4: Friday 6 November 2026, noon EAT. Confirm that the site visit is optional.
-3. Ask the missing-windows follow-up. Open Section 1 or 6 to establish what is absent. Ask: “Would you quote the windows yet?”
-4. Make the lesson explicit: the document can be incomplete even when a quotation fits the budget. A citation still needs inspection.
-5. At 09:47, paste the Codex calculator task into the already-open empty demo folder. Say: “It can work on the tool while we look at the supplies. We’ll inspect the result afterwards.” Return immediately to the deck.
-PASS: Deadline and optional visit are correct; citations open the actual supporting text; no invented window measurements, insurance rule or payment term.
-FALLBACK: “The notebook is unavailable, so let’s verify the document directly.” Open the local RFQ and the prepared checklist. Read Sections 4 and 6 aloud. Do not pretend a local reference is a clickable model citation.
+09:39–09:48 — 10:00 — the RFQ arrives
+Say: The enquiry has become an RFQ. We could write a beautiful proposal and still lose because a required document is missing. Let’s find what to submit, what could disqualify us and what to ask before pricing.
+Open the prepared notebook with only the cleaning RFQ selected. Use 03-cleaning-rfq.pdf when preparing a new notebook; the requirements, dates and amounts are unchanged from the earlier source. On this account the interface says Gemini Notebook; attendees may know it as NotebookLM. Do not create or upload the source on stage.
+Paste the checklist prompt. Open the citation for the submission deadline and read Section 4: Friday 6 November 2026, noon EAT. Confirm that the site visit is optional.
+Ask the missing-windows follow-up. Open Section 1 or 6 to establish what is absent. Ask: “Would you quote the windows yet?”
+Make the lesson explicit: the document can be incomplete even when a quotation fits the budget. A citation still needs inspection.
+By 09:46, show “Your RFQ Review Folder” at the end of the page. Save a checked checklist with owner, internal due date and status. Updated sources require rechecking; a saved summary is not automatically current.
+At 09:47, paste the Codex calculator task into the already-open empty demo folder. Say: “It can work on the tool while we look at the supplies. We’ll inspect the result afterwards.” Return immediately to the deck.
+Pass: Deadline and optional visit are correct; citations open the actual supporting text; no invented window measurements, insurance rule or payment term.
+Fallback: “The notebook is unavailable, so let’s verify the document directly.” Open the local RFQ and the prepared checklist. Read Sections 4 and 6 aloud. Do not pretend a local reference is a clickable model citation.
 
-09:48–09:57 EAT | 9 min | 13:00 — check the supplies
-SAY: Safi also sells supplies. Which product contributed the most gross profit last month? Make a guess before we calculate.
-DO:
-1. Copy Demo 3 with all eight rows into ChatGPT. Ask for calculation-tool use, but only say it used a tool if you can actually see that it did.
-2. Compare revenue KES 179,640, cost of goods sold KES 149,345 and gross profit KES 30,295 with the checked reference.
-3. Give pairs two minutes to check floor cleaner: 70 × (850 − 720) = 9,100. Multipurpose cleaner: 95 × (380 − 310) = 6,650.
-4. Ask why the highest margin percentage need not contribute the most total profit. Show the prepared chart; generate a new chart only if time remains.
-5. Explain that stock top-ups assume unchanged demand, instant delivery and no safety stock. Ask what is missing before ordering: lead times, cash, future demand and storage. Overheads are missing, so net profit is unknown.
-PASS: All eight products and totals reconcile; floor cleaner leads; the answer distinguishes gross from net profit and labels assumptions.
-FALLBACK: “I would not use that number until it reconciles. Here is the independently checked table. Let’s calculate one row together.” Use 06-stock-answer-key.csv and the prepared chart. If the model is wrong, use it as the checking lesson, then move on.
+09:48–09:57 — 13:00 — check the supplies
+Say: Some stock moves quickly; some ties up cash. Before Safi places another order, which products contributed most gross profit, and what else must we know before buying?
+Copy Demo 3 with all eight rows into ChatGPT. Ask for calculation-tool use, but only say it used a tool if you can actually see that it did.
+Compare revenue KES 179,640, cost of goods sold KES 149,345 and gross profit KES 30,295 with the checked reference.
+Give pairs two minutes to check floor cleaner: 70 × (850 − 720) = 9,100. Multipurpose cleaner: 95 × (380 − 310) = 6,650.
+Ask why the highest margin percentage need not contribute the most total profit. Show the prepared chart; generate a new chart only if time remains.
+Explain that stock top-ups assume unchanged demand, instant delivery and no safety stock. Ask what is missing before ordering: lead times, cash, future demand and storage. Overheads are missing, so net profit is unknown.
+In the final minute, show “Your Monthly Stock Review”. Save the prompt beside a dated source file and record one decision. Next month, replace inputs and assumptions, and reconcile the new totals.
+Pass: All eight products and totals reconcile; floor cleaner leads; the answer distinguishes gross from net profit and labels assumptions.
+Fallback: “I would not use that number until it reconciles. Here is the independently checked table. Let’s calculate one row together.” Use 06-stock-answer-key.csv and the prepared chart. If the model is wrong, use it as the checking lesson, then move on.
 
-09:57–10:07 EAT | 10 min | 15:00 — turn the rules into a tool
-SAY: This brief asks for an actual working file and checks. A good-looking calculator is only useful if it follows the rules.
-DO:
-1. Return to the Codex task started at 09:47. Show the delivered file and the checks actually performed. If unfinished, switch promptly to the prepared offline calculator.
-2. Try 100 m², three visits, windows included: KES 34,104. Turn windows off: KES 27,144. Clear the area: no valid quote.
-3. Return to 400 m² with windows: KES 115,536. This is KES 4,464 below the budget, but the window scope is still unresolved. It is an estimate, not permission to send a quote.
-4. Explain average visits = visits per week × 52 / 12; calendar months differ. Explain the pricing inputs and 16% tax assumption; confirm applicable taxes before issuing a quotation.
-5. If ahead, ask for the print button and repeat the checks. If behind, skip this enhancement. Never spend stage time fixing installation or permissions.
-PASS: The actual file opens; all known totals reconcile; invalid input produces no quote; labels and controls work on a phone.
-FALLBACK: “The live build is not ready for review. This is the checked version prepared before the session, and we will test it the same way.” Open the downloaded quote-calculator.html, which works without internet.
+09:57–10:07 — 15:00 — turn the rules into a tool
+Say: Safi needs to estimate the same kind of job tomorrow. Instead of copying a formula, ask Codex for a working calculator, test it and keep the approved version somewhere easy to open.
+Return to the Codex task started at 09:47. Show the delivered file and the checks actually performed. If unfinished, switch promptly to the prepared offline calculator.
+Try 100 m², three visits, windows included: KES 34,104. Turn windows off: KES 27,144. Clear the area: no valid quote.
+Return to 400 m² with windows: KES 115,536. This is KES 4,464 below the budget, but the window scope is still unresolved. It is an estimate, not permission to send a quote.
+Explain average visits = visits per week × 52 / 12; calendar months differ. Explain the pricing inputs and 16% tax assumption; confirm applicable taxes before issuing a quotation.
+Use 10:05–10:07 for “Your Saved Estimate Calculator”: keep an approved copy, bookmark it, note rates and owner, and repeat checks after changes. The print-button enhancement is take-home work, not a stage priority.
+Pass: The actual file opens; all known totals reconcile; invalid input produces no quote; labels and controls work on a phone.
+Fallback: “The live build is not ready for review. This is the checked version prepared before the session, and we will test it the same way.” Open the downloaded quote-calculator.html, which works without internet.
 
-10:07–10:13 EAT | 6 min | 17:00 — design one workflow for your business
-SAY: You do not need another app for every problem. Choose one repeated task. What starts it, what happens next, and who checks the result?
-DO:
-1. Open the five-field plan at /workflow or use paper. Give two quiet minutes to write a trigger, steps, reviewer, failure route and success measure.
-2. Pair up for two minutes. Each person identifies one thing that must never be invented and one exception that needs a human.
-3. Take one example and improve it together. Suggest starting with an internal record or notification before adding AI or outbound messages.
-4. Measure the first five runs: accuracy, edits needed, manual steps and time. Choose a small experiment for Monday, 2 November. Show /tools as the reference for tasks we cannot cover today.
-PASS: Each participant has a specific task, owner and check; at least one exception is mapped. No one is told they now have a connected automation simply by filling a plan.
-FALLBACK: Use paper or phone notes. Read the five fields aloud. This exercise must survive a total internet outage.
+10:07–10:13 — 17:00 — design one workflow for your business
+Say: You do not need another app for every problem. Choose one repeated task. What starts it, what happens next, and who checks the result?
+Open the five-field plan at /workflow or use paper. Give two quiet minutes to write a trigger, steps, reviewer, failure route and success measure.
+Pair up for two minutes. Each person identifies one thing that must never be invented and one exception that needs a human.
+Take one example and improve it together. Suggest starting with an internal record or notification before adding AI or outbound messages.
+Measure the first five runs: accuracy, edits needed, manual steps and time. Choose a small experiment for Monday, 2 November. Show /tools as the reference for tasks we cannot cover today.
+Pass: Each participant has a specific task, owner and check; at least one exception is mapped. No one is told they now have a connected automation simply by filling a plan.
+Fallback: Use paper or phone notes. Read the five fields aloud. This exercise must survive a total internet outage.
 
-10:13–10:18 EAT | 5 min | Questions from the room
-SAY: Tell me the task you want help with, the information you already have, and what a good result would look like.
-DO:
-1. Take two or three concrete business questions. Point to a relevant task in /tools and explain why it fits.
-2. For “Which tool is best?”, answer conditionally: start with the tool and approved information you already have; compare a small task before paying for another subscription.
-3. For “Can it run automatically?”, explain that account connections, permissions, failure handling, cost and ownership need setup. This session has shown the pattern and a local example.
-4. Avoid opening new accounts or building an unprepared workflow live. Keep questions needing business-specific data for a later authorised review.
-PASS: Questions lead to a practical next step without untested product or performance promises.
-FALLBACK: If questions are quiet, ask: “Which step in your week involves copying the same information twice?”
+10:13–10:18 — Questions from the room
+Say: Tell me the task you want help with, the information you already have, and what a good result would look like.
+Take two or three concrete business questions. Point to a relevant task in /tools and explain why it fits.
+For “Which tool is best?”, answer conditionally: start with the tool and approved information you already have; compare a small task before paying for another subscription.
+For “Can it run automatically?”, explain that account connections, permissions, failure handling, cost and ownership need setup. This session has shown the pattern and a local example.
+Avoid opening new accounts or building an unprepared workflow live. Keep questions needing business-specific data for a later authorised review.
+Pass: Questions lead to a practical next step without untested product or performance promises.
+Fallback: If questions are quiet, ask: “Which step in your week involves copying the same information twice?”
 
-10:18–10:20 EAT | 2 min | Close with the change in perspective
-SAY: At the start we asked AI for a reply. Now we have a brief, a source check, a calculation check and a place for a person to approve the work. The useful change is from asking AI occasionally to designing a repeatable way of working. Start with one task on Monday.
-DO:
-1. Ask participants to name their first task to a neighbour. Point to the QR/toolkit and the downloaded pack.
-2. Thank the room and hand over by 10:20. Confirm the organiser’s next speaker and timing before naming them.
-PASS: People know where the materials are and what their first small experiment will be.
-FALLBACK: Say the short URL and use the local PDF if the site is unavailable. End on time.
+10:18–10:20 — Close with the change in perspective
+Say: We now have a sales brief, a small marketing plan, a checked RFQ list, a stock review and a calculator we can reopen. Save the instructions, update the facts and keep a person responsible for the result. Choose one of those routines for Monday.
+Ask participants to name their first task to a neighbour. Point to the QR/toolkit and the downloaded pack.
+Thank the room and hand over by 10:20. Confirm the organiser’s next speaker and timing before naming them.
+Pass: People know where the materials are and what their first small experiment will be.
+Fallback: Say the short URL and use the local PDF if the site is unavailable. End on time.

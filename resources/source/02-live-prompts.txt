@@ -1,10 +1,7 @@
 EXACT LIVE PROMPTS
-OPENING HOOK
-Turn these client enquiry notes into a three-line WhatsApp acknowledgement for Safi Services & Supplies. Keep KES 120,000 as the client's monthly budget, not our quote. Treat 16 November 2026 as a requested start date, subject to confirming scope and availability. Ask to confirm window count, size and height. Do not promise a price or start date.
 
-Parklands Learning Centre; 400 m²; cleaning Monday, Wednesday and Friday after 6 pm; monthly window cleaning; budget 120k including tax; wants start 16 Nov. Window details missing.
+Sales replies & a week of marketing
 
-01 — A better client reply
 You manage enquiries for Safi Services & Supplies, a Nairobi cleaning company that also sells cleaning supplies.
 Using only the notes below, draft an email of no more than 180 words to the administrator of Parklands Learning Centre. Use five short sections: Your needs; Proposed next step; Timing; Budget; What we need from you.
 Keep the language simple and professional. KES 120,000 is the client's monthly budget inclusive of tax, not our quote. A costed proposal follows scope and access checks. Treat 16 November 2026 as a requested start date, subject to confirming scope and availability. Do not invent prices, discounts, certifications or staffing. Do not mention the administrator's possible home-cleaning request in the customer-facing email; note it only in internal checks as a separate enquiry.
@@ -12,29 +9,47 @@ After the email, add a separate 'Internal checks — remove before sending' sect
 
 Client enquiry:
 Parklands Learning Centre, 400 m² offices. Cleaning Mon/Wed/Fri after 6 pm. Floors, desks, washrooms, waste to on-site collection point. We provide products, equipment and staff. Wants windows monthly too; count, size, height and safe access unknown. Budget 120k per month incl tax. Requested start 16 Nov 2026 for 3 months. Admin also mentioned maybe cleaning her home later. No availability or final quote confirmed.
+
 FOLLOW-UP
 Turn only the customer-facing email into a three-line WhatsApp reply. Keep KES 120,000 as the client's budget, keep the requested start date subject to confirmation, and ask for the missing window details. Do not include internal notes or the separate home-cleaning request.
-CHECKS
-KES 120,000 remains a monthly budget inclusive of tax, not a quote.
-16 November remains a requested date, subject to confirmation.
-Window details are requested; the separate home job is excluded.
 
-02 — An answer you can trace
+WEEKLY MARKETING
+You help Safi Services & Supplies plan practical marketing for its Nairobi office-cleaning service.
+
+Campaign brief:
+- Audience: office managers and administrators in Parklands, Nairobi.
+- Goal: aim for three qualified cleaning enquiries in the week starting 2 November 2026. This is a target, not a forecast or guarantee.
+- For this campaign, qualified means the person gives an office location, approximate floor area and preferred cleaning schedule.
+- Approved facts: we clean office floors, desks and washrooms and move waste to the on-site collection point. We supply staff, products and equipment. Window work needs its own scope and safe-access check. Price and start date follow scope and availability checks.
+- Common questions: What is included? Can cleaning fit around working hours? What information is needed for a quote?
+- Channels for this small experiment: Instagram and our own WhatsApp Status. Do not send direct messages to anyone.
+- Next step: invite people to DM the word OFFICE with their location, approximate floor area and preferred schedule.
+- Voice: clear, warm and specific. Avoid hype, jargon and phrases such as "transform your space".
+
+Make a three-post plan for Monday, Wednesday and Friday. Give each post a different job: answer a useful question; explain how we plan the work; invite an enquiry. For each, give the day, channel, opening line, main point, simple photo or graphic idea, and call to action. Then write Monday's Instagram caption in 60-90 words and a WhatsApp Status version of no more than 30 words. Put those finished words in separate sections.
+
+Do not reuse private client details from this chat. Do not name Parklands Learning Centre, publish its budget or imply it is our customer. Do not invent testimonials, before-and-after results, discounts, certifications, prices, availability, contact numbers or images we do not have. Suggest an image to capture, not an asset that already exists.
+
+End with a short publishing check and a simple tracking row: post, enquiries, qualified enquiries, site visits agreed, quotes requested. Review actual results after seven days; do not fabricate results or promise sales. Draft only; do not publish or schedule anything.
+
+GRAPHIC BRIEF
+Turn Monday’s post into a simple graphic I can assemble in Canva. Give me a headline of at most six words, one supporting sentence, a short DM call to action and an image direction. Keep the caption separate. Add plain-language alt text for the proposed visual, to update after I choose the actual image. Use only the approved facts; do not invent a testimonial or discount.
+
+An answer you can trace
+
 Using only the selected RFQ, make a compact bidder checklist of no more than 300 words. Use three sections:
 1. Requirements: list the six mandatory submission items, the budget ceiling, submission deadline and format, and the optional site visit. Give a supporting citation and section identifier for each row.
 2. Explicit rejection grounds: list only the four grounds actually stated in Section 5.
 3. Before quoting: list the three most useful clarification questions.
 Do not infer extra mandatory conditions. Mark absent details "Not specified in the source". In particular, do not call insurance or minimum staffing mandatory: neither is specified. Distinguish the optional site-visit date from the submission deadline. Do not invent window measurements or a tax rate.
+
 FOLLOW-UP
 How many windows are there, what size are they, and can our team clean all of
 them safely from ground level? Cite any supporting passage. If the RFQ does
 not establish an answer, say so and draft one short clarification question.
-CHECKS
-Submission closes 6 November at 12:00 noon EAT.
-The site visit is optional.
-Window count, size and height are not specified.
 
-03 — What is your stock saying?
+What is your stock saying?
+
 Act as a retail operations analyst explaining Safi Services & Supplies' product sales to its
 owner. Use a calculation/data-analysis tool if available and tell me if it is
 not available. Analyse the following 30-day sales report.
@@ -67,17 +82,15 @@ Bleach 1L,100,88,170,210
 Microfibre pack,60,12,350,480
 Toilet paper 10 pack,90,82,380,450
 Bin liner box,40,8,900,1100
+
 FOLLOW-UP
 Create a horizontal bar chart of total gross-profit contribution by product,
 sorted from largest to smallest. Label values in KES and use the title
 "Gross profit from units sold — 30-day sales". Explain in two
 sentences why a high margin percentage need not mean the most total profit.
-CHECKS
-Revenue: KES 179,640. Gross profit: KES 30,295.
-Floor cleaner contributes the most gross profit: KES 9,100.
-Overheads are absent. Net profit cannot be determined.
 
-04 — A small tool, built for you
+A small tool, built for you
+
 Build and test a working, phone-friendly cleaning quote calculator in this
 demo folder. Deliver a self-contained quote-calculator.html file with its CSS
 and JavaScript included. It must work offline with no external libraries,
@@ -116,11 +129,8 @@ the formula. If browser tools are available, also check the form controls,
 invalid inputs and a narrow phone viewport. Report which checks you actually
 performed and any you could not perform. Give a brief delivery summary and
 the path to the finished file. Do not publish or deploy it.
+
 FOLLOW-UP
 Add a "Print estimate" button. The print view must retain the inputs, amount
 breakdown and calculation assumptions. Preserve every calculation rule and
 rerun the same checks.
-CHECKS
-100 m², 3 visits/week, windows: KES 34,104.
-400 m², 3 visits/week, windows: KES 115,536.
-Missing or invalid floor area produces an error, not a valid quote.

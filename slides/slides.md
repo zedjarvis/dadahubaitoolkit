@@ -98,8 +98,8 @@ logoHeader: ''
 
 # Meet Safi Services & Supplies.
 <p class="lead">Office cleaning. Cleaning supplies.<br>A small team with a full day ahead.</p>
-<div class="four-beats"><div><span class="label">Morning</span><p>An enquiry and an RFQ.</p></div><div><span class="label">Afternoon</span><p>Stock decisions and an estimate.</p></div></div>
-<p class="small mt-7">Leave with a checked reply and one workflow to try.</p>
+<div class="four-beats"><div><span class="label">Morning</span><p>Enquiries, marketing and an RFQ.</p></div><div><span class="label">Afternoon</span><p>Stock decisions and an estimate.</p></div></div>
+<p class="small mt-7">Leave with a checked draft and a routine you can reuse.</p>
 
 <!--
 09:22:30–09:23. The client is Parklands Learning Centre. Explain that the business-day clock shows the sequence of work; the session clock remains 09:20–10:20. This is not a product tour or an installation clinic.
@@ -115,7 +115,7 @@ logoHeader: ''
 <p class="small">Fixed rules in the browser. No AI or email connection. Nothing is sent.</p>
 
 <!--
-09:23–09:27. Open /workflow. Submit SAFI-001 with windows blank: a record and template draft appear, held for clarification. Approval is disabled. Resubmit same ID: duplicate rejected. Resolve the held record with confirmed window details; the same ID is preserved. Review and explicitly approve the revised draft. The browser automates these local steps. Explain the lack of external app connections rather than implying a connected Make/Gmail workflow. If unavailable, trace the three cases on this slide and label it a walkthrough.
+09:23–09:26. Open /workflow. Submit SAFI-001 with windows blank: a record and template draft appear, held for clarification. Approval is disabled. Resubmit same ID: duplicate rejected. Resolve the held record with confirmed window details; the same ID is preserved. Review and explicitly approve the revised draft. The browser automates these local steps. Explain the lack of external app connections rather than implying a connected Make/Gmail workflow. If unavailable, trace the three cases on this slide and label it a walkthrough.
 -->
 
 ---
@@ -125,32 +125,67 @@ logoHeader: ''
 <p class="small mt-8">Make · Zapier · n8n can connect authorised apps after setup.</p>
 
 <!--
-09:27–09:29. Ask for one repeated task from the room. Distinguish a diagram, the local demonstration, and a fully connected automation. Never suggest that copying a prompt installs an integration. Explain that rules often handle the reliable steps; AI is useful where language and judgment assistance are needed. Tool sources and setup considerations are on /tools#automation.
+09:26–09:27. Keep this distinction to one minute. Distinguish a diagram, the local demonstration, and a fully connected automation. Never suggest that copying a prompt installs an integration. Explain that rules often handle the reliable steps; AI is useful where language and judgment assistance are needed. Tool sources and setup considerations are on /tools#automation.
 -->
 
 ---
-layout: new-section
-sectionImage: /section-illustration.svg
+class: scenario-slide
 ---
 
-<div class="kicker">08:15 / Reply to the client</div>
+<div class="kicker">08:15 / Sales & marketing · ChatGPT</div>
 
-# A better client reply.
-<p class="lead">ChatGPT</p>
-<p class="small">Also try Claude · Gemini · Microsoft 365 Copilot · Notion AI</p>
+# A lead waiting. A quiet business page.
+<div class="two"><div><p class="lead">The owner is out on a job.<br>A contract enquiry sits in WhatsApp.</p><p class="small">Safi needs to reply today and keep attracting suitable customers next week.</p></div><div class="rule"><h2>Two useful results</h2><p class="small">A reply that moves the enquiry forward.<br>Three posts built around customer questions.<br>One saved brief for the next run.</p></div></div>
+<p class="small mt-7">Same method: an interior-design proposal, an admissions enquiry or a retail campaign.</p>
 
 <!--
-09:29–09:30. Problem: enquiries wait while an owner is busy. Opportunity: draft from facts and boundaries. Say: “A useful brief gives the facts, the job and the limits.”
+09:27–09:28. Say: “You’re on a job, a promising enquiry lands in WhatsApp, and your business page has gone quiet. Let’s move the client forward, then plan this week’s marketing.” Give the context before showing the tool. The goal is a next step and suitable enquiries, not simply polished wording.
 -->
-
 ---
 
-# The brief sets the boundaries.
+# Give the client a useful next step.
 <div class="note-sheet">400 m² · three evenings a week<br>Monthly windows · details still missing<br><strong>KES 120,000 is the client’s budget</strong><br>16 November is a requested start date</div>
 <a class="live-link" href="https://dadahubaitoolkit.vercel.app/demos/proposal" target="_blank">Copy the full client-reply prompt ↗</a>
 
 <!--
-09:30–09:33. Run the full revised prompt. Check that the five-section email stays under 180 words, budget is not a quote, date is conditional and home cleaning is absent from the customer email. Show internal checks separately. Run the WhatsApp follow-up only if time. The rehearsal originally mentioned home cleaning in the email; the revised prompt explicitly excludes it. Use the saved corrected run if stalled longer than 45 seconds.
+09:28–09:30. Run the full revised prompt. Check that the five-section email stays under 180 words, budget is not a quote, date is conditional and home cleaning is absent from the customer email. Show internal checks separately. Keep WhatsApp, shortening and price-objection follow-ups on the page as take-home options. The rehearsal originally mentioned home cleaning in the email; the revised prompt explicitly excludes it. Use the saved corrected run if stalled longer than 45 seconds.
+-->
+
+---
+
+<div class="kicker">08:45 / Bring in the next enquiry</div>
+
+# Who is this post for?
+<div class="four-beats"><div><span class="label">Audience</span><p>Office managers in Parklands.</p></div><div><span class="label">Offer</span><p>Office cleaning, scoped before pricing.</p></div><div><span class="label">Next step</span><p>DM OFFICE + location, area, schedule.</p></div><div><span class="label">Measure</span><p>Qualified enquiries after seven days.</p></div></div>
+<a class="live-link" href="https://dadahubaitoolkit.vercel.app/demos/proposal#marketing" target="_blank">Run the weekly marketing brief ↗</a>
+<p class="small">Aim for three qualified enquiries. A target, not a promise.</p>
+
+<!--
+09:30–09:31. The same business needs new leads. Keep private client details out of public copy. Run the full marketing prompt, which includes the approved facts. Ask: “Who is this for and what should they do next?” Instagram and WhatsApp Status are the channels for this experiment; participants should use channels their own customers already use.
+-->
+
+---
+
+# Three posts. Three different jobs.
+<div class="three"><div class="rule"><h2>Monday</h2><p class="small"><strong>Answer a question.</strong><br>What details help us quote?<br>A simple checklist graphic.</p></div><div class="rule"><h2>Wednesday</h2><p class="small"><strong>Explain the process.</strong><br>How do we plan around office hours?<br>Your own equipment photo.</p></div><div class="rule"><h2>Friday</h2><p class="small"><strong>Invite an enquiry.</strong><br>Planning regular cleaning?<br>DM OFFICE with three details.</p></div></div>
+<p class="lead mt-7">A useful answer. A clear next step.</p>
+<p class="small">Check facts and the image. Publish manually. Record actual enquiries.</p>
+
+<!--
+09:31–09:33. Inspect the generated Monday caption or show the worked example on the page. Read the opening and CTA only. Point to the visual brief, the shorter WhatsApp Status version and enquiry-tracking columns. Three posts give the audience a repeatable marketing process; extra captions alone do not. Do not generate an image on stage. The Canva brief is available as an optional follow-up. If the response stalls, use the prepared plan and caption and identify them as prepared.
+-->
+
+---
+
+<div class="kicker">Keep it / Sales & Content Kit</div>
+
+# Next week should start here.
+<div class="three"><div class="rule"><h2>Save</h2><p class="small">One business brief.<br>Two prompts.<br>One approved example.</p></div><div class="rule"><h2>Update</h2><p class="small">New client notes or a new weekly goal.<br>Keep private notes out of public copy.</p></div><div class="rule"><h2>Review</h2><p class="small">Check the draft.<br>Publish yourself.<br>Record enquiries and next steps.</p></div></div>
+<a class="live-link" href="https://dadahubaitoolkit.vercel.app/demos/proposal#keep-it" target="_blank">Copy the kit & get the editable planner ↗</a>
+<p class="small">Keep it in a document you can open on your phone. Name the person responsible.</p>
+
+<!--
+09:33–09:35. Copy the reusable template into a prepared document or note. Show its name and where to reopen it. A ChatGPT Project is optional for shared context; a saved document works too. Demonstrate the actual saving step rather than just advising “save it”. Do not start a new account or connect a publishing app. Owner reviews the brief each week; measure qualified enquiries, site visits and quote requests, not made-up reach or sales.
 -->
 
 ---
@@ -159,28 +194,27 @@ layout: center
 
 <div class="kicker">Your turn / 3 minutes</div>
 
-# One change. One checked reply.
-<p class="lead">Use the notes.<br>Change one requirement.<br>Underline one claim you checked.</p>
+# One draft you can use again.
+<p class="lead">Choose a reply or a post.<br>Change the brief.<br>Check one claim. Save the result.</p>
 <p class="small mt-7">No account open? Pair up or edit the prepared reply.</p>
 
 <!--
-09:33–09:39. Give three full minutes, then take one example. Ask what they edited before using it. The participant leaves with a useful output rather than only watching. Protect this exercise if running late. End at 09:39.
+09:35–09:38. Give three full minutes for a reply or one post. At 09:38 take one example and ask where they will save it. Ask what they edited before using it. The participant leaves with a useful output rather than only watching. Protect this exercise if running late. End at 09:39.
 -->
 
 ---
-layout: new-section
-sectionImage: /section-illustration.svg
+class: scenario-slide
 ---
 
-<div class="kicker">10:00 / The RFQ arrives</div>
+<div class="kicker">10:00 / The RFQ arrives · NotebookLM</div>
 
-# An answer<br>you can trace.
-<p class="lead">NotebookLM / Gemini Notebook</p>
+# A good proposal can still lose.
+<div class="two"><div><p class="lead">The client now wants a formal bid.</p><p class="small">A missing document or a misunderstood deadline can undo the work. Window scope still needs an answer.</p></div><div class="rule"><h2>What we need back</h2><p class="small">A checklist tied to the current RFQ.<br>Only the stated rejection grounds.<br>Questions, owners and due dates.</p></div></div>
+<p class="small mt-7">The decision: can we submit a complete bid, and what must we clarify first?</p>
 
 <!--
-09:39–09:40. The same client sends a formal request. Open the preloaded notebook with only the RFQ selected. The presenting account currently says Gemini Notebook. Do not spend stage time creating a notebook or uploading files.
+09:39–09:40. Give the business consequence before opening the preloaded notebook. Select only the current RFQ. The presenting account may label the product Gemini Notebook. Do not spend stage time uploading. A citation is an invitation to inspect the evidence, not proof that the interpretation is right.
 -->
-
 ---
 
 # Where does that answer come from?
@@ -199,7 +233,19 @@ sectionImage: /section-illustration.svg
 <p class="small">Ask a clarification question before quoting.</p>
 
 <!--
-09:44–09:47. Run the missing-window follow-up. Open Section 1 or 6 to confirm missing details. Ask the room whether they would quote now. If the product fails, use the local source and prepared checklist; do not simulate model citations. The distinction between missing facts and a plausible answer is the learning point.
+09:44–09:46. Run the missing-window follow-up. Open Section 1 or 6 to confirm missing details. Ask the room whether they would quote now. If the product fails, use the local source and prepared checklist; do not simulate model citations. The distinction between missing facts and a plausible answer is the learning point.
+-->
+
+---
+
+<div class="kicker">Keep it / RFQ Review Folder</div>
+
+# A checklist someone can act on.
+<div class="three"><div class="rule"><h2>Keep the source</h2><p class="small">One notebook per opportunity.<br>Current RFQ and official updates.</p></div><div class="rule"><h2>Assign the work</h2><p class="small">Requirement → evidence.<br>Owner → internal due date → status.</p></div><div class="rule"><h2>Recheck changes</h2><p class="small">An addendum changes the evidence.<br>Review the affected answers again.</p></div></div>
+<a class="live-link" href="https://dadahubaitoolkit.vercel.app/demos/research#keep-it" target="_blank">Save your RFQ review routine ↗</a>
+
+<!--
+09:46–09:47. Save the checked checklist into a document or sheet with owner and internal due date left for a person to fill. Bookmark the notebook and checklist. A saved generated answer does not automatically become current after a source changes. Keep one opportunity separate from the next. Then start Codex at 09:47 as planned.
 -->
 
 ---
@@ -213,20 +259,18 @@ sectionImage: /section-illustration.svg
 -->
 
 ---
-layout: new-section
-sectionImage: /section-illustration.svg
+class: scenario-slide
 ---
 
-<div class="kicker">13:00 / Check the supplies</div>
+<div class="kicker">13:00 / Stock & money · ChatGPT</div>
 
-# What is your<br>stock saying?
-<p class="lead">ChatGPT</p>
-<p class="small">Also try Claude · Gemini · Excel Copilot · Julius</p>
+# Sales are up. Is the cash working?
+<div class="two"><div><p class="lead">The owner needs to buy stock again.</p><p class="small">Some supplies sell quickly. Others tie up cash on the shelf. The sales sheet has eight products and 30 days of figures.</p></div><div class="rule"><h2>What we need back</h2><p class="small">Profit contribution and slow movers.<br>Calculations we can reconcile.<br>Questions to resolve before ordering.</p></div></div>
+<p class="small mt-7">The decision: what to replenish, hold or investigate after checking cash and lead times.</p>
 
 <!--
-09:48–09:49. Safi also sells cleaning supplies. Ask the audience to predict which product contributes most gross profit. Explain that the next step is calculation and checking, not a purchasing decision based on a fluent answer.
+09:48–09:49. Ask which product contributes most gross profit. A high unit price or margin percentage is not the same as total profit contribution. Introduce the buying decision and the missing constraints before asking the tool for calculations.
 -->
-
 ---
 
 # Which product earns the most?
@@ -261,24 +305,34 @@ sectionImage: /section-illustration.svg
 <p class="small mt-7">Floor cleaner: 70 × (850 − 720) = KES 9,100</p>
 
 <!--
-09:53–09:57. Give pairs two minutes to calculate floor cleaner and multipurpose cleaner (95 × 70 = 6,650). Correct rows do not prove all totals; reconcile the whole table with the key. Ask what matters before ordering: lead time, future demand, storage and cash. Simple top-ups: multipurpose cleaner70, floor cleaner60, bleach76, toilet paper74. They are quantities based on the stated assumptions, not a final ordering instruction. Return to Codex at 09:57.
+09:53–09:56. Give pairs two minutes to calculate floor cleaner and multipurpose cleaner (95 × 70 = 6,650). Correct rows do not prove all totals; reconcile the whole table with the key. Ask what matters before ordering: lead time, future demand, storage and cash. Simple top-ups: multipurpose cleaner70, floor cleaner60, bleach76, toilet paper74. They are quantities based on the stated assumptions, not a final ordering instruction. Return to Codex at 09:57.
 -->
 
 ---
-layout: new-section
-sectionImage: /section-illustration.svg
----
 
-<div class="kicker">15:00 / Prepare an estimate</div>
+<div class="kicker">Keep it / Monthly Stock Review</div>
 
-# A small tool,<br>built for you.
-<p class="lead">Codex</p>
-<p class="small">Also try Claude Code · Cursor · Replit · Lovable</p>
+# Same review. Fresh numbers.
+<div class="three"><div class="rule"><h2>Duplicate</h2><p class="small">A master spreadsheet.<br>A dated source export.<br>The same saved questions.</p></div><div class="rule"><h2>Reconcile</h2><p class="small">Totals and two worked rows.<br>Check restocks, returns and price changes.</p></div><div class="rule"><h2>Record</h2><p class="small">Buy, wait or investigate.<br>Reason, approver and review date.</p></div></div>
+<a class="live-link" href="https://dadahubaitoolkit.vercel.app/demos/stock#keep-it" target="_blank">Copy the monthly review template ↗</a>
 
 <!--
-09:57–09:58. Inspect the task started at 09:47. If unfinished say so and open the checked offline fallback. The standalone fallback was built in this Codex preparation session; it is not the result of a fresh on-stage run.
+09:56–09:57. Show where the source, checked result and decision log live together. New period, new inputs and assumptions. A correct row does not prove the whole sheet: reconcile totals. Do not turn the calculated top-up into an order without lead times, cash and demand.
 -->
 
+---
+class: scenario-slide
+---
+
+<div class="kicker">15:00 / A reusable estimate · Codex</div>
+
+# Tomorrow brings another enquiry.
+<div class="two"><div><p class="lead">Stop copying the same formula.</p><p class="small">Safi needs an estimate the team can reopen, change and check on a phone. The rules must be agreed before the tool is built.</p></div><div class="rule"><h2>What we need back</h2><p class="small">A working calculator file.<br>Clear rates and assumptions.<br>Known totals and invalid-input checks.</p></div></div>
+<p class="small mt-7">The decision: is this approved for estimating, and what remains before a final quote?</p>
+
+<!--
+09:57–09:58. Inspect the task started at 09:47. If unfinished, identify and open the prepared offline fallback. Show the delivered file and checks, not a code lecture. An attractive screen alone is not acceptance.
+-->
 ---
 
 # The work includes the checks.
@@ -286,7 +340,7 @@ sectionImage: /section-illustration.svg
 <p class="lead mt-10">A finished-looking screen still needs testing.</p>
 
 <!--
-09:58–10:00. Show actual delivery summary and performed tests, not source code. Explain average monthly visits = weekly visits × 52 / 12. Explain the rates and the 16% tax assumption used in the estimate. Do not claim that ChatGPT cannot build tools or that an agent is infallible.
+09:58–09:59. Show actual delivery summary and performed tests, not source code. Explain average monthly visits = weekly visits × 52 / 12. Explain the rates and the 16% tax assumption used in the estimate. Do not claim that ChatGPT cannot build tools or that an agent is infallible.
 -->
 
 ---
@@ -295,7 +349,7 @@ sectionImage: /section-illustration.svg
 <WorkshopCalculator />
 
 <!--
-10:00–10:04. Prefer the live delivered file, otherwise label this as a prepared checked example. Test 100m²,3visits,windows =34,104; windows off=27,144; blank area=no valid quote. Back to400m² with windows=115,536. Ask someone to identify the tax and window line items. Offline fallback: quote-calculator.html in the downloaded kit.
+09:59–10:03. Prefer the live delivered file, otherwise label this as a prepared checked example. Test 100m²,3visits,windows =34,104; windows off=27,144; blank area=no valid quote. Back to400m² with windows=115,536. Ask someone to identify the tax and window line items. Offline fallback: quote-calculator.html in the downloaded kit.
 -->
 
 ---
@@ -304,7 +358,20 @@ sectionImage: /section-illustration.svg
 <div class="two"><div><div class="big-value">115,536</div><p class="stat-label">KES monthly estimate</p><p class="small">KES 4,464 below the client’s budget.</p></div><div class="rule"><h2>What is still unknown?</h2><p class="lead">Window scope.<br>Safe access.<br>Availability.</p></div></div>
 
 <!--
-10:04–10:07. Tie the calculator back to NotebookLM’s missing facts. A correct formula does not validate commercial assumptions. If ahead, ask Codex for a print button and rerun the same checks. Otherwise skip the enhancement. This is the perspective shift: useful work combines generation, rules, evidence and a responsible reviewer.
+10:03–10:05. Tie the calculator back to NotebookLM’s missing facts. A correct formula does not validate commercial assumptions. Keep the print-button enhancement as a take-home follow-up. This is the perspective shift: useful work combines generation, rules, evidence and a responsible reviewer.
+-->
+
+---
+
+<div class="kicker">Keep it / Saved Estimate Calculator</div>
+
+# One approved copy. Easy to reopen.
+<div class="three"><div class="rule"><h2>Keep</h2><p class="small">The checked file and backup.<br>A bookmark or reviewed team URL.</p></div><div class="rule"><h2>Own</h2><p class="small">Rates, assumptions and review date.<br>One person responsible for pricing.</p></div><div class="rule"><h2>Retest</h2><p class="small">Known totals after every rule change.<br>Missing inputs must still show errors.</p></div></div>
+<a class="live-link" href="https://dadahubaitoolkit.vercel.app/demos/calculator#keep-it" target="_blank">Copy the simple calculator handover ↗</a>
+<p class="small">A local file is not automatically a website. Test the actual link you share.</p>
+
+<!--
+10:05–10:07. Demonstrate reopening the approved file or bookmarked workshop URL. Explain how to keep a rate card and how to request a change. A helper can publish a reviewed calculator for team access if needed. Do not set up hosting on stage. The print enhancement is optional take-home work.
 -->
 
 ---
@@ -322,7 +389,7 @@ sectionImage: /section-illustration.svg
 ---
 
 # Start with the job.
-<div class="two"><div class="rule"><h2>Use what you have.</h2><p class="small">Try a small task.<br>Check accuracy and edits.<br>Compare time and total cost.</p></div><div class="rule"><h2>Explore what comes next.</h2><p class="small">Marketing and presentations.<br>Meetings and procedures.<br>Support, research and translation.</p></div></div>
+<div class="two"><div class="rule"><h2>Use what you have.</h2><p class="small">Try a small task.<br>Check accuracy and edits.<br>Compare time and total cost.</p></div><div class="rule"><h2>Explore what comes next.</h2><p class="small">More marketing and presentations.<br>Meetings and procedures.<br>Support, research and translation.</p></div></div>
 <a class="live-link" href="https://dadahubaitoolkit.vercel.app/tools" target="_blank">14 tasks · 24 tools · official sources ↗</a>
 
 <!--
@@ -347,10 +414,10 @@ layout: center
 # One task on Monday.
 <p class="lead">A clear brief. A check. A person responsible.</p>
 <p class="small mt-8">dadahubaitoolkit.vercel.app/toolkit</p>
-<p class="small">Prompts · tools · workflow plan · offline demo kit</p>
+<p class="small">Prompts · marketing planner · reusable guides · offline kit</p>
 
 <!--
-10:18–10:20. Say: “At the start we asked AI for a reply. Now we have a brief, a source check, a calculation check and a place for a person to approve the work. The useful change is from asking AI occasionally to designing a repeatable way of working. Start with one task on Monday.” Confirm organiser handoff details before naming the next speaker. Thank the room and finish at10:20.
+10:18–10:20. Say: “At the start we asked AI for a reply. Now we have a sales brief, marketing plan, RFQ checklist, stock review and a calculator we can reopen. The useful change is from asking AI occasionally to designing a repeatable way of working. Start with one task on Monday.” Confirm organiser handoff details before naming the next speaker. Thank the room and finish at10:20.
 -->
 
 ---
@@ -375,6 +442,8 @@ Appendix only. The PDF is static. The downloaded standalone calculator works off
 - [Tool directory: task fit, setup and official sources](https://dadahubaitoolkit.vercel.app/tools)
 - [Google: notebook chat and source citations](https://support.google.com/gemininotebook/answer/16179559?hl=en)
 - [OpenAI: what ChatGPT Work can do](https://learn.chatgpt.com/docs/use-chatgpt)
+- [OpenAI: projects and reusable context](https://learn.chatgpt.com/docs/projects)
+- [Mailchimp: content planning and measurement](https://mailchimp.com/resources/content-calendar/)
 - [Make: visual workflow platform](https://www.make.com/en/product)
 - [Slidev: work with AI](https://sli.dev/guide/work-with-ai) · [Unicorn theme](https://github.com/dawntraoz/slidev-theme-unicorn)
 

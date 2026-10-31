@@ -163,18 +163,32 @@ def make_prompts(demos,hook):
     s += [link('Open the online rehearsal guide',BASE+'/rehearsal'),heading('Opening hook')]+prompt_body(hook['prompt'])
     s += [box('Opening check','The budget remains a budget. The requested date stays conditional. Window count, size and height are requested.')]
     for d in demos:
-        s += [PageBreak(),p(d['number']+' / '+d['tool'],'label'),p(d['title'],'h1')]
+        s += [PageBreak(),p(d['number']+' / '+d['tool'],'label'),p(d['title'],'h1'),p(d['context']['story']),box('The business decision',d['context']['decision'])]
         if d['slug']=='research':s.append(p('Before starting: select only 03-cleaning-rfq.pdf in your notebook.','small'))
         s += [heading('Main prompt')]+prompt_body(d['prompt'])
+        if d['slug'] in ('stock','calculator'):
+            s += [PageBreak(),p(d['number']+' / Follow-ups and checks','label'),p('Take the next step.','h1'),p(d['reuse']['intro'])]
         s += [heading('Follow-up prompt')]+prompt_body(d['followup'])
-        checks=d.get('checks',[])
-        if checks:s.append(KeepTogether([heading('Check the output')]+[p('• '+x) for x in checks]))
+        if not d['marketing']:
+            for followup in d['extraFollowups']:
+                s += [heading(followup['title'])]+prompt_body(followup['body'])
+        s += [KeepTogether([heading('Check the output')]+[p('• '+x) for x in d['checks']])]
+        if d['marketing']:
+            m=d['marketing']
+            s += [PageBreak(),p('01 / Sales & marketing - part two','label'),p(m['title'],'h1'),p(m['intro']),heading('Weekly marketing prompt')]+prompt_body(m['prompt'])
+            s += [KeepTogether([heading('Publishing checks')]+[p('• '+x) for x in m['checks']])]
+            s += [PageBreak(),p('01 / Optional follow-ups','label'),p('Keep these for the next job.','h1'),p('Use one follow-up when the work calls for it. These are take-home options; the live segment protects time for the marketing example and participant practice.')]
+            for followup in d['extraFollowups']:
+                s += [heading(followup['title'])]+prompt_body(followup['body'])
+            s += [heading('Turn a post into a simple graphic')]+prompt_body(m['followup'])
+            s += [heading('Keep the process'),p(d['reuse']['nextRun'])]
+        s += [link('Save the reusable routine and template',BASE+'/demos/'+d['slug']+'#keep-it')]
     write('02-live-prompts','Exact live prompts',s)
 
 def make_reference():
     s=intro('04 / Take it into your business','Your everyday AI toolkit','Start with one repeated task. Give it a clear brief, then check the result.')
-    s += [table(['Business day','What changes'],[['08:00','Enquiry → validate → record → draft → human review.'],['08:15','Draft a client reply from facts and constraints.'],['10:00','Inspect an RFQ and the passages supporting the answer.'],['13:00','Analyse supplies and independently check the numbers.'],['15:00','Build a tool from explicit rules and known test cases.'],['17:00','Choose a workflow to test in your own business.']],[78,CW-78]),heading('Three different things'),p('An AI draft: you request an output and review it.\nA reusable tool: the calculator applies agreed rules when you use it.\nA connected automation: an event triggers work across configured apps.'),box('What today demonstrates','The workshop workflow lab uses local rules and a fixed template. It has no AI or email connection and sends nothing. A completed plan is not an installed integration.'),heading('Keep these close')]
-    for label,path in [('Toolkit and demos','/toolkit'),('Tools by task','/tools'),('Your workflow plan','/workflow'),('Exact prompts and rehearsal','/rehearsal')]:s.append(link(label,BASE+path))
+    s += [table(['Business day','What changes'],[['08:00','Enquiry → validate → record → draft → human review.'],['08:15','Reply to a client; plan three posts and save a Sales & Content Kit.'],['10:00','Inspect an RFQ and the passages supporting the answer.'],['13:00','Analyse supplies and independently check the numbers.'],['15:00','Build a tool from explicit rules and known test cases.'],['17:00','Choose a workflow to test in your own business.']],[78,CW-78]),heading('Three different things'),p('An AI draft: you request an output and review it.\nA reusable tool: the calculator applies agreed rules when you use it.\nA connected automation: an event triggers work across configured apps.'),box('What today demonstrates','The workshop workflow lab uses local rules and a fixed template. It has no AI or email connection and sends nothing. A completed plan is not an installed integration.'),heading('Keep these close')]
+    for label,path in [('Toolkit and demos','/toolkit'),('Tools by task','/tools'),('Your workflow plan','/workflow'),('Exact prompts and rehearsal','/rehearsal'),('Keep-and-reuse guide','/resources/11-reusable-workflows.pdf'),('Marketing exercise and planner','/demos/proposal#marketing')]:s.append(link(label,BASE+path))
     s += [PageBreak(),p('04 / Participant worksheet','label'),p('Your first workflow','h1'),p('Choose one 15-minute experiment for Monday, 2 November. Use authorised information and decide what a useful result looks like before starting.')]
     for label in ['1. Trigger - what starts the work?','2. Steps - what happens next?','3. Reviewer - who checks what?','4. Exceptions - what happens when information is missing?','5. Measure - what will you check over the first five runs?']:s.append(WritingLines(label,2))
     s += [p('Compare accuracy, edits needed, time and cost before adding a subscription.','small'),PageBreak(),p('04 / Checked reference values','label'),p('Keep a number you can check.','h1'),table(['Example','Checked result'],[['Stock revenue','KES 179,640'],['Cost of goods sold','KES 149,345'],['Gross profit','KES 30,295'],['Floor cleaner contribution','KES 9,100'],['100 m² / 3 visits / windows','KES 34,104'],['400 m² / 3 visits / windows','KES 115,536']],[CW*.55,CW*.45]),Spacer(1,14),box('Before using a result','Overheads are absent, so net profit is unknown. Confirm rates and the 16% tax assumption before issuing a quotation. Unresolved window scope must be clarified before a real quotation.'),heading('RFQ facts'),p('Submission: 6 November 2026, noon EAT.\nSite visit: optional.\nWindow count, size, height and external access: not specified.'),p('Use the numbered source sections in the RFQ PDF to verify each claim.','small')]
@@ -282,9 +296,28 @@ def make_start():
     s=intro('Start here / Session pack','AI for your everyday\nbusiness tasks.','DADA HUB  |  31 October 2026  |  09:20-10:20 EAT\nUseful prompts. Clear checks. A repeatable way of working.')
     s.append(box('Download once, keep it close','The written handouts are PDFs with selectable text. The CSV opens in a spreadsheet, and quote-calculator.html works offline in a browser. Live AI products and the published website still need their usual access.'))
     s.append(table(['File','What it is for'],[
-        ['01 / Presenter run sheet','Spoken cues, stage actions, timing and fallbacks.'],['02 / Live prompts','Complete prompts and follow-ups to copy and adapt.'],['03 / cleaning RFQ','The PDF source for the NotebookLM demonstration.'],['04 / Participant reference','The business day, checked values and a workflow worksheet.'],['05 / Prepared fallbacks','Checked reference answers, clearly labelled.'],['06 / Stock answer key','A print-ready PDF plus the original spreadsheet CSV.'],['07 / Automation recipe','A setup and testing plan for a connected workflow.'],['08 / Rehearsal checks','Observed passes, corrections, failures and venue preflight.'],['09 / Observed outputs','Actual responses from the product rehearsals.'],['10 / Tools by task','14 task guides with alternatives and official source links.'],['Quote calculator / HTML','A working offline estimate calculator.'],['Presentation / PDF','The static 27-slide presentation fallback.']],[146,CW-146]))
+        ['01 / Presenter run sheet','Spoken cues, stage actions, timing and fallbacks.'],['02 / Live prompts','Complete prompts and follow-ups to copy and adapt.'],['03 / cleaning RFQ','The PDF source for the NotebookLM demonstration.'],['04 / Participant reference','The business day, checked values and a workflow worksheet.'],['05 / Prepared fallbacks','Checked reference answers, clearly labelled.'],['06 / Stock answer key','A print-ready PDF plus the original spreadsheet CSV.'],['07 / Automation recipe','A setup and testing plan for a connected workflow.'],['08 / Rehearsal checks','Observed passes, corrections, failures and venue preflight.'],['09 / Observed outputs','Actual responses from the product rehearsals.'],['10 / Tools by task','14 task guides with alternatives and official source links.'],['11 / Reusable workflows','Four guided routines, editable masters and a marketing example.'],['12 / Marketing planner CSV','Three post ideas and blank owner/result columns.'],['Quote calculator / HTML','A working offline estimate calculator.'],['Presentation / PDF','The static presentation fallback.']],[146,CW-146]))
     s += [Spacer(1,12),link('Open the attendee toolkit',BASE+'/toolkit'),link('Open the presenter rehearsal',BASE+'/rehearsal'),link('Browse the tools directory',BASE+'/tools')]
     write('START-HERE','Session pack guide',s)
+
+def make_reusable(demos):
+    s=intro('11 / Keep it. Use it again.','Four routines to keep.','Start with a document, notebook, spreadsheet or checked tool you can reopen. These starter routines use the same habits: clear inputs, saved instructions, review, ownership and a record of what happened.')
+    s += [table(['Routine','Keep this','Use again'],[[d['reuse']['title'],{'proposal':'Business brief + two prompts + weekly planner','research':'Current source + checked bid checklist','stock':'Master spreadsheet + checked results + decision log','calculator':'Approved calculator + rate card + known checks'}[d['slug']],d['reuse']['cadence']] for d in demos],[150,200,CW-350]),Spacer(1,14),box('A simple place to start','Use the app you already know. A Google Doc, Word file or phone note can hold a reusable prompt. Bookmark the file so you can find it. Give one person responsibility for updating the facts and reviewing the result.'),link('Copy the editable templates from the demo pages',BASE+'/toolkit#sessions')]
+    for d in demos:
+        r=d['reuse']
+        s += [PageBreak(),p(d['number']+' / Keep and reuse','label'),p(r['title'],'h1'),p(r['intro']),p('Set up: '+r['setup']+' | Use again: '+r['cadence'],'small'),p('Owner: '+r['owner'],'small')]
+        for i,step in enumerate(r['steps'],1):
+            s += [heading(str(i)+'. '+step['title']),p(step['body'])]
+        s += [PageBreak(),p(d['number']+' / Your editable master','label'),p('Save this template.','h1'),p('Replace the square brackets with your own details. Keep the master and make a dated copy for each new piece of work.')]
+        s += [p(block,'prompt') for block in r['template'].split('\n\n')]
+        s += [heading('Your next run'),p(r['nextRun']),heading('How to tell if it helps'),p(r['measure']),link('Copy this template online',BASE+'/demos/'+d['slug']+'#keep-it')]
+        for source in r['sources']:s.append(link(source['label'],source['url']))
+    m=demos[0]['marketing']
+    s += [PageBreak(),p('Marketing / A worked example','label'),p('A week with a purpose.','h1'),p('Audience: office managers in Parklands. Offer: office cleaning, scoped before pricing. Goal: aim for three qualified enquiries in seven days; this is a target, not a forecast.'),p('For this experiment, qualified means the prospect provides location, approximate office area and preferred cleaning schedule.'),table(['Day / job','Post idea','Visual to prepare'],[[x['day']+' / '+x['job'],x['idea'],x['visual']] for x in m['plan']],[110,210,CW-320]),heading('One next step'),p('DM OFFICE with location, approximate floor area and preferred schedule.'),heading('Monday - Instagram caption'),p(m['caption']),heading('WhatsApp Status'),p(m['status'])]
+    s += [PageBreak(),p('Marketing / Publish and learn','label'),p('Keep the results honest.','h1')]
+    s += [heading('Before publishing')]+[p('• '+x) for x in m['checks']]
+    s += [heading('A simple visual brief'),p('Headline: What helps us quote?\nSupporting line: Share your office location, floor area and preferred cleaning times.\nCall to action: DM OFFICE to start.\nVisual: a clear three-item checklist with readable text, using your approved logo and colours.\nSuggested alt text: Checklist asking for office location, floor area and preferred cleaning times. Update it to describe the actual finished visual.'),heading('A 20-minute weekly routine'),p('5 minutes: review last week’s real enquiries and choose one question.\n10 minutes: update the brief, draft three ideas and finish one caption.\n5 minutes: review the facts and visual, approve the next post and record the owner.'),heading('Track conversations through to the next step'),p('After posting, record enquiries, qualified enquiries, site visits agreed and quotes requested. Ask where the prospect heard about you; do not assume every enquiry came from a post. Compare actual results after seven days. Low volume is a reason to learn, not proof a channel has failed.'),link('Download the editable weekly planner (CSV)',BASE+'/resources/12-weekly-marketing-planner.csv'),link('Copy the marketing prompt',BASE+'/demos/proposal#marketing'),link('Planning reference: Mailchimp content calendars','https://mailchimp.com/resources/content-calendar/')]
+    write('11-reusable-workflows','Keep-and-reuse guide',s)
 
 def main():
     OUT.mkdir(parents=True,exist_ok=True)
@@ -299,8 +332,8 @@ def main():
     make_stock(rows)
     structured_source('07-automation-recipe','Your first connected workflow','A configuration and testing recipe. This is not an installed integration or an importable template.')
     structured_source('08-rehearsal-checks','Rehearsal & implementation review','31 October 2026. A record of checks actually performed and the limits of those checks.')
-    make_observed();make_tools(jobs,tools)
-    files=sorted(OUT.glob('*.pdf'))+[OUT/'06-stock-answer-key.csv',OUT/'quote-calculator.html']
+    make_observed();make_tools(jobs,tools);make_reusable(demos)
+    files=sorted(OUT.glob('*.pdf'))+[OUT/'06-stock-answer-key.csv',OUT/'12-weekly-marketing-planner.csv',OUT/'quote-calculator.html']
     with zipfile.ZipFile(OUT/'dada-hub-demo-kit.zip','w',zipfile.ZIP_DEFLATED) as z:
         for path in files:z.write(path,path.name)
     with zipfile.ZipFile(OUT/'dada-hub-demo-kit.zip') as z:

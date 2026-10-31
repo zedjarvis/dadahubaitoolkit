@@ -49,3 +49,5 @@ html.print .slidev-layout.new-section :is(h1,h2,h3){color:#fff!important;-webkit
 .slidev-layout .profit-row{margin:12px 0;font-size:15px}
 .slidev-layout table{font-size:15px}
 .slidev-layout td,.slidev-layout th{padding:7px 10px}
+
+.slidev-layout.scenario-slide .lead{font-size:24px}.slidev-layout.scenario-slide .small{font-size:17px}.slidev-layout.scenario-slide h2{font-size:26px}.slidev-layout .three h2{font-size:26px}
