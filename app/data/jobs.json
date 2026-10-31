@@ -28,7 +28,20 @@
       ]
     ],
     "prompt": "Using only these approved notes, draft a 150-word client reply. Separate confirmed facts from questions. Do not invent prices, dates or commitments. Put internal checks after the reply. Notes: [paste approved client notes].",
-    "check": "Check every promise, amount and date. Remove internal notes before sending."
+    "check": "Check every promise, amount and date. Remove internal notes before sending.",
+    "workflow": {
+      "trigger": "When a client enquiry arrives",
+      "inputs": "Client notes, approved services and the facts that still need confirmation.",
+      "steps": [
+        "Open a fresh chat. Paste the current notes and saved reply prompt.",
+        "Check names, scope, dates and amounts. Keep internal notes out of the customer reply.",
+        "Send the approved reply yourself and record the next step in your client list."
+      ],
+      "save": "A Sales & Content Kit with approved facts, the prompt and a generic example. Keep each client’s notes separate.",
+      "owner": "Owner or person handling enquiries",
+      "measure": "Drafting time, corrections needed and enquiries moved to a next step."
+    },
+    "keywords": "email whatsapp proposal quote customer enquiry response sales copy"
   },
   {
     "id": "documents",
@@ -59,7 +72,20 @@
       ]
     ],
     "prompt": "Using only the supplied document, list requirements, deadlines and explicit rejection grounds. Cite the section and exact supporting passage for each. Separate mandatory from optional. Write “Not specified” for missing information.",
-    "check": "Open the original passage. Citation behaviour differs by product; a fluent answer is not proof."
+    "check": "Open the original passage. Citation behaviour differs by product; a fluent answer is not proof.",
+    "workflow": {
+      "trigger": "When an RFQ or policy update arrives",
+      "inputs": "The current document and any official clarifications.",
+      "steps": [
+        "Create one source collection for this opportunity and select the current files.",
+        "Ask for a checklist. Open the passages supporting deadlines and mandatory items.",
+        "Copy checked requirements into a checklist; add an owner and internal due date."
+      ],
+      "save": "The source folder, saved question and dated checklist. Recheck affected answers after an update.",
+      "owner": "Bid coordinator or process owner",
+      "measure": "Missing requirements resolved and time spent finding evidence."
+    },
+    "keywords": "tender rfq rfp contract pdf policy compliance bid"
   },
   {
     "id": "numbers",
@@ -90,7 +116,20 @@
       ]
     ],
     "prompt": "From this table, calculate revenue, cost of units sold, gross profit and closing stock. Show formulas, check totals and flag missing data. Do not call gross profit net profit. State whether you actually used a calculation tool. Data: [table].",
-    "check": "Reconcile totals independently. Check units, time period, missing costs and duplicate rows."
+    "check": "Reconcile totals independently. Check units, time period, missing costs and duplicate rows.",
+    "workflow": {
+      "trigger": "At month-end or before a stock order",
+      "inputs": "A dated sales export with units, prices, costs and stock movements.",
+      "steps": [
+        "Keep the original export and analyse a copy with clear assumptions.",
+        "Reconcile totals and calculate two rows independently. Ask about missing costs and movements.",
+        "Record the decision with current demand, cash and delivery information before ordering."
+      ],
+      "save": "A monthly review folder: source file, prompt, checked table and decision log.",
+      "owner": "Owner or stock controller",
+      "measure": "Reconciled totals, review time and actual stock outcomes."
+    },
+    "keywords": "inventory spreadsheet excel profit revenue sales data stock reorder"
   },
   {
     "id": "building",
@@ -121,7 +160,20 @@
       ]
     ],
     "prompt": "Build a phone-friendly [tool] in this demo folder. Rules: [exact rules]. Deliver actual working files. Test these known inputs and expected outputs: [cases]. Report checks performed and limits. Do not publish until I review it.",
-    "check": "Test the actual implementation, invalid input and phone layout. A prototype still needs security and maintenance decisions."
+    "check": "Test the actual implementation, invalid input and phone layout. A prototype still needs security and maintenance decisions.",
+    "workflow": {
+      "trigger": "When the same calculation or checklist keeps coming back",
+      "inputs": "Exact rules, known inputs and answers, and the person who owns changes.",
+      "steps": [
+        "Write the required inputs, output and three examples with expected answers.",
+        "Ask the coding tool to build the file, then test known cases and missing inputs.",
+        "Keep the approved copy. Ask for a short guide explaining how to open and update it."
+      ],
+      "save": "A versioned tool, bookmark, rate/rule sheet and test examples. Arrange a reviewed shared URL if the team needs access.",
+      "owner": "Business owner with technical help for publishing and maintenance",
+      "measure": "Time saved, mistakes caught and whether another person can use it."
+    },
+    "keywords": "calculator app website code form software internal tool build"
   },
   {
     "id": "automation",
@@ -144,7 +196,20 @@
       ]
     ],
     "prompt": "Design this workflow: new enquiry → validate required fields → skip duplicate enquiry ID → create a record → draft an acknowledgement → wait for human approval. Route missing information and failures to a person. Specify inputs, outputs, owner and five test cases. Do not send any messages.",
-    "check": "A diagram is not a connection. Test duplicates, missing fields, failed steps and approval in the actual accounts. Start with internal records."
+    "check": "A diagram is not a connection. Test duplicates, missing fields, failed steps and approval in the actual accounts. Start with internal records.",
+    "workflow": {
+      "trigger": "When a new form response or record arrives",
+      "inputs": "One supported app pair, required fields, unique record ID and an owner.",
+      "steps": [
+        "Write the steps on paper. Begin with a record or notification using rules.",
+        "Connect authorised accounts in the chosen tool and test a few sample records.",
+        "Test missing fields, duplicates and a failed step. Add AI drafting and review only when the basic flow works."
+      ],
+      "save": "A named workflow with an owner, failure notification and a short test checklist.",
+      "owner": "Person responsible for the process and account connections",
+      "measure": "Successful runs, duplicate records, exceptions and cost per run."
+    },
+    "keywords": "automate integration connect apps form sheet email workflow make zapier n8n"
   },
   {
     "id": "research",
@@ -167,7 +232,20 @@
       ]
     ],
     "prompt": "Compare these three suppliers for [need]. Use current first-party sources, list URLs and dates, separate published facts from assumptions, and mark unavailable prices “Request quote”. Give five questions to ask before choosing.",
-    "check": "Check geography, delivery, taxes and the actual quotation. Do not treat old pages or generated estimates as current prices."
+    "check": "Check geography, delivery, taxes and the actual quotation. Do not treat old pages or generated estimates as current prices.",
+    "workflow": {
+      "trigger": "Before choosing a supplier or entering a new market",
+      "inputs": "Your requirements, region, comparison criteria and supplier documents or URLs.",
+      "steps": [
+        "Ask for a dated comparison using original sources and explicit unknowns.",
+        "Verify specifications, coverage and published prices with the supplier.",
+        "Request comparable quotations and record the reasons for your shortlist."
+      ],
+      "save": "A comparison sheet with source URLs, dates, open questions and a review date.",
+      "owner": "Owner or buyer",
+      "measure": "Time to a supported shortlist and unanswered questions resolved."
+    },
+    "keywords": "supplier procurement competitor market research compare sourcing"
   },
   {
     "id": "marketing",
@@ -190,7 +268,20 @@
       ]
     ],
     "prompt": "Using only these approved product facts, draft three posts: a useful tip, a customer question answered, and an offer. Audience: [people]. Voice: [example]. One clear action each. No invented testimonials or performance claims. Then write a visual brief for the strongest post.",
-    "check": "Check claims, spelling, contact details and image rights. Preview the final mobile crop before publishing."
+    "check": "Check claims, spelling, contact details and image rights. Preview the final mobile crop before publishing.",
+    "workflow": {
+      "trigger": "During a weekly marketing review",
+      "inputs": "One audience, one offer, approved facts, customer questions and a clear next step.",
+      "steps": [
+        "Use the saved campaign brief to draft three posts with different purposes.",
+        "Review one caption and an actual image. Check claims and the phone preview.",
+        "Publish approved posts yourself and record enquiries and useful next steps."
+      ],
+      "save": "Your Sales & Content Kit and weekly planner. Replace the weekly brief; keep the approved business facts current.",
+      "owner": "Owner or marketing lead",
+      "measure": "Qualified enquiries, site visits and quote requests after seven days."
+    },
+    "keywords": "social media content instagram facebook whatsapp advertising campaign posts captions"
   },
   {
     "id": "presentations",
@@ -213,7 +304,20 @@
       ]
     ],
     "prompt": "Create a six-slide pitch from these approved notes: problem, customer, solution, evidence, business model, ask. Do not invent traction, customers or financial projections. Mark missing evidence. Keep one main point per slide.",
-    "check": "Verify each figure and claim; review exported slides for layout and readability."
+    "check": "Verify each figure and claim; review exported slides for layout and readability.",
+    "workflow": {
+      "trigger": "Before a pitch, sales meeting or team briefing",
+      "inputs": "Approved notes, evidence, audience and one clear ask.",
+      "steps": [
+        "Ask for a short outline with one point per slide and missing evidence marked.",
+        "Check figures and claims; edit the deck to match your voice and brand.",
+        "Export it, inspect every page and rehearse the spoken story."
+      ],
+      "save": "An approved deck template, source notes and an export you can open offline.",
+      "owner": "Presenter or sales lead",
+      "measure": "Preparation time and whether the audience understands the next step."
+    },
+    "keywords": "slides powerpoint pitch deck proposal presentation"
   },
   {
     "id": "meetings",
@@ -236,7 +340,20 @@
       ]
     ],
     "prompt": "From these meeting notes, list decisions and actions with owner, due date and supporting quote. Mark unassigned owners or dates “Not agreed”. Separate proposals from decisions. Notes: [authorised notes].",
-    "check": "Get recording agreement; confirm names and decisions with participants. Never invent an owner or deadline."
+    "check": "Get recording agreement; confirm names and decisions with participants. Never invent an owner or deadline.",
+    "workflow": {
+      "trigger": "After a meeting",
+      "inputs": "Authorised notes or a transcript, with recording agreement when applicable.",
+      "steps": [
+        "Ask for decisions and actions, keeping suggestions separate from agreements.",
+        "Ask participants to confirm unclear owners and dates.",
+        "Put agreed actions in your existing task list and check them at the next meeting."
+      ],
+      "save": "A meeting-note template and decision log linked to the action list.",
+      "owner": "Meeting organiser",
+      "measure": "Actions with confirmed owners and completion at the next review."
+    },
+    "keywords": "minutes transcript recording meeting notes actions followup"
   },
   {
     "id": "knowledge",
@@ -259,7 +376,20 @@
       ]
     ],
     "prompt": "From these approved procedures, create a checklist for a new team member. Include owner, step, exception and source section. Flag contradictions and missing steps. Do not invent policy.",
-    "check": "Use current, approved versions. Confirm access permissions and assign an owner to keep the source updated."
+    "check": "Use current, approved versions. Confirm access permissions and assign an owner to keep the source updated.",
+    "workflow": {
+      "trigger": "When a procedure changes or a question keeps recurring",
+      "inputs": "Current approved SOPs, source dates and the people who may access them.",
+      "steps": [
+        "Keep one approved source collection and remove outdated versions.",
+        "Ask a real staff question and inspect the supporting procedure.",
+        "Have the process owner resolve gaps, then update the source and retest the question."
+      ],
+      "save": "A bookmarked knowledge space with an owner, review date and example questions.",
+      "owner": "Process owner",
+      "measure": "Questions answered correctly and gaps closed in the source."
+    },
+    "keywords": "sop procedure handbook knowledge policy internal wiki how to"
   },
   {
     "id": "support",
@@ -282,7 +412,20 @@
       ]
     ],
     "prompt": "Using this approved FAQ, answer each test question in two sentences. If the answer is absent, contradictory or about a disputed charge, route it to a person. Do not invent policy or offer refunds. Include the supporting source.",
-    "check": "These options serve different stages. Test ambiguous questions, outdated policies, escalation and the cost per resolved conversation."
+    "check": "These options serve different stages. Test ambiguous questions, outdated policies, escalation and the cost per resolved conversation.",
+    "workflow": {
+      "trigger": "When the same customer questions recur",
+      "inputs": "Approved FAQs, current policies and a clear escalation contact.",
+      "steps": [
+        "Draft answers for common questions from the approved information.",
+        "Test normal, ambiguous and missing-information questions with a staff member.",
+        "Keep staff review first. Configure a support integration only when content and escalation are dependable."
+      ],
+      "save": "A reviewed FAQ, unanswered-question log and route to a person.",
+      "owner": "Customer support lead",
+      "measure": "Correct answers, unresolved questions and successful handoffs."
+    },
+    "keywords": "customer service chatbot faq refunds help desk support"
   },
   {
     "id": "translation",
@@ -305,7 +448,20 @@
       ]
     ],
     "prompt": "Translate this message into [language] for [audience]. Preserve names, numbers, dates and product terms. Flag phrases with more than one meaning. Include a short back-translation for review. Text: [approved text].",
-    "check": "Confirm language support; a fluent speaker should check meaning. Do not assume Swahili or regional-language quality from a product’s general translation claim."
+    "check": "Confirm language support; a fluent speaker should check meaning. Do not assume Swahili or regional-language quality from a product’s general translation claim.",
+    "workflow": {
+      "trigger": "When an approved message needs another language",
+      "inputs": "The original message, target audience and names or terms to preserve.",
+      "steps": [
+        "Confirm the exact language pair is supported and supply a short glossary.",
+        "Generate a draft and have a fluent reviewer check meaning, dates and tone.",
+        "Keep the approved translation with its original and update both when facts change."
+      ],
+      "save": "A bilingual message library and glossary with reviewer and revision date.",
+      "owner": "Communications owner and fluent reviewer",
+      "measure": "Corrections needed and audience understanding."
+    },
+    "keywords": "translate swahili kiswahili language parent letter multilingual"
   },
   {
     "id": "video",
@@ -324,7 +480,20 @@
       ]
     ],
     "prompt": "From this authorised recording, suggest three short clips that answer real customer questions. Preserve the speaker’s meaning, include enough context, and draft accurate captions. Do not publish automatically.",
-    "check": "Check the cut against the original recording. Correct names and numbers in captions and confirm permission to use the recording."
+    "check": "Check the cut against the original recording. Correct names and numbers in captions and confirm permission to use the recording.",
+    "workflow": {
+      "trigger": "After recording a useful explanation or demonstration",
+      "inputs": "A recording you may use, intended audience and target channel.",
+      "steps": [
+        "Select an excerpt that answers a customer question and retains its context.",
+        "Edit the clip and correct names, numbers and wording in captions.",
+        "Review the final crop and sound on a phone, then approve it for posting."
+      ],
+      "save": "The original recording, editable project, caption style and approved export.",
+      "owner": "Content owner",
+      "measure": "Editing time and useful responses to the published clip."
+    },
+    "keywords": "reels tiktok youtube video clips subtitles captions recording"
   },
   {
     "id": "invoices",
@@ -347,6 +516,235 @@
       ]
     ],
     "prompt": "From these invoices, extract supplier, invoice number, date, currency, subtotal, tax, total and source filename. Leave unreadable or absent values blank and flag them. Identify possible duplicates without deleting anything. Reconcile subtotal plus tax to total; do not post to accounting or initiate payment.",
-    "check": "Verify every amount and currency against the original. Check duplicate invoices, credit notes, OCR errors and tax treatment before importing. Extraction is not bookkeeping approval."
+    "check": "Verify every amount and currency against the original. Check duplicate invoices, credit notes, OCR errors and tax treatment before importing. Extraction is not bookkeeping approval.",
+    "workflow": {
+      "trigger": "When a small batch of invoices arrives",
+      "inputs": "Readable source files and the fields required in your existing register.",
+      "steps": [
+        "Ask for a draft table with source filenames and unreadable fields flagged.",
+        "Compare amounts, currencies and possible duplicates with the originals.",
+        "Have the responsible person approve the register before importing it into accounting."
+      ],
+      "save": "A source folder, extraction prompt and dated register with unresolved items.",
+      "owner": "Bookkeeper or person responsible for invoices",
+      "measure": "Reconciled amounts, extraction errors and review time."
+    },
+    "keywords": "invoice receipt bill expense ocr accounts payable extract table"
+  },
+  {
+    "id": "sales-followups",
+    "title": "Follow up sales leads",
+    "category": "Sales",
+    "outcome": "A current next step for each open enquiry.",
+    "recommendation": "Use your existing lead sheet and assistant for a small list. HubSpot fits when a team needs shared contact history and follow-up ownership.",
+    "options": [
+      [
+        "HubSpot",
+        "CRM context, meeting summaries and follow-up drafts."
+      ],
+      [
+        "ChatGPT",
+        "Draft from a small, approved set of contact notes."
+      ],
+      [
+        "Microsoft 365 Copilot",
+        "Consider when correspondence already lives in Outlook."
+      ]
+    ],
+    "prompt": "From these authorised lead notes, list the last confirmed action, next action, owner and agreed date. Mark missing facts “Not agreed”. Draft a short follow-up for each lead using only its own notes. No invented interest, urgency, discounts or commitments. Do not send anything. Notes: [notes].",
+    "check": "Check the right recipient, latest conversation and whether a reply already arrived. A suggested follow-up date is not a date the client agreed to.",
+    "workflow": {
+      "trigger": "After a sales call or a promised follow-up date",
+      "inputs": "Current lead notes and the last agreed next action.",
+      "steps": [
+        "Open the lead record and check whether the person has already replied.",
+        "Draft a follow-up from that lead’s own notes and confirm the requested action.",
+        "Review and send it yourself. Update the owner and next action in the lead sheet or CRM."
+      ],
+      "save": "A lead register and saved follow-up prompt. CRM means your shared customer/contact record.",
+      "owner": "Sales owner",
+      "measure": "Leads with a current next action and overdue follow-ups."
+    },
+    "keywords": "crm leads pipeline deals follow up followups sales reminders"
+  },
+  {
+    "id": "email-campaigns",
+    "title": "Prepare a customer email campaign",
+    "category": "Marketing",
+    "outcome": "One reviewed email for an audience that expects to hear from you.",
+    "recommendation": "Mailchimp fits when you already manage a subscribed audience there. Use an assistant to draft first if all you need is wording.",
+    "options": [
+      [
+        "Mailchimp",
+        "Draft email content in a campaign builder; sending needs a configured audience."
+      ],
+      [
+        "ChatGPT",
+        "Turn an approved offer into subject lines and body copy."
+      ],
+      [
+        "Claude",
+        "Adapt a draft to your existing tone and product notes."
+      ]
+    ],
+    "prompt": "Draft one email for [subscribed audience] about [approved offer]. Give two accurate subject lines, preview text, a body under 150 words and one call to action. Use only [facts]. Do not invent scarcity, discounts or results. List missing details separately. Draft only; do not send or schedule.",
+    "check": "Confirm the audience, offer terms, links, sender details and unsubscribe option. Send yourself a test and review on a phone before approving.",
+    "workflow": {
+      "trigger": "When you have a useful update for subscribers",
+      "inputs": "An approved offer, the intended subscribed audience and a working destination link.",
+      "steps": [
+        "Draft one email and subject line from the offer; keep audience selection explicit.",
+        "Build the email in your usual platform and send a test to yourself.",
+        "Review links, offer terms and the phone layout before authorising the send. Record actual responses."
+      ],
+      "save": "An approved email template and campaign log with audience, owner, date and results.",
+      "owner": "Marketing owner",
+      "measure": "Replies, useful clicks, conversions and unsubscribes; do not rely only on opens."
+    },
+    "keywords": "newsletter mailing list email campaign subscribers email marketing"
+  },
+  {
+    "id": "social-scheduling",
+    "title": "Schedule approved social posts",
+    "category": "Marketing",
+    "outcome": "A reviewed posting calendar with a clear person responsible.",
+    "recommendation": "Buffer fits when posting across supported channels is already a recurring job. Keep manual posting if you are still testing one channel.",
+    "options": [
+      [
+        "Buffer",
+        "AI-assisted drafting plus a queue for supported social accounts."
+      ],
+      [
+        "Canva",
+        "Prepare the visuals before adding them to your posting workflow."
+      ],
+      [
+        "ChatGPT",
+        "Adapt approved copy for each channel; a chat alone is not a publishing connection."
+      ]
+    ],
+    "prompt": "Turn these approved posts into a weekly posting checklist. Include channel, date, time zone, caption, asset needed, owner and approval status. Mark all posts Draft until a person approves. Flag missing links or images. Do not schedule or publish. Posts: [approved drafts].",
+    "check": "Confirm supported post formats, connected account, time zone, crop, links and approval status. Scheduling can publish later without another prompt.",
+    "workflow": {
+      "trigger": "At your weekly publishing review",
+      "inputs": "Approved captions, actual image files, channels and the correct time zone.",
+      "steps": [
+        "Connect the intended accounts and save posts as drafts in the scheduler.",
+        "Preview each channel, confirm dates and check that the offer is still current.",
+        "Approve the schedule deliberately and check published posts and failed-post alerts."
+      ],
+      "save": "A content calendar, brand brief and named owner for approval and failures.",
+      "owner": "Marketing owner",
+      "measure": "Posts published correctly, failures caught and useful customer responses."
+    },
+    "keywords": "social schedule scheduling calendar buffer publishing facebook instagram linkedin"
+  },
+  {
+    "id": "product-listings",
+    "title": "Write clear product listings",
+    "category": "Sales",
+    "outcome": "Consistent descriptions that answer buying questions.",
+    "recommendation": "Start with ChatGPT or Claude and your product sheet. Use Canva for an approved product graphic, with the actual product image.",
+    "options": [
+      [
+        "ChatGPT",
+        "Draft descriptions and FAQs from supplied specifications."
+      ],
+      [
+        "Claude",
+        "Keep a set of descriptions consistent with a supplied style."
+      ],
+      [
+        "Canva",
+        "Lay out a product card using approved text and images."
+      ]
+    ],
+    "prompt": "For each product below, write a title, 60-word description, three factual features and two buyer questions. Preserve units, variants and supplied prices. Mark missing specifications. Do not invent stock availability, warranties, delivery dates or reviews. Product facts: [table].",
+    "check": "Compare every specification, price and variant with the product record. Confirm actual stock and delivery separately before publishing.",
+    "workflow": {
+      "trigger": "When adding or updating products",
+      "inputs": "A current product sheet with verified specifications, variants and prices.",
+      "steps": [
+        "Draft one listing first and agree the style before processing a batch.",
+        "Match every feature, unit and price against the product sheet.",
+        "Approve the copy and image; update the listing in your existing shop or catalogue."
+      ],
+      "save": "A product-copy template, approved examples and a link to the current product record.",
+      "owner": "Shop or catalogue owner",
+      "measure": "Correction rate, preparation time and repeated buyer questions."
+    },
+    "keywords": "ecommerce e commerce shop catalogue catalog product descriptions listings retail"
+  },
+  {
+    "id": "staff-training",
+    "title": "Help a new team member learn the job",
+    "category": "Operations",
+    "outcome": "A first-week checklist and practice questions from your procedures.",
+    "recommendation": "NotebookLM fits a small set of approved guides. Notion AI fits when the team already keeps and updates procedures in Notion.",
+    "options": [
+      [
+        "NotebookLM",
+        "Ask questions of selected guides and inspect the supporting source."
+      ],
+      [
+        "Notion AI",
+        "Draft training material alongside the procedures the team maintains."
+      ],
+      [
+        "ChatGPT",
+        "Turn approved instructions into exercises and a checklist."
+      ]
+    ],
+    "prompt": "From these current procedures, prepare a first-week learning checklist and five practice questions. Cite the source section for each answer. Separate reading, supervised practice and tasks needing approval. Mark gaps; do not invent company policy. Material: [approved guides].",
+    "check": "Have the process owner check the material. Use supervised practice for tasks where mistakes affect customers, safety or money.",
+    "workflow": {
+      "trigger": "Before a new team member starts",
+      "inputs": "Current procedures, role responsibilities and a named supervisor.",
+      "steps": [
+        "Draft a short first-week plan and questions from the approved source guides.",
+        "Have the process owner check each task and answer against the real procedure.",
+        "Use the checklist during supervised practice and note questions the guide did not answer."
+      ],
+      "save": "A dated onboarding pack and checklist, maintained by the process owner.",
+      "owner": "Supervisor or operations lead",
+      "measure": "Time to complete checked tasks and recurring questions resolved."
+    },
+    "keywords": "onboarding training staff employee learning induction team"
+  },
+  {
+    "id": "customer-feedback",
+    "title": "Find patterns in customer feedback",
+    "category": "Research",
+    "outcome": "A short, traceable list of problems worth fixing.",
+    "recommendation": "Use an assistant for an anonymised batch of comments; use NotebookLM when you need to inspect longer source documents alongside the summary.",
+    "options": [
+      [
+        "ChatGPT",
+        "Group supplied comments and explain recurring themes."
+      ],
+      [
+        "Claude",
+        "Summarise longer feedback with supporting excerpts."
+      ],
+      [
+        "NotebookLM",
+        "Link questions about feedback reports to source passages."
+      ]
+    ],
+    "prompt": "Group these anonymised comments into themes. Give the number of unique comments per theme, supporting comment IDs, conflicting views and two actions to investigate. A comment can have several themes, so explain overlaps. Do not invent quotes, percentages or representativeness. Comments: [numbered comments].",
+    "check": "Trace themes to the original comments, remove duplicates and check counts. A small or self-selected sample does not represent every customer.",
+    "workflow": {
+      "trigger": "At a weekly or monthly service review",
+      "inputs": "An anonymised, numbered batch of comments from a stated period.",
+      "steps": [
+        "Ask for themes, supporting comment IDs and counts, retaining conflicting views.",
+        "Check duplicates, a few examples and the counting method against the original batch.",
+        "Choose one improvement, give it an owner and review later feedback after the change."
+      ],
+      "save": "A feedback log with source IDs, themes, decisions, owners and review dates.",
+      "owner": "Owner or customer experience lead",
+      "measure": "Recurring issues resolved and change in later feedback, with sample limits noted."
+    },
+    "keywords": "reviews complaints survey sentiment feedback customer satisfaction"
   }
 ]

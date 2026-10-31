@@ -4,167 +4,323 @@
     "url": "https://chatgpt.com/",
     "capability": "Draft, analyse files and create work you can review.",
     "access": "Start with a browser account; file and calculation tools depend on mode and plan.",
-    "source": "https://learn.chatgpt.com/docs/use-chatgpt"
+    "source": "https://learn.chatgpt.com/docs/use-chatgpt",
+    "kind": "Everyday assistant",
+    "fit": "You need help across writing, files and analysis, and already use ChatGPT.",
+    "firstStep": "Try one client reply using approved notes and check every commitment.",
+    "limit": "A helpful draft still needs a reviewer; connected actions depend on the tools you have enabled.",
+    "keywords": "chat gpt openai"
   },
   {
     "name": "Claude",
     "url": "https://claude.ai/",
     "capability": "Draft documents and analyse uploaded files; create editable outputs.",
     "access": "Browser account; check file creation and usage limits in your plan.",
-    "source": "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude"
+    "source": "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude",
+    "kind": "Everyday assistant",
+    "fit": "Your work often starts with long notes or documents and ends in an editable file.",
+    "firstStep": "Give it an approved brief and ask for a short document plus a list of missing facts.",
+    "limit": "Open and inspect the finished file; confident wording does not establish accuracy.",
+    "keywords": "anthropic claude ai"
   },
   {
     "name": "Gemini",
     "url": "https://gemini.google.com/",
     "capability": "Work with uploaded documents and spreadsheets.",
     "access": "Google account; Workspace permissions and upload limits vary.",
-    "source": "https://support.google.com/gemini/answer/14903178?hl=en"
+    "source": "https://support.google.com/gemini/answer/14903178?hl=en",
+    "kind": "Everyday assistant",
+    "fit": "You want to discuss supplied files or work within an existing Google environment.",
+    "firstStep": "Supply one current document and ask for its key actions with supporting passages.",
+    "limit": "Confirm access to the specific Workspace feature; a Google account alone does not guarantee every integration.",
+    "keywords": "google gemini bard"
   },
   {
     "name": "Microsoft 365 Copilot",
     "url": "https://m365.cloud.microsoft/",
     "capability": "Draft and revise work in the Microsoft 365 environment.",
     "access": "Check the specific app, work account licence and administrator settings.",
-    "source": "https://support.microsoft.com/en-us/outlook/copilot-outlook/chat-with-copilot-in-outlook"
+    "source": "https://support.microsoft.com/en-us/outlook/copilot-outlook/chat-with-copilot-in-outlook",
+    "kind": "Workplace assistant",
+    "fit": "Your team already works in Outlook and Microsoft 365 with an eligible account.",
+    "firstStep": "Draft a reply using an approved email thread, then review it before sending.",
+    "limit": "Check the specific app and licence; do not assume it can see every team document.",
+    "keywords": "microsoft copilot outlook office 365 m365"
   },
   {
     "name": "Notion AI",
     "url": "https://www.notion.com/product/ai",
     "capability": "Write, search workspace knowledge and turn notes into tasks.",
     "access": "Best evaluated inside an existing Notion workspace; full AI access depends on plan.",
-    "source": "https://www.notion.com/help/notion-ai-faqs"
+    "source": "https://www.notion.com/help/notion-ai-faqs",
+    "kind": "Knowledge and notes",
+    "fit": "Procedures and team notes already live in a maintained Notion workspace.",
+    "firstStep": "Turn one current procedure into a checklist and have its owner check it.",
+    "limit": "Outdated source pages produce outdated guidance; keep a person responsible for them.",
+    "keywords": "notion wiki sop"
   },
   {
     "name": "NotebookLM",
     "url": "https://notebook.google.com/",
     "capability": "Ask questions of selected sources and inspect supporting citations.",
     "access": "Google account; currently labelled Gemini Notebook on the presenting account.",
-    "source": "https://support.google.com/gemininotebook/answer/16179559?hl=en"
+    "source": "https://support.google.com/gemininotebook/answer/16179559?hl=en",
+    "kind": "Source-based research",
+    "fit": "You need to ask questions of a defined source collection and inspect citations.",
+    "firstStep": "Upload one current RFQ, ask for requirements and open the deadline citation.",
+    "limit": "Check the original passage and selected sources; a saved answer is not automatically current.",
+    "keywords": "notebook lm google notebook gemini notebook"
   },
   {
     "name": "Adobe Acrobat AI",
     "url": "https://www.adobe.com/acrobat/generative-ai-pdf.html",
     "capability": "Ask about PDFs and follow citations back to source passages.",
     "access": "Check AI Assistant/PDF Spaces entitlement; OCR quality affects scanned documents.",
-    "source": "https://helpx.adobe.com/acrobat/desktop/explore-pdf-spaces/view-citations.html"
+    "source": "https://helpx.adobe.com/acrobat/desktop/explore-pdf-spaces/view-citations.html",
+    "kind": "PDF work",
+    "fit": "Most of the source material you work with is PDF and Acrobat is already part of the workflow.",
+    "firstStep": "Ask a question about one PDF and inspect the cited passage.",
+    "limit": "Scans and complex tables can be misread; verify original values and page context.",
+    "keywords": "acrobat adobe pdf assistant"
   },
   {
     "name": "Excel Copilot",
     "url": "https://www.microsoft.com/en-us/microsoft-365/excel/copilot-in-excel",
     "capability": "Explore spreadsheet data, formulas, summaries and visualisations in Excel.",
     "access": "Requires an eligible account and supported workbook setup; check Excel requirements.",
-    "source": "https://support.microsoft.com/en-us/excel/copilot/data-insights-with-copilot-in-excel"
+    "source": "https://support.microsoft.com/en-us/excel/copilot/data-insights-with-copilot-in-excel",
+    "kind": "Spreadsheet analysis",
+    "fit": "The working workbook already lives in an eligible Excel setup.",
+    "firstStep": "Ask about one clean table and check a formula and total yourself.",
+    "limit": "Data structure, account access and workbook support affect what is available.",
+    "keywords": "excel microsoft copilot spreadsheet"
   },
   {
     "name": "Julius",
     "url": "https://julius.ai/",
     "capability": "Analyse spreadsheet data and turn findings into reports.",
     "access": "Account and usage allowance required; verify calculations against your source file.",
-    "source": "https://julius.ai/"
+    "source": "https://julius.ai/",
+    "kind": "Spreadsheet analysis",
+    "fit": "You want a dedicated workspace for exploring a supplied dataset.",
+    "firstStep": "Upload a small dated table and request a chart with its calculation explained.",
+    "limit": "Reconcile the underlying numbers; an attractive chart does not validate the source data.",
+    "keywords": "julius data analysis"
   },
   {
     "name": "Codex",
     "url": "https://chatgpt.com/codex",
     "capability": "Build small tools, edit files and run checks in an authorised workspace.",
     "access": "Prepare a demo folder and tool access first; review files and test results.",
-    "source": "https://learn.chatgpt.com/docs/environments/modes"
+    "source": "https://learn.chatgpt.com/docs/environments/modes",
+    "kind": "Build and maintain tools",
+    "fit": "You need working files and checks for a calculator, form or internal tool.",
+    "firstStep": "Describe exact rules and known answers; ask it to build and test the actual file.",
+    "limit": "Publishing and ongoing maintenance still need an owner; review access before connecting business data.",
+    "keywords": "openai codex code coding"
   },
   {
     "name": "Claude Code",
     "url": "https://claude.com/product/claude-code",
     "capability": "Read a project, change files and run development commands.",
     "access": "Coding workspace setup and an eligible subscription/API account; technical review needed.",
-    "source": "https://support.claude.com/en/articles/14553517-claude-code-common-developer-use-cases"
+    "source": "https://support.claude.com/en/articles/14553517-claude-code-common-developer-use-cases",
+    "kind": "Build and maintain tools",
+    "fit": "Someone can prepare and review an existing coding workspace.",
+    "firstStep": "Ask for one small change with acceptance checks in an authorised project.",
+    "limit": "Technical review is needed for commands, code changes and production access.",
+    "keywords": "anthropic claude code coding"
   },
   {
     "name": "Cursor",
     "url": "https://cursor.com/",
     "capability": "Build and revise code with an agent inside an editor.",
     "access": "Install an editor and prepare the project; review commands and changes.",
-    "source": "https://prod.cursor.com/docs/agent/overview"
+    "source": "https://prod.cursor.com/docs/agent/overview",
+    "kind": "Build and maintain tools",
+    "fit": "A person maintains your software in a code editor.",
+    "firstStep": "Try a small, reviewable change and run the project’s checks.",
+    "limit": "It is an editor workflow; plan for someone who can review and maintain the result.",
+    "keywords": "cursor editor coding"
   },
   {
     "name": "Replit",
     "url": "https://replit.com/",
     "capability": "Build and preview apps from a brief in a browser workspace.",
     "access": "Check build credits and hosting costs separately; test before publishing.",
-    "source": "https://replit.com/products/agent"
+    "source": "https://replit.com/products/agent",
+    "kind": "Build and maintain tools",
+    "fit": "You want a browser workspace to build and preview an initial app.",
+    "firstStep": "Build a simple form using sample data and check the result on a phone.",
+    "limit": "A working preview is only a start; check hosting, permissions and ongoing costs before launch.",
+    "keywords": "replit app builder website"
   },
   {
     "name": "Lovable",
     "url": "https://lovable.dev/",
     "capability": "Create and iterate on web apps from a natural-language brief.",
     "access": "Check credits, hosting and backend requirements; review access and data handling.",
-    "source": "https://docs.lovable.dev/introduction/welcome"
+    "source": "https://docs.lovable.dev/introduction/welcome",
+    "kind": "Build and maintain tools",
+    "fit": "You need to explore a web app idea through a prompt-driven prototype.",
+    "firstStep": "Describe one user journey and test the preview before adding more features.",
+    "limit": "Review stored data, access and hosting before using it with real customers.",
+    "keywords": "lovable app builder website"
   },
   {
     "name": "Make",
     "url": "https://www.make.com/",
     "capability": "Connect apps and branch a repeatable workflow in a visual builder.",
     "access": "Connect authorised accounts; budget for automation credits and any AI provider usage.",
-    "source": "https://www.make.com/en/product"
+    "source": "https://www.make.com/en/product",
+    "kind": "Connected workflows",
+    "fit": "You want to see branching steps and app connections on a visual canvas.",
+    "firstStep": "Connect one internal trigger and action, then test a missing field and duplicate.",
+    "limit": "Account connections and error handling need setup; AI steps can add separate usage costs.",
+    "keywords": "make integromat automation integration"
   },
   {
     "name": "Zapier",
     "url": "https://zapier.com/",
     "capability": "Run actions in connected apps when a trigger occurs.",
     "access": "Account connections and a tested trigger/action setup; features and task limits vary.",
-    "source": "https://help.zapier.com/hc/en-us/articles/8496257774221-Set-up-your-Zap-action"
+    "source": "https://help.zapier.com/hc/en-us/articles/8496257774221-Set-up-your-Zap-action",
+    "kind": "Connected workflows",
+    "fit": "You have a clear trigger and action supported by the apps you already use.",
+    "firstStep": "Create one tested record or internal notification before adding more steps.",
+    "limit": "Task limits, app support and multi-step features depend on the plan.",
+    "keywords": "zapier zaps automation integration"
   },
   {
     "name": "n8n",
     "url": "https://n8n.io/",
     "capability": "Build flexible workflows with AI steps and human fallbacks.",
     "access": "More technical setup; cloud subscription or maintained self-hosting plus provider costs.",
-    "source": "https://docs.n8n.io/build/integrate-ai/ai-examples/set-a-human-fallback-for-ai-workflows.md"
+    "source": "https://docs.n8n.io/build/integrate-ai/ai-examples/set-a-human-fallback-for-ai-workflows.md",
+    "kind": "Connected workflows",
+    "fit": "You need flexible workflow logic and have technical help to maintain it.",
+    "firstStep": "Build a small internal flow with a failure route to a person.",
+    "limit": "Self-hosting brings maintenance work; it is not simply a free replacement for a managed service.",
+    "keywords": "n8n automation integration"
   },
   {
     "name": "Canva",
     "url": "https://www.canva.com/",
     "capability": "Turn a brief into designs, images and social content you can edit.",
     "access": "Check AI feature limits and asset licences for the account you use.",
-    "source": "https://www.canva.com/canva-ai/"
+    "source": "https://www.canva.com/canva-ai/",
+    "kind": "Design and content",
+    "fit": "You need editable social visuals or presentations and want direct layout control.",
+    "firstStep": "Use an approved caption and actual product photo to create one phone-readable post.",
+    "limit": "Check asset rights, factual claims and the final export; AI features vary by account.",
+    "keywords": "canva design graphic poster brand"
   },
   {
     "name": "Gamma",
     "url": "https://gamma.app/",
     "capability": "Turn a brief or source material into a presentation draft.",
     "access": "Check creation credits, export options and plan limits.",
-    "source": "https://help.gamma.app/en/articles/15002203-how-do-i-create-with-agent-in-gamma"
+    "source": "https://help.gamma.app/en/articles/15002203-how-do-i-create-with-agent-in-gamma",
+    "kind": "Design and content",
+    "fit": "You need a first presentation draft from structured notes.",
+    "firstStep": "Give it six approved points and one clear ask; review the slide sequence.",
+    "limit": "Check exported slides and source evidence; generated slides can still contain unsupported claims.",
+    "keywords": "gamma slides pitch presentation"
   },
   {
     "name": "Descript",
     "url": "https://www.descript.com/",
     "capability": "Edit recorded video through its transcript and create captions or clips.",
     "access": "Prepare a recording you may use; check media minutes and AI credits.",
-    "source": "https://www.descript.com/features"
+    "source": "https://www.descript.com/features",
+    "kind": "Video and audio",
+    "fit": "You have a recording and want to edit it through its transcript.",
+    "firstStep": "Make one short clip, then compare the cut and captions with the original.",
+    "limit": "Transcript errors and tight cuts can change meaning; review the finished media.",
+    "keywords": "descript video audio captions podcast"
   },
   {
     "name": "Otter",
     "url": "https://otter.ai/",
     "capability": "Transcribe meetings and extract summaries and action items.",
     "access": "Obtain participant agreement before recording; check language support and meeting limits.",
-    "source": "https://otter.ai/"
+    "source": "https://otter.ai/",
+    "kind": "Meetings",
+    "fit": "You need meeting transcription and action summaries with participants’ agreement.",
+    "firstStep": "Capture one agreed meeting and confirm the summary with its participants.",
+    "limit": "Check exact language support and speaker attribution before relying on the transcript.",
+    "keywords": "otter ai meetings transcript"
   },
   {
     "name": "DeepL",
     "url": "https://www.deepl.com/",
     "capability": "Translate supported languages and documents with consistent glossary terms.",
     "access": "Confirm your exact language pair and glossary/file features before subscribing.",
-    "source": "https://support.deepl.com/hc/en-us/articles/4411401630226-Apply-a-glossary-to-file-translation"
+    "source": "https://support.deepl.com/hc/en-us/articles/4411401630226-Apply-a-glossary-to-file-translation",
+    "kind": "Translation",
+    "fit": "It supports your exact language pair and terminology needs.",
+    "firstStep": "Translate one approved message and have a fluent reviewer check it.",
+    "limit": "Do not assume every language or glossary feature is available on every plan.",
+    "keywords": "deepl translate translation languages"
   },
   {
     "name": "Intercom Fin",
     "url": "https://www.intercom.com/fin",
     "capability": "Answer support questions from approved knowledge and route exceptions to people.",
     "access": "Needs maintained support content, escalation rules and a costed support setup.",
-    "source": "https://www.intercom.com/help/en/articles/8286630-deploy-fin-ai-agent-over-chat"
+    "source": "https://www.intercom.com/help/en/articles/8286630-deploy-fin-ai-agent-over-chat",
+    "kind": "Customer support",
+    "fit": "You have maintained support content and enough enquiries to justify a connected support setup.",
+    "firstStep": "Test a small FAQ set and an unanswered question before considering customer-facing use.",
+    "limit": "Content maintenance, handoffs and ongoing conversation costs need an owner.",
+    "keywords": "intercom fin chatbot helpdesk customer service"
   },
   {
     "name": "Perplexity",
     "url": "https://www.perplexity.ai/",
     "capability": "Research the web with linked sources.",
     "access": "Check source dates and original pages; deeper research allowances vary by plan.",
-    "source": "https://www.perplexity.ai/help-center/en/articles/10352155-what-is-perplexity"
+    "source": "https://www.perplexity.ai/help-center/en/articles/10352155-what-is-perplexity",
+    "kind": "Web research",
+    "fit": "You need to discover sources and build an initial web comparison.",
+    "firstStep": "Compare three options and open the original sources for the key claims.",
+    "limit": "Source links are a starting point; verify dates, quoted terms and supplier details.",
+    "keywords": "perplexity search web research"
+  },
+  {
+    "name": "Buffer",
+    "url": "https://buffer.com/",
+    "capability": "Draft and adapt social copy, then organise posts for supported channels.",
+    "access": "Connect the correct social accounts. Check supported formats, channel limits and team approval features for your plan.",
+    "source": "https://support.buffer.com/articles/scheduling-posts-4Qdld7giAZ",
+    "kind": "Social publishing",
+    "fit": "Approved posts need a reliable calendar across supported social accounts.",
+    "firstStep": "Save one post as a draft, preview the channel and deliberately approve its schedule.",
+    "limit": "Check post format and time zone; connected scheduling can publish without a later confirmation.",
+    "keywords": "buffer social media calendar schedule publishing"
+  },
+  {
+    "name": "Mailchimp",
+    "url": "https://mailchimp.com/",
+    "capability": "Create email content from approved material inside a campaign builder.",
+    "access": "AI email content creation requires a paid plan and the supported email builder. Audience setup and approval to send are separate.",
+    "source": "https://mailchimp.com/help/create-email-content-with-ai/",
+    "kind": "Email marketing",
+    "fit": "You have a maintained subscriber audience and a recurring email campaign.",
+    "firstStep": "Build one draft from an approved offer and send a test to yourself.",
+    "limit": "An AI draft does not establish permission to email the audience or prove the offer is accurate.",
+    "keywords": "mail chimp newsletter subscribers email campaign"
+  },
+  {
+    "name": "HubSpot",
+    "url": "https://www.hubspot.com/",
+    "capability": "Use customer records to prepare for sales meetings and draft follow-ups.",
+    "access": "Keep customer records current. AI meeting and follow-up features depend on the HubSpot product, account permissions and plan.",
+    "source": "https://www.hubspot.com/products/artificial-intelligence/use-cases/sales-meeting-prep-and-follow-up",
+    "kind": "Sales and customer records",
+    "fit": "A team needs shared lead history, ownership and follow-up context.",
+    "firstStep": "Use one current deal record to prepare a follow-up draft and review the proposed next step.",
+    "limit": "Missing or stale CRM data weakens the draft; verify the record before updating or sending.",
+    "keywords": "hub spot crm breeze sales leads pipeline"
   }
 ]

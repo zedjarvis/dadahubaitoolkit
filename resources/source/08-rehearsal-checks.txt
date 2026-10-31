@@ -7,7 +7,7 @@ PROMOTION FIT
 Practical everyday work: pass. One cleaning-and-supplies company now links enquiry, reply, RFQ, stock and estimate.
 Automation emphasis: pass for an introductory demonstration. Four minutes of a working local workflow and six minutes designing an attendee workflow. The browser demo uses rules and a template; it does not call AI or send email. Do not advertise it as a completed cross-app automation setup.
 A new perspective: pass in the design. The opening is a useful reply; the close connects brief, source, calculation and human review into repeatable work. Whether the audience experiences that shift must be observed in the room.
-Paid-session value: concrete outputs are a checked reply, a three-post marketing plan, four reusable routines, a five-field workflow plan, exact reusable prompts, 14 task guides, checked data, an offline calculator and the deck. Protect the participant practice; do not replace it with tool introductions.
+Paid-session value: concrete outputs are a checked reply, a three-post marketing plan, four reusable routines, a five-field workflow plan, exact reusable prompts, 20 task guides, checked data, an offline calculator and the deck. Protect the participant practice; do not replace it with tool introductions.
 
 OBSERVED PRODUCT REHEARSAL
 ChatGPT opening: produced three short paragraphs; retained budget and conditional date; asked for windows.
@@ -24,14 +24,14 @@ IMPLEMENTATION REVIEW AND FIXES
 - Fixed raw Markdown headings discovered in the exported PDF; visually reviewed the updated 33-slide PDF after correction.
 - Updated stock-chart labels and accessible description to match the new products.
 - Added four alternative-tool tags to each demo and task-specific comparisons.
-- Added searchable/filterable directory: 14 tasks, 24 tools; first-party sources and setup considerations. Recommendations are editorial fit judgments, not benchmark rankings or universal “best” claims.
+- Added searchable/filterable directory: 20 tasks, 27 tools; first-party sources and setup considerations. Recommendations are editorial fit judgments, not benchmark rankings or universal “best” claims.
 - Collapsed research-method detail on phones so search is easy to reach.
 - Corrected the workflow to resolve missing details on the same enquiry ID, not create a replacement enquiry.
 - Verified hold, duplicate rejection, clarification, deliberate approval and one-record preservation in the UI. Nothing is sent externally.
 - Verified workflow-plan saving and restoration after page navigation; intake records reset on refresh as labelled.
 - Checked 320px, 390px and 1280px layouts, prompt copying, directory search, category filter and empty state. No horizontal page overflow observed in tested views. Phone portrait remains illustrated-only.
 - Added business context and five-step saved routines to all four demo pages. Added a 12-minute sales-and-marketing segment, three-post planner and copyable masters. Checked the 60-minute schedule, new copy buttons, phone widths and PDF text preservation. Corrected cramped continuation pages and preserved template line breaks.
-- Nuxt typecheck passed. Eight meaningful calculation/workflow tests passed. Production build passed. The deployment and public routes are checked during publication.
+- Nuxt typecheck passed. Eight calculation/workflow tests and five directory checks passed. Production build passed. The deployment and public routes are checked during publication.
 
 LAST CHECKS IN THE ROOM
 Open the prepared successful ChatGPT conversation and notebook before the audience arrives. Try one short prompt, open one citation and load the offline calculator. Clear welcome dialogs and hide unrelated chats/notifications. Check projector text size and hotspot. Confirm organiser handoff details.

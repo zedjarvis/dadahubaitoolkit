@@ -390,7 +390,7 @@ class: scenario-slide
 
 # Start with the job.
 <div class="two"><div class="rule"><h2>Use what you have.</h2><p class="small">Try a small task.<br>Check accuracy and edits.<br>Compare time and total cost.</p></div><div class="rule"><h2>Explore what comes next.</h2><p class="small">More marketing and presentations.<br>Meetings and procedures.<br>Support, research and translation.</p></div></div>
-<a class="live-link" href="https://dadahubaitoolkit.vercel.app/tools" target="_blank">14 tasks · 24 tools · official sources ↗</a>
+<a class="live-link" href="https://dadahubaitoolkit.vercel.app/tools" target="_blank">20 tasks · 27 tools · official sources ↗</a>
 
 <!--
 10:11–10:13. Show the directory briefly, not every tool. Recommendations are conditional fit judgments, not head-to-head benchmark rankings. Each card has a prompt, setup considerations, checks and official sources, checked31Oct2026. Start with one internal record or notification before connecting AI and outbound communication. Close exercise at10:13.

@@ -223,17 +223,24 @@ def make_stock(rows):
 
 def make_tools(jobs,tools):
     lookup={x['name']:x for x in tools}
-    s=intro('10 / Tools by business task','Start with the job.','14 everyday tasks. 24 tools to consider.\nOfficial source review: 31 October 2026.')
-    s.append(box('How to use this directory','These are conditional recommendations, not benchmark rankings. Start with the tools and approved information you already have. Check current plan, account access, usage costs, hosting and setup before paying. Each task includes a starting point, alternatives, a prompt and a check.'))
-    s.append(table(['No.','Task'],[[f'{i:02}',x['title']] for i,x in enumerate(jobs,1)],[40,CW-40]))
-    s += [Spacer(1,10),link('Search and filter the live directory',BASE+'/tools')]
+    s=intro('10 / Tools and everyday workflows','Start with the job.',f"{len(jobs)} business tasks. {len(tools)} tools to consider.\nOfficial source review: 31 October 2026.")
+    s += [box('Three questions this guide answers','What is each tool good for? Which fits the work and setup you already have? How can you turn it into a routine you will use again?'),heading('Choose a fit for the work'),p('Start with a small task in a tool you already have. Compare the output, the effort to check it, the person who will use it and the full cost. A saved prompt, a reusable tool and a connected automation need different amounts of setup.'),heading('Put it into your week'),p('Each task has a suggested starting point, alternatives and a repeatable routine: when to use it, what to supply, the steps, who checks it and what to save. Copy the routine into your own notes from the website. Try the first five runs before connecting more apps.'),heading('About the recommendations'),p('Product capabilities come from the linked official documentation. The tool choices and workflows are editorial recommendations, not benchmark rankings. Only the workshop tools have been rehearsed. Check the current plan, supported languages, permissions and total costs before paying.'),link('Search by business need or tool',BASE+'/tools'),link('Map a workflow for your business',BASE+'/workflow')]
+    s += [PageBreak(),p('10 / Find your task','label'),p('What do you need done?','h1'),table(['No.','Business task'],[[f'{i:02}',x['title']] for i,x in enumerate(jobs,1)],[40,CW-40]),Spacer(1,12),p('After the task guides: a tool-by-tool reference with useful capabilities, fit, setup and a first experiment.','small')]
     for i,j in enumerate(jobs,1):
-        s += [PageBreak(),p(f'{i:02} / '+j['category'],'label'),p(j['title'],'h1'),p(j['outcome']),p('Where I would start: '+j['recommendation'])]
+        s += [PageBreak(),p(f'{i:02} / '+j['category'],'label'),p(j['title'],'h1'),p(j['outcome']),box('Where I would start',j['recommendation'])]
         for name,reason in j['options']:
             t=lookup[name]
             s += [heading(name),p(reason+' '+t['access'],'small'),Paragraph(f'<link href="{escape(t["url"],quote=True)}" color="#8720A8"><u>Open {escape(name)}</u></link>    |    <link href="{escape(t["source"],quote=True)}" color="#8720A8"><u>Official source &amp; requirements</u></link>',styles['small'])]
-        s += [heading('Starter prompt'),p(j['prompt'],'prompt'),box('Before using the result',j['check'])]
-    write('10-tools-by-task','Tools by business task',s)
+        s += [Spacer(1,12),box('Before using the result',j['check']),link('Open this task online',BASE+'/tools#'+j['id'])]
+        w=j['workflow']
+        s += [PageBreak(),p(f'{i:02} / Put it into your workflow','label'),p(j['title'],'h1'),p('When: '+w['trigger']),p('Have ready: '+w['inputs'])]
+        for n,step in enumerate(w['steps'],1):s += [heading('Step '+str(n)),p(step)]
+        s += [heading('Step 4 - save and use again'),p(w['save']),p('Person responsible: '+w['owner'],'small'),p('How to tell if it helps: '+w['measure'],'small'),heading('Starter prompt'),p(j['prompt'],'prompt'),link('Copy this routine into your notes',BASE+'/tools#'+j['id'])]
+    for offset in range(0,len(tools),2):
+        s += [PageBreak(),p('10 / Tool-by-tool reference','label'),p('What each tool is good for','h1')]
+        for t in tools[offset:offset+2]:
+            s += [heading(t['name']+' / '+t['kind']),p(t['capability']),p('A good fit when: '+t['fit'],'small'),p('First experiment: '+t['firstStep'],'small'),p('Setup: '+t['access'],'small'),p('Watch: '+t['limit'],'small'),link('Official documentation for '+t['name'],t['source']),Spacer(1,16)]
+    write('10-tools-by-task','Tools and business workflows',s)
 
 def make_observed():
     raw=read('09-observed-rehearsal-outputs')
@@ -296,7 +303,7 @@ def make_start():
     s=intro('Start here / Session pack','AI for your everyday\nbusiness tasks.','DADA HUB  |  31 October 2026  |  09:20-10:20 EAT\nUseful prompts. Clear checks. A repeatable way of working.')
     s.append(box('Download once, keep it close','The written handouts are PDFs with selectable text. The CSV opens in a spreadsheet, and quote-calculator.html works offline in a browser. Live AI products and the published website still need their usual access.'))
     s.append(table(['File','What it is for'],[
-        ['01 / Presenter run sheet','Spoken cues, stage actions, timing and fallbacks.'],['02 / Live prompts','Complete prompts and follow-ups to copy and adapt.'],['03 / cleaning RFQ','The PDF source for the NotebookLM demonstration.'],['04 / Participant reference','The business day, checked values and a workflow worksheet.'],['05 / Prepared fallbacks','Checked reference answers, clearly labelled.'],['06 / Stock answer key','A print-ready PDF plus the original spreadsheet CSV.'],['07 / Automation recipe','A setup and testing plan for a connected workflow.'],['08 / Rehearsal checks','Observed passes, corrections, failures and venue preflight.'],['09 / Observed outputs','Actual responses from the product rehearsals.'],['10 / Tools by task','14 task guides with alternatives and official source links.'],['11 / Reusable workflows','Four guided routines, editable masters and a marketing example.'],['12 / Marketing planner CSV','Three post ideas and blank owner/result columns.'],['Quote calculator / HTML','A working offline estimate calculator.'],['Presentation / PDF','The static presentation fallback.']],[146,CW-146]))
+        ['01 / Presenter run sheet','Spoken cues, stage actions, timing and fallbacks.'],['02 / Live prompts','Complete prompts and follow-ups to copy and adapt.'],['03 / cleaning RFQ','The PDF source for the NotebookLM demonstration.'],['04 / Participant reference','The business day, checked values and a workflow worksheet.'],['05 / Prepared fallbacks','Checked reference answers, clearly labelled.'],['06 / Stock answer key','A print-ready PDF plus the original spreadsheet CSV.'],['07 / Automation recipe','A setup and testing plan for a connected workflow.'],['08 / Rehearsal checks','Observed passes, corrections, failures and venue preflight.'],['09 / Observed outputs','Actual responses from the product rehearsals.'],['10 / Tools by task','Task guides, tool comparisons and repeatable workflows.'],['11 / Reusable workflows','Four guided routines, editable masters and a marketing example.'],['12 / Marketing planner CSV','Three post ideas and blank owner/result columns.'],['Quote calculator / HTML','A working offline estimate calculator.'],['Presentation / PDF','The static presentation fallback.']],[146,CW-146]))
     s += [Spacer(1,12),link('Open the attendee toolkit',BASE+'/toolkit'),link('Open the presenter rehearsal',BASE+'/rehearsal'),link('Browse the tools directory',BASE+'/tools')]
     write('START-HERE','Session pack guide',s)
 
