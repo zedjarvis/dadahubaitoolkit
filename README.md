@@ -153,8 +153,8 @@ rates or advice on real tax treatment.
 6. If the live build stalls, identify the prepared calculator as the fallback.
 7. Protect the workflow exercise at 10:07, questions at 10:13 and the handover at 10:20.
 
-Share https://dadahubaitoolkit.vercel.app/toolkit with attendees, or display the welcome
-page so they can scan the QR. All presentation demo links use the public address.
+Share https://dadahubaitoolkit.vercel.app/toolkit with attendees. Slide 4, immediately
+after Flowt and SchoolBooks, gives the room 30 seconds to scan and follow along. All presentation demo links use the public address.
 
 The site saves a participant's Monday commitment only in their browser's local
 storage. It does not send that field anywhere.
@@ -175,7 +175,7 @@ Vercel connection state and environment files are excluded from version control.
 
 ## Revised business-day session
 
-The 33-slide deck follows fictional Safi Services & Supplies. `/rehearsal` has the exact 60-minute run sheet, spoken cues, full prompts and failure routes. `/workflow` is a browser-only rule-based intake demo with duplicate detection, missing-information holds and deliberate approval. It does not call AI or connect to email. `/tools` contains 20 tasks, 27 tools, conditional recommendations and first-party sources checked on 31 October 2026.
+The 34-slide deck follows fictional Safi Services & Supplies. `/rehearsal` has the exact 60-minute run sheet, spoken cues, full prompts and failure routes. `/workflow` is a browser-only rule-based intake demo with duplicate detection, missing-information holds and deliberate approval. It does not call AI or connect to email. `/tools` contains 20 tasks, 27 tools, conditional recommendations and first-party sources checked on 31 October 2026.
 
 The standalone `public/resources/quote-calculator.html` works offline. The demo kit includes prepared answers and separately labelled observed rehearsal notes. Workflow plans and Monday commitments are stored only in the current browser; demo intake records are memory-only.
 

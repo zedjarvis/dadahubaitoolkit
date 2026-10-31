@@ -51,3 +51,14 @@ html.print .slidev-layout.new-section :is(h1,h2,h3){color:#fff!important;-webkit
 .slidev-layout td,.slidev-layout th{padding:7px 10px}
 
 .slidev-layout.scenario-slide .lead{font-size:24px}.slidev-layout.scenario-slide .small{font-size:17px}.slidev-layout.scenario-slide h2{font-size:26px}.slidev-layout .three h2{font-size:26px}
+
+/* Give the room a clear scan point between introductions and the business day. */
+.slidev-layout.follow-along .follow-along-grid{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:36px;align-items:center;margin-top:35px}
+.slidev-layout.follow-along h1{font-size:54px;margin:0 0 20px}
+.slidev-layout.follow-along .lead{font-size:23px;margin:0 0 22px}
+.slidev-layout.follow-along .small{font-size:16px;margin:0}
+.slidev-layout .follow-along-qr{margin:0;text-align:center}
+.slidev-layout .follow-along-qr>a{display:block;background:#fff;border:1px solid #e4d5ef;border-radius:16px;overflow:hidden}
+.slidev-layout .follow-along-qr img{display:block;width:340px;height:340px;object-fit:contain}
+.slidev-layout .follow-along-qr figcaption{font-size:14px;color:#745784;margin-top:10px}
+.slidev-layout .follow-along-url{display:block;width:max-content;margin:24px auto 0;font-size:23px;font-weight:600;color:#6b21a8;border-bottom:1px solid #d8c2ea}

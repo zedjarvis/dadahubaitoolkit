@@ -20,6 +20,6 @@ Slides: https://dadahubaitoolkit.vercel.app/slides/index.html
 11 Reusable workflows: guided routines, editable masters and a marketing example.
 12 Weekly marketing planner: editable CSV with three post ideas and blank results.
 quote-calculator.html: open directly in a browser; works offline.
-the-ai-toolkit.pdf: static 33-slide presentation fallback.
+the-ai-toolkit.pdf: static 34-slide presentation fallback.
 
 Download and open these before leaving reliable Wi-Fi. The PDF and calculator work offline. Live AI products and the published website require their usual access. Keep the successful prepared ChatGPT conversation open for the stock demo; a fresh conversation had a display failure during rehearsal.

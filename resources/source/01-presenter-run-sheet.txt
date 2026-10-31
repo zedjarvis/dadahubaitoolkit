@@ -4,7 +4,9 @@ PRESENTER RUN SHEET
 Say: Before I introduce myself, imagine this enquiry has just arrived while you are out on a job. Can we give the client a useful reply without promising something we cannot deliver?
 Keep the cover on screen, then switch to the prepared ChatGPT tab. Paste the opening prompt as one complete message; check it before pressing Send.
 Give generation 30 seconds. Read the three lines, then ask: “Did it turn the budget into our price? Did it promise the start date?”
-Introduce yourself in one sentence. Show the Flowt and SchoolBooks slides for about 20 seconds each. Say: “Today we follow Safi Services & Supplies through its working day.”
+Introduce yourself in one sentence. Show the Flowt and SchoolBooks slides for about 20 seconds each.
+Show “Scan to follow along” immediately after SchoolBooks. Give the room about 30 seconds. Say: “The prompts, demo files and tools are all here, so you can try things with me and keep them afterwards. Open your camera, tap the link, and keep the toolkit open.” The QR opens /toolkit directly. Read the visible URL if someone cannot scan it.
+Introduce Safi Services & Supplies: “Today we follow this business through its working day.” Move to the enquiry workflow at 09:23.
 Pass: Three short paragraphs; KES 120,000 remains the client budget; 16 November remains conditional; window details are requested.
 Fallback: “That is taking longer than our slot. Here is a saved rehearsal result from the same brief. Let’s check the commitments together.” Open the saved reply; do not call it a live result.
 

@@ -66,7 +66,7 @@ logoHeader: ''
 </div>
 
 <!--
-09:21:30–09:22. "Financial intelligence that unlocks capital for small & mid-size businesses in emerging markets." Keep this introduction to 30 seconds. The QR and clickable link go directly to https://flowt.africa/. Use the user's corrected description; do not describe Flowt as generic business software or add financing rates or eligibility claims.
+09:21:30–09:21:50. "Financial intelligence that unlocks capital for small & mid-size businesses in emerging markets." Keep this introduction to 20 seconds. The QR and clickable link go directly to https://flowt.africa/. Use the user's corrected description; do not describe Flowt as generic business software or add financing rates or eligibility claims.
 -->
 
 ---
@@ -89,7 +89,30 @@ logoHeader: ''
 </div>
 
 <!--
-09:22–09:22:30. Introduce SchoolBooks as a separate part of your work: AI agents for school finance and operations. The website describes connected accounting, fees, people, payroll and operations, with human approvals. The QR and clickable link go directly to https://www.schoolbooks.ke/. Keep this to 30 seconds and transition: "Today is about the work you need to get done."
+09:21:50–09:22:10. Introduce SchoolBooks as a separate part of your work: AI agents for school finance and operations. The website describes connected accounting, fees, people, payroll and operations, with human approvals. The QR and clickable link go directly to https://www.schoolbooks.ke/. Keep this to 20 seconds and transition: "Let’s get the session toolkit open on your phones."
+-->
+
+---
+class: follow-along
+title: Scan to follow along
+---
+
+<div class="follow-along-grid">
+<div>
+<div class="kicker">Your session toolkit</div>
+<h1>Scan to<br>follow along.</h1>
+<p class="lead">The prompts, demo files and tools<br>are here for you to use.</p>
+<p class="small">Open your phone camera and tap the link.<br>Keep the page open — we’ll use it together.</p>
+</div>
+<figure class="follow-along-qr">
+<a href="https://dadahubaitoolkit.vercel.app/toolkit" target="_blank" rel="noopener noreferrer" aria-label="Open the session toolkit"><img src="/qr/session.png" alt="Scan to open dadahubaitoolkit.vercel.app/toolkit" width="340" height="340" /></a>
+<figcaption>Opens straight to the toolkit.</figcaption>
+</figure>
+</div>
+<a class="follow-along-url" href="https://dadahubaitoolkit.vercel.app/toolkit" target="_blank" rel="noopener noreferrer">dadahubaitoolkit.vercel.app/toolkit</a>
+
+<!--
+09:22:10–09:22:40. Leave this slide up for about 30 seconds. Say: “Scan this to follow along. The prompts, demo files and tools are all here, so you can try things with me and keep them afterwards. Open your camera, tap the link, and keep the toolkit open.” The QR opens /toolkit directly, not the welcome QR page. If scanning is difficult, read the visible URL and ask someone nearby to share the link. Then introduce Safi Services & Supplies. Keep the opening within three minutes.
 -->
 
 ---
@@ -102,7 +125,7 @@ logoHeader: ''
 <p class="small mt-7">Leave with a checked draft and a routine you can reuse.</p>
 
 <!--
-09:22:30–09:23. The client is Parklands Learning Centre. Explain that the business-day clock shows the sequence of work; the session clock remains 09:20–10:20. This is not a product tour or an installation clinic.
+09:22:40–09:23. The client is Parklands Learning Centre. Explain that the business-day clock shows the sequence of work; the session clock remains 09:20–10:20. This is not a product tour or an installation clinic.
 -->
 
 ---
